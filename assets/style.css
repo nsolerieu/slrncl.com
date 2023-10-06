@@ -1,0 +1,223 @@
+/* --------------------------------------------------------------
+/* =Site specific
+-------------------------------------------------------------- */
+.navigation {
+  padding: 15px 0 30px 0;
+  font-size: 14px;
+  width: 100%;
+}
+.navigation a {
+  text-decoration: none;
+}
+.menu-item {
+  color: #828282;
+}
+.nav-separator {
+  margin: 0 8px;
+  opacity: 0.2;
+}
+.hero {
+  padding: 30px 0 74vh 0;
+  position: relative;
+}
+.hero-content {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+h1, h2 {
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: normal;
+  letter-spacing: -0.03em;
+}
+
+.stopwatch-controls {
+  padding: 7px 7px;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+.stopwatch-controls button {
+  border: 0;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  color: #828282;
+  background: none;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.stopwatch-controls button:hover {
+  color: #121212;
+}
+.box {
+  padding: 12px 18px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  margin: 6vh 0;
+  border-radius: 12px;
+}
+.sticky-footnote-title {
+  position: sticky;
+  top: 30px;
+}
+
+.zen {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 27vh;
+  margin: 0 0 0 -150px;
+  border-radius: 100%;
+  transform: scale(1.5);
+  border-radius: 100%;
+  box-shadow: 0 0 150px rgba(0, 0, 0, 0.2);
+}
+.timer-display {
+  height: 300px;
+  width: 100%;
+  line-height: 300px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.one-project-row {
+  position: relative;
+  cursor: pointer;
+  padding: 5px 0 5px 30px;
+  transition: opacity ease .8s;
+}
+.one-project-row p {
+  margin: 10px 0;
+}
+.one-project-row.active::after {
+  content: "-";
+  color: #000000;
+  opacity: 0.3;
+  position: absolute;
+  top: 17px;
+  left: 15px;
+  font-size: 16px;
+  background: rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0);
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 15px;
+}
+.one-project-row::after {
+  content: "+";
+  color: #000000;
+  opacity: 0.4;
+  position: absolute;
+  top: 17px;
+  left: 15px;
+  font-size: 16px;
+  background: rgba(0,0,0,0.1);
+  border: 1px solid rgba(0, 0, 0, 0);
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 15px;
+}
+.one-project-row:hover::after {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  opacity: 0.4;
+}
+.one-project-details-row .text-small {
+  margin-top: 0;
+}
+.project-metas {
+  padding-left: 46px;
+}
+.project-image {
+  margin-bottom: 32px;
+  background-color: rgba(0, 0, 0, 0.08);
+  display: block;
+}
+.answers {
+  padding: 16px 0;
+}
+.answers .message {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+.answers .button {
+  margin-right: 4px;
+}
+.button {
+  display: inline-block;
+  cursor: pointer;
+}
+.button.primary {
+  border: 1px solid #121212;
+  background: #121212;
+  color: #ffffff;
+}
+.button.secondary {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: transparent;
+  color: #121212;
+  border-radius: 26px;
+}
+.button.secondary:hover {
+  border-color: #121212;
+}
+.button.small {
+  padding: 4px 12px;
+  border-radius: 26px;
+  font-size: 14px;
+}
+.button.regular {
+  padding: 6px 16px;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+
+/* --------------------------------------------------------------
+/* =SMARTPHONE
+-------------------------------------------------------------- */
+@media screen and (max-width: 821px) {
+  .row.one-project-row {
+    display: flex;
+  }
+  h1, h2 {
+    font-size: 16px;
+    letter-spacing: -0.01em;
+  }
+  .zen {
+    transform: scale(.9);
+  }
+  .headline-separator {
+    display: inline-block;
+  }
+  .one-project-details-row {
+    padding-top: 32px;
+  }
+  .one-project-row .col-50.project-name {
+    max-width: 75%;
+  }
+  .one-project-row .col-50.project-year {
+    max-width: 25%;
+  }
+  .project-image {
+    margin: 32px 0;
+  }
+  .project-metas {
+    padding-left: 15px;
+  }
+  .one-project-row.active:hover::after,
+  .one-project-row.active::after,
+  .one-project-row:hover::after,
+  .one-project-row::after {
+    font-size: 16px;
+    top: 16px;
+  }
+}
