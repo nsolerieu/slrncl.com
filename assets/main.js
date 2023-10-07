@@ -11,23 +11,25 @@ $(document).ready(function() {
   $.each( projects, function( i ) {
     $('.feed').append(
       '<div class="one-project-row row full-row-border-top scroll-fade">' +
-        '<div class="col-50 right-padded-col project-name">' +
+        '<div class="col-50 project-name">' +
           '<p class="text-regular text-color-primary">' + projects[i].name + '</p>' +
         '</div>' +
         '<div class="col-50 text-align-right project-year">' +
           '<p class="text-regular text-color-secondary">' + projects[i].year + '</p>' +
         '</div>' +
       '</div>' +
-      '<div class="one-project-details-row row small-padding-bottom" style="display: none">' +
-        '<div class="col-25 project-metas">' +
-          '<p class="text-small text-color-secondary medium-margin-bottom">' + projects[i].category + ' | ' + projects[i].type + '</p>' +
+      '<div class="one-project-details-row small-padding-bottom" style="display: none">' +
+        '<div class="row">' +
+          '<div class="one-project-details-row__image col-100">' +
+            '<img src="' + projects[i].image + '" alt="image for ' + projects[i].name + '" class="fluid-img corner-radius-img project-image" width="1600" height="1200" >' +
+          '</div>' +
         '</div>' +
-        '<div class="col-25 right-padded-col">' +
-          '<p class="text-small small-margin-bottom">' + projects[i].description + '</p>' +
-          '<a class="text-small" href="' + projects[i].link + '" >' + projects[i].linklabel + ' &nearr;</a>' +
-        '</div>' +
-        '<div class="col-50">' +
-          '<img src="' + projects[i].image + '" alt="image for ' + projects[i].name + '" class="fluid-img radius-image project-image" width="1600" height="1200" >' +
+        '<div class="row">' +
+          '<div class="col-100 right-padded-col">' +
+            '<p class="text-small text-color-secondary small-margin-bottom">' + projects[i].category + ' | ' + projects[i].type + '</p>' +
+            '<p class="text-small small-margin-bottom">' + projects[i].description + '</p>' +
+            '<a class="text-small" href="' + projects[i].link + '" >' + projects[i].linklabel + ' &nearr;</a>' +
+          '</div>' +
         '</div>' +
       '</div>'
     );
