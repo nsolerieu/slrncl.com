@@ -27,9 +27,9 @@ body {
   margin: 0 auto;
   padding: 0 5px;
 }
-.narrow-container {
+.large-container {
   width: 100%;
-  max-width: 800px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 0 5px;
 }
@@ -202,10 +202,6 @@ a {
 p a {
   text-decoration: underline;
 }
-a:hover {
-  opacity: 0.5;
-}
-line-height
 
 @media screen and (max-width: 821px) {
   .text-regular {

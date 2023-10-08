@@ -41,6 +41,11 @@ $(document).ready(function() {
     $(this).next().slideToggle();
   });
 
+  $( ".menu-item" ).on('click', function() {
+    $( ".menu-item" ).removeClass( "active" );
+    $(this).addClass( "active" );
+  });
+
   // --------------------------------------------------------- //
   // PROGRESSIVE SCROLL FADE
   // --------------------------------------------------------- //
