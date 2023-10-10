@@ -10,28 +10,13 @@ $(document).ready(function() {
 
   $.each( projects, function( i ) {
     $('.feed').append(
-      '<div class="one-project-row row full-row-border-top scroll-fade">' +
-        '<div class="col-50 project-name">' +
-          '<p class="text-regular text-color-primary">' + projects[i].name + '</p>' +
+      '<a class="block-link project-card col-50" href="' + projects[i].link + '" >' +
+        '<img src="' + projects[i].image + '" alt="image for ' + projects[i].name + '" class="fluid-img corner-radius-img medium-margin-bottom" width="1600" height="1200" >' +
+        '<div class="project-card__details medium-padding-bottom">' +
+          '<p class="text-small small-margin-bottom line-height-100">' + projects[i].name + ' - ' + projects[i].category + '</p>' +
+          '<p class="text-small text-color-secondary no-margin line-height-100">' + projects[i].category + '</p>' +
         '</div>' +
-        '<div class="col-50 text-align-right project-year">' +
-          '<p class="text-regular text-color-secondary">' + projects[i].year + '</p>' +
-        '</div>' +
-      '</div>' +
-      '<div class="one-project-details-row small-padding-bottom" style="display: none">' +
-        '<div class="row">' +
-          '<div class="one-project-details-row__image col-100">' +
-            '<img src="' + projects[i].image + '" alt="image for ' + projects[i].name + '" class="fluid-img corner-radius-img project-image" width="1600" height="1200" >' +
-          '</div>' +
-        '</div>' +
-        '<div class="row">' +
-          '<div class="col-100 right-padded-col">' +
-            '<p class="text-small text-color-secondary small-margin-bottom">' + projects[i].category + ' | ' + projects[i].type + '</p>' +
-            '<p class="text-small small-margin-bottom">' + projects[i].description + '</p>' +
-            '<a class="text-small" href="' + projects[i].link + '" >' + projects[i].linklabel + ' &nearr;</a>' +
-          '</div>' +
-        '</div>' +
-      '</div>'
+      '</a>'
     );
 
   });
@@ -39,11 +24,6 @@ $(document).ready(function() {
   $( ".one-project-row" ).on('click', function() {
     $(this).toggleClass( "active" );
     $(this).next().slideToggle();
-  });
-
-  $( ".menu-item" ).on('click', function() {
-    $( ".menu-item" ).removeClass( "active" );
-    $(this).addClass( "active" );
   });
 
   // --------------------------------------------------------- //
