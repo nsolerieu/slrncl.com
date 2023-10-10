@@ -1,0 +1,26 @@
+{
+  "bikes":[
+    {
+      "id": 2,
+      "years":"2019-2020",
+      "status":"Stolen",
+      "mileage": "1800-ish",
+      "surname":"Monster Truck",
+      "model":"Specialized Chisel Comp X1",
+      "notes":"I discovered Bikepacking and got into riding trail in the Dublin hills. I discovered goat heads and hated it int he beginning. The Crank was creaky since day 1 but got used to the different kind of rinding. I used it for everything: groceries, technical uphill in the Pleasanton ridge, long road excursions in Marin and quick rides back in Berkeley. Until I got it stolen.",
+      "image":"#",
+    },
+    {
+      "id": 1,
+      "years":"2017-2019",
+      "status":"Retired/sold",
+      "mileage": "3000-ish",
+      "surname":"First real bike",
+      "model":"Specialized Allez Elite 2017",
+      "notes":"I explored Berkeley and the bay on this one. Did a lot of grocery shopping. Learned to change a tire and fix thing on the bike. The chain broke once because of leaning it against other bike in the Train. This things was fast, I loved most of the time I spent on it. It was my first real bike with all the good that comes with a first experience. I got close to crashing a few times but never had major incidents.",
+      "image":"#",
+    }
+  ]
+}
+
+
