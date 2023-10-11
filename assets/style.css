@@ -164,10 +164,10 @@ h2 {
 }
 
 
-.project-card__details {
+.project-details {
   position: relative;
 }
-.project-card__details::before {
+.project-details::before {
   content: "\2197";
   font-size: 14px;
   font-weight: 400;
@@ -176,7 +176,7 @@ h2 {
   right: 0;
   color: var(--text-secondary);
   line-height: 100%;
-  }
+}
 
 
 

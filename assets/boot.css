@@ -175,30 +175,31 @@ figcaption {
   border-radius: var(--corner-radius-regular);
   position: relative;
 }
-.box.small.link::before {
-  content: "\2197";
-  font-size: 14px;
-  line-height: 100%;
-  font-weight: 400;
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  color: var(--text-secondary);
-}
-.box.small.link {
-  cursor: pointer;
-}
-.box.small.link:hover {
-  border: 1px solid var(--border-darker);
-  background: var(--bg-secondary-darker);
-  cursor: ;
-}
 .box.big {
   padding: 48px;
   border: 1px solid var(--border);
   background: var(--bg-secondary);
   border-radius: 12px;
   position: relative;
+}
+
+.box-link {
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+  position: relative;
+}
+.box-link:hover {
+  border-top: 1px solid var(--border-darker);
+}
+.box-link::before {
+  content: "\2197";
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  top: 24px;
+  right: 0;
+  color: var(--text-secondary);
 }
 
 
