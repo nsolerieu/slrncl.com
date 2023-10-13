@@ -1,0 +1,306 @@
+/* --------------------------------------------------------------
+/* =Site specific
+-------------------------------------------------------------- */
+.header-bar {
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+}
+.header-bar__logo {
+  display: inline-block;
+  margin-right: 6px;
+}
+.avatar {
+  display: block;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background: #f0f0f0;
+  border: 1px solid var(--text-secondary);
+  box-shadow: inset 2px -2px 3px var(--text-secondary);
+  position: relative;
+  animation: head-rotation 8s infinite ease;
+}
+@keyframes head-rotation {
+  0% {
+    box-shadow: inset 2px -2px 3px var(--text-secondary);
+  }
+
+  20% {
+    box-shadow: inset 4px -2px 3px var(--text-secondary);
+  }
+
+  30% {
+    box-shadow: inset 2px -2px 3px var(--text-secondary);
+  }
+
+  55% {
+    box-shadow: inset 4px 1px 3px var(--text-secondary);
+  }
+
+  65% {
+    box-shadow: inset 2px -2px 3px var(--text-secondary);
+  }
+
+  100% {
+    box-shadow: inset 2px -2px 3px var(--text-secondary);
+  }
+}
+.avatar::before {
+  content: '';
+  height: 3px;
+  width: 3px;
+  border-radius: 100%;
+  background: var(--text-secondary);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  animation: eye-movement 8s infinite ease;
+}
+.avatar::after {
+  content: '';
+  height: 3px;
+  width: 3px;
+  border-radius: 100%;
+  background: var(--text-secondary);
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  animation: eye-movement 8s infinite ease;
+}
+@keyframes eye-movement {
+  0% {
+    transform: translateX(0px) translateY(0) scaleY(1);
+  }
+
+  20% {
+    transform: translateX(2px) translateY(0) scaleY(1);
+  }
+
+  30% {
+    transform: translateX(-2px) translateY(0) scaleY(1);
+  }
+
+  55% {
+    transform: translateX(0px) translateY(4px) scaleY(1);
+  }
+
+  65% {
+    transform: translateX(0px) translateY(0px) scaleY(0.5);
+  }
+
+  70% {
+    transform: translateX(0px) translateY(0px) scaleY(1);
+  }
+
+  100% {
+    transform: translateX(0px) translateY(0px) scaleY(1);
+  }
+}
+
+.header-bar__navigation .menu-item {
+  text-decoration: none;
+  letter-spacing: -0.01em;
+  font-size: var(--font-size-small);
+  margin-left: 12px;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 6px;
+  border-radius: var(--corner-radius-small);
+  display: inline-block;
+}
+.header-bar__navigation .menu-item:hover  {
+  background: var(--bg-secondary);
+}
+
+.hero {
+  padding: 6vh 0;
+  position: relative;
+}
+
+.availability {
+  padding: 7px 0 7px 20px;
+  margin-left: 24px;
+  position: relative;
+  font-size: 16px;
+}
+.availability::before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 16px;
+  background: #c4760e;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 1.5s infinite ease-in-out;
+  animation-direction: alternate;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 #c4760e33;
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 5px #c4760e33;
+  }
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: normal;
+  letter-spacing: -0.03em;
+}
+h2 {
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: normal;
+  letter-spacing: -0.01em;
+}
+
+
+.project-details {
+  position: relative;
+}
+.project-details::before {
+  content: "\2197";
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--text-secondary);
+  line-height: 100%;
+}
+
+
+.lazy {
+  background-image: url('../img/loader.gif');
+  background-size: 24px 24px;
+  background-color: var(--bg-secondary);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.answers {
+  padding: 16px 0;
+}
+.answers .message {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+.answers .button {
+  margin-right: 4px;
+}
+
+
+/* --------------------------------------------------------------
+/* =MOMENTS
+-------------------------------------------------------------- */
+.une-diapo {
+  padding: 30px 0;
+  margin: 15px 0;
+  border: 1px solid var(--border);
+  border-radius: var(--corner-radius-regular);
+  height: 250px;
+  position: relative;
+}
+.une-diapo:hover {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-darker);
+}
+.une-diapo img {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  max-height: 120px;
+  max-width: 150px;
+}
+.lightbox-container {
+  background: var(--bg-primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 4;
+}
+.lightbox-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+  max-width: 620px;
+  max-height: 620px;
+  height: auto;
+  width: auto;
+}
+.close-lightbox {
+  cursor: pointer;
+}
+.lightbox-image-name {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  width: 320px;
+  text-align: center;
+  margin-left: -160px;
+}
+.close-lightbox {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  width: 320px;
+  text-align: center;
+  margin-left: -160px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.prev-image {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  line-height: 50px;
+  left: 10%;
+  margin-top: -25px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.next-image {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  right: 10%;
+  line-height: 50px;
+  margin-top: -25px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.close-lightbox:hover,
+.prev-image:hover,
+.next-image:hover {
+  opacity: 1;
+}
+
+/* --------------------------------------------------------------
+/* =SMARTPHONE
+-------------------------------------------------------------- */
+@media screen and (max-width: 821px) {
+  .lightbox-image {
+    max-width: 80%;
+  }
+  .next-image, .prev-image {
+    top: auto;
+    bottom: 15px;
+    height: 30px;
+    line-height: 30px;
+  }
+}

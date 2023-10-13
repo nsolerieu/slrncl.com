@@ -26,8 +26,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400..700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/boot.css" >
-  <link rel="stylesheet" href="assets/style.css" >
+  <link rel="stylesheet" href="assets/css/boot.css" >
+  <link rel="stylesheet" href="assets/css/style.css" >
 
 </head>
 
