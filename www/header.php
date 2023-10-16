@@ -23,9 +23,6 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://slrncl.com/assets/img/slrncl-og-image.png" />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400..700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="assets/css/boot.css" >
   <link rel="stylesheet" href="assets/css/style.css" >
 
@@ -40,15 +37,15 @@
     <div class="container">
       <div class="col-100">
         <div class="header-bar">
-          <div class="header-bar__logo" onclick="document.location.href='index.html'">
+          <div class="header-bar__logo">
             <div class="avatar"></div>
           </div>
           <nav class="header-bar__navigation">
-            <a class="menu-item" href="index.php">About</a>
-            <a class="menu-item" href="work.php">Work</a>
-            <a class="menu-item" href="moments.php">Moments</a>
-            <a class="menu-item" href="notes.php">Notes</a>
-            <a class="menu-item" href="bikes.php">Bikes</a>
+            <a href="index.php" class="menu-item <?php if($page == 'about') { echo 'active'; } ?>">About</a>
+            <a href="work.php" class="menu-item <?php if($page == 'work') { echo 'active'; } ?>">Work</a>
+            <a href="moments.php"class="menu-item <?php if($page == 'moments') { echo 'active'; } ?>">Moments</a>
+            <a href="notes.php"class="menu-item <?php if($page == 'notes') { echo 'active'; } ?>">Notes</a>
+            <a href="bikes.php"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>
           </nav>
         </div>
       </div>

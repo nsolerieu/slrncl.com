@@ -2,6 +2,9 @@
 /* =Variable
 -------------------------------------------------------------- */
 :root {
+  --font-primary: -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
+  --font-mono: "MonoLisa", "Berkeley Mono", "IBM Plex Mono", "Source Code Pro", Menlo, SFMono-Regular, Consolas, "Roboto Mono", monospace;
+
   --text-primary: #121212;
   --text-secondary: #828282;
   --bg-primary: #ffffff;
@@ -19,6 +22,16 @@
   --corner-radius-small: 4px;
 }
 
+:root body.dark-mode {
+  --text-primary: #ffffff;
+  --text-secondary: #424242;
+  --bg-primary: #0A0A0A;
+  --bg-secondary: #242424;
+  --bg-secondary-darker: #f0f0f0;
+  --border: #525252;
+  --border-darker: #6D6D6D;
+}
+
 
 /* --------------------------------------------------------------
 /* =Global
@@ -30,14 +43,16 @@
   outline: 0 !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 body {
   line-height: 1.6;
   padding: 0;
   margin: 0;
-  font-family: "Hanken Grotesk",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  background: #ffffff;
-  color: #121212;
+  overflow-x: hidden;
+  font-family: var(--font-primary);
+  background: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 /* --------------------------------------------------------------
@@ -265,22 +280,18 @@ figcaption {
 
 .text-small {
   font-size: var(--font-size-small);
-  letter-spacing: -0.01em;
 }
 .text-regular {
   font-size: var(--font-size-regular);
-  letter-spacing: -0.01em;
 }
 .text-large {
   font-size:  var(--font-size-large);
   width: 100%;
   max-width: 700px;
-  letter-spacing: -0.02em;
   line-height: 140%;
 }
 .text-extralarge {
   font-size: 32px;
-  letter-spacing: -0.02em;
   line-height: 130%;
   max-width: 800px;
 }
@@ -289,7 +300,6 @@ p {
   font-weight: 400;
   margin: 0;
   font-size: var(--font-size-regular);
-  letter-spacing: -0.01em;
   line-height: 160%;
 }
 
@@ -298,10 +308,10 @@ a {
   text-decoration: none;
   cursor: pointer;
   outline: none;
-  letter-spacing: -0.01em;
 }
 a.block-link {
   display: block;
+  position: relative;
 }
 p a {
   text-decoration: underline;

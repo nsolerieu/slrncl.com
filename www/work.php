@@ -1,3 +1,4 @@
+<?php $page = "work";?>
 <?php include 'header.php';?>
 
 <main>
@@ -17,7 +18,7 @@
 
   <section id="projects" >
     <div class="container">
-      <div class="row feed"></div>
+      <div class="row projects-feed"></div>
     </div>
   </section>
 

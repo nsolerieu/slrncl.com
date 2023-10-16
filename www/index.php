@@ -1,3 +1,4 @@
+<?php $page = "about";?>
 <?php include 'header.php';?>
 
 <main>
@@ -8,7 +9,7 @@
         <div class="col-100">
           <h1  class="text-color-primary">Hi, I'm Nicolas a designer at GitHub. Outside of work I'm a father, cyclist, and weirdo based in San Luis Obsipo, CA </h1>
           <div class="row">
-            <a href="#about" class="button secondary regular">Say hi</a>
+            <a href="#links" class="button secondary regular">Say hi</a>
             <div class="availability">Not available</div>
           </div>
           <img src="assets/img/drawing-slrncl.jpg" class="fluid-img">

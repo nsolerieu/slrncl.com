@@ -1,3 +1,4 @@
+<?php $page = "notes";?>
 <?php include 'header.php';?>
 
 <main>
