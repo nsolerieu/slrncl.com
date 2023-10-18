@@ -1,7 +1,33 @@
 {
   "bikes":[
     {
-      "id": "2",
+      "years":"2021",
+      "status":"Active",
+      "mileage": "5000+",
+      "surname":"Fat fly",
+      "model":"Tern HSD S11 (Gen 1)",
+      "notes":"We got this one from a local shop in Berkeley for about $4000. We debated it but Sharon made. a case for it. We both love it. Sharon even went to all of her pregnancy appointments on it. Check-in at 3000mi went well, only the chain and break pads needed replacement... which is apparently impressive considering that we lived on a hill. The thing is heavy but I like to ride it without assistance just for a bit of cardio. I rarely need to go beyond the second level of assistance since we moved to a flatter area. Easy to maneuver and lift. The rack is a bit awkward with the baby sit very close to the saddle. It's clearly a poor person GSD - Still, I like it, and the little one likes it too.",
+      "image":"https://slrncl.com/dev/new/assets/img/bikes/tern-hsd.jpg"
+    },
+    {
+      "years":"2020-2022",
+      "status":"Retired/sold",
+      "mileage": "2000-ish",
+      "surname":"Petit Rouge",
+      "model":"Tern Link C8",
+      "notes":"I fantasized about getting folding bikes for a long time and finally got this one from REI after getting my MTB stolen. It was nice to be able to share a bike with Sharon. It matched expectations, fine but not a fun bike. The geometry worked decently well for me. I was able to get 30ish miles in one go (rarely tho). Certainly not geared for loaded climbs. Frequent brake pads were necessary. The anti theft axle were really weird, glad I never needed to change a tyre. Lots of groceries and quick rides in the hills. We even went on vacation to Larkspur with it.",
+      "image":"https://slrncl.com/dev/new/assets/img/bikes/tern-link-c8.jpg"
+    },
+    {
+      "years":"2020-2021",
+      "status":"Retired/sold",
+      "mileage": "3200-ish",
+      "surname":"Baby Goat",
+      "model":"Surly Straggler",
+      "notes":"My pandemic bike. I wanted to get back on the saddle and got this one in a shop in Alameda. I was appealed by the gravel potential and the nimbler riding style. The transition was rough, I was expecting too much. That thing is heavy and not geared for long hill climb. Living on top of the Berkeley hills and doing groceries with a heavy backpack took a toll and I should have considered this. maintenance was a breeze. The mechanical brakes were great and the bumpiness was super (type-2) fun. I miss it.",
+      "image":"https://slrncl.com/dev/new/assets/img/bikes/surly-straggler.jpg"
+    },
+    {
       "years":"2019-2020",
       "status":"Stolen",
       "mileage": "1800-ish",
@@ -11,7 +37,6 @@
       "image":"https://slrncl.com/dev/new/assets/img/bikes/specialized-chisel-comp-x1.jpg"
     },
     {
-      "id": "1",
       "years":"2017-2019",
       "status":"Retired/sold",
       "mileage": "3000-ish",

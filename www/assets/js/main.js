@@ -16,6 +16,13 @@ $(document).ajaxStop(function(){
         console.log('error loading ' + element.data('src'));
       }
     });
+
+    var bikeCount = $('.bike-card').length;
+    $('.bikes-counter').html(bikeCount); 
+
+    var noteCount = $('.note-card').length;
+    $('.notes-counter').html(noteCount); 
+    
 });
 
 $(document).ready(function() {
@@ -52,18 +59,17 @@ $(document).ready(function() {
     $.each( data.bikes, function( i, bike ) {
 
       $('.bikes-feed').append(
-        '<a class="block-link bike-card col-100 large-padding-bottom" >' +
-          '<div class="bike-card__id text-small text-color-secondary">' + data.bikes[i].id + '</div>' +
+        '<div class="block-link bike-card col-100 large-padding-bottom" >' +
           '<img data-src="' + data.bikes[i].image + '" alt="image for ' + data.bikes[i].model + ' - ' + data.bikes[i].surname + '" class="lazy fluid-img corner-radius-img" >' +
           '<p class="text-regular text-color-primary medium-margin-top line-height-100">' + data.bikes[i].model + '</p>' +
           '<p class="text-small text-color-secondary small-margin-top line-height-100">"' + data.bikes[i].surname + '"</p>' +
           '<div class="bike-card__metas">' +
             '<span class="text-small text-color-secondary line-height-100">' + data.bikes[i].years + '</span>' +
             '<span class="text-small text-color-secondary line-height-100">' + data.bikes[i].status + '</span>' +
-            '<span class="text-small text-color-secondary line-height-100">' + data.bikes[i].mileage + '</span>' +
+            '<span class="text-small text-color-secondary line-height-100">' + data.bikes[i].mileage + ' miles</span>' +
           '</div>' +
           '<p class="text-regular text-color-secondary no-margin">' + data.bikes[i].notes + ' </p>' +
-        '</a>'
+        '</div>'
       );
 
     });
@@ -79,9 +85,9 @@ $(document).ready(function() {
 
       $('.notes-feed').append(
         '<a class="block-link note-card col-100" >' +
-          '<div class="box big note-details medium-margin-bottom">' +
-            '<p class="text-small text-color-secondary large-margin-bottom line-height-100">' + data.notes[i].id + ' — ' + data.notes[i].date + '</p>' +
-            '<p class="text-large text-color-primary small-margin-bottom">' + data.notes[i].quote + '</p>' +
+          '<div class="box large white medium-margin-bottom">' +
+            '<p class="text-small text-color-secondary large-margin-bottom line-height-100">' + data.notes[i].date + '</p>' +
+            '<p class="text-large text-color-primary medium-margin-bottom">' + data.notes[i].quote + '</p>' +
             '<p class="text-small text-color-primary large-margin-bottom line-height-100">&mdash; ' + data.notes[i].author + '</p>' +
             '<p class="text-small text-color-secondary no-margin">' + data.notes[i].notes + ' </p>' +
           '</div>' +
@@ -141,6 +147,11 @@ $(document).ready(function() {
   $( ".one-project-row" ).on('click', function() {
     $(this).toggleClass( "active" );
     $(this).next().slideToggle();
+  });
+
+  // THIS IS DUMB
+  $( ".feedback-button" ).on('click', function() {
+    $('.answers').html("<div class='message text-small text-color-primary'>Thanks mate, human, machine or whatever you identify as.</div>");
   });
 
   // SMOOTH SCROLL

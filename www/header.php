@@ -31,13 +31,13 @@
 <!-- BODY -->
 <body id="body" class="">
 
-<div class="page">
+<div class="page page-<?php echo $page; ?>">
 
   <header>
     <div class="container">
       <div class="col-100">
         <div class="header-bar">
-          <div class="header-bar__logo">
+          <div class="header-bar__logo show-on-desktop-only">
             <div class="avatar"></div>
           </div>
           <nav class="header-bar__navigation">
@@ -46,6 +46,7 @@
             <a href="moments.php"class="menu-item <?php if($page == 'moments') { echo 'active'; } ?>">Moments</a>
             <a href="notes.php"class="menu-item <?php if($page == 'notes') { echo 'active'; } ?>">Notes</a>
             <a href="bikes.php"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>
+            <a href="now.php"class="menu-item <?php if($page == 'now') { echo 'active'; } ?>">Now</a>
           </nav>
         </div>
       </div>

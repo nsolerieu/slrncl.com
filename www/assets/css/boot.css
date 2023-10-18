@@ -14,12 +14,13 @@
   --border-darker: #e0e0e0;
 
   --font-size-regular: 18px;
-  --font-size-large: 24px;
+  --font-size-large: 26px;
   --font-size-small: 14px;
 
   --corner-radius-regular: 12px;
   --corner-radius-large: 24px;
   --corner-radius-small: 4px;
+  --corner-radius-full: 999px;
 }
 
 :root body.dark-mode {
@@ -149,6 +150,25 @@ body {
   }
 }
 
+/* --------------------------------------------------------------
+/* = Show/hide
+-------------------------------------------------------------- */
+.show-on-desktop-only {
+  display: block;
+}
+.show-on-mobile-only {
+  display: none;
+}
+
+@media screen and (max-width: 821px) {
+  .show-on-desktop-only {
+    display: none;
+  }
+  .show-on-mobile-only {
+    display: block;
+  }
+}
+
 
 /* --------------------------------------------------------------
 /* = Image
@@ -186,16 +206,20 @@ figcaption {
 .box.small {
   padding: 16px;
   border: 1px solid var(--border);
-  background: var(--bg-secondary);
   border-radius: var(--corner-radius-regular);
   position: relative;
 }
-.box.big {
+.box.large {
   padding: 48px;
   border: 1px solid var(--border);
-  background: var(--bg-secondary);
-  border-radius: 12px;
+  border-radius: var(--corner-radius-large);
   position: relative;
+}
+.box.white {
+  background: var(--bg-primary);
+}
+.box.grey {
+  background: var(--bg-secondary);
 }
 
 .box-link {
@@ -215,6 +239,12 @@ figcaption {
   top: 24px;
   right: 0;
   color: var(--text-secondary);
+}
+
+@media screen and (max-width: 821px) {
+  .box.large {
+    padding: 24px;
+  }
 }
 
 
@@ -252,6 +282,33 @@ figcaption {
   padding: 6px 16px;
   border-radius: 12px;
   font-size: 16px;
+}
+
+/* --------------------------------------------------------------
+/* = Label
+-------------------------------------------------------------- */
+.label {
+  display: inline-block;
+  color: var(--text-primary);
+  line-height: 100%;
+  opacity: 1;
+  border-radius: 999px;
+  vertical-align: baseline;
+  font-weight: normal;
+}
+.label.small {
+  font-size: var(--font-size-small);
+  padding: 2px 8px;
+}
+.label.regular {
+  font-size: var(--font-size-regular);
+  padding: 4px 12px;
+}
+.label.primary {
+  border: 1px solid var(--text-primary);
+}
+.label.secondary {
+  border: 1px solid var(--border);
 }
 
 /* --------------------------------------------------------------

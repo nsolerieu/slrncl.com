@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h1  class="text-color-primary">Hi, I'm Nicolas a designer at GitHub. Outside of work I'm a father, cyclist, and weirdo based in San Luis Obsipo, CA </h1>
+          <h1  class="text-color-primary">Hi, I'm Nicolas and this is my website. I'm a visual designer, father, cyclist, curmudgeon, dark chocolate amateur, and minimalist.</h1>
           <div class="row">
             <a href="#links" class="button secondary regular">Say hi</a>
             <div class="availability">Not available</div>
@@ -28,23 +28,6 @@
           </p>
           <p class="medium-margin-top text-regular text-color-secondary">
             I'm a generalist focused on craft. My formula is doing the work, it's that simple (and hard). I'd label my design approach as realistic and creative, supported by skills in frontend development — all that to say that I (generally) know how to translate designs into code and understand the constraints of the digital ecosystem.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="now" class="large-padding-bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-100">
-          <h2 class="no-margin-top medium-margin-bottom text-color-primary">Now</h2>
-          <p class="text-regular text-color-secondary">
-            My first priotity is to slow down - literaly. Do less things and enjoy them more, basically be more present. I'm a monkey with a tech job and a growing family.
-            I don't do Design Therapy anymore, I'm in the process of moving and juggling a few projects. Sorry in advance if I don't reply to your email, I know, it's not cool.
-          </p>
-          <p class="medium-margin-top text-regular text-color-secondary">
-            I have limited availability and occasionally take on shorter engagements. If you're a founder or an early stage startup looking to consult regarding design — feel free to reach out via email.
           </p>
         </div>
       </div>
@@ -87,18 +70,11 @@
                 <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">Good people and inspo</p>
               </div>
             </a>
-            <a href="https://folio.procreate.com/slrncl" class="block-link">
-              <div class="box-link">
-                <p class="no-margin line-height-100 text-color-primary text-small">(procreate) Sketches</p>
-                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">Random things, as a fidgety thing, mostly from photos</p>
-              </div>
-            </a>
           </div>
         </div>
       </div>
     </div>
   </section>
-
 
   <section id="footnotes" class="footnotes padded-section">
     <div class="container">
@@ -147,9 +123,6 @@
             </div>
             <p class="text-small text-color-secondary no-margin">"Yeah no" refers to feeling ambivalent in Californian linguo, like "meh". I was initially thinking of using only yes/no but it felt more honest to include a "I don't care" type of option as it's my own personal reaction to most things.</p>
           </div>
-          <p class="text-small text-color-secondary no-margin" >
-            The content on this page was last updated October 2nd, 2023
-          </p>
         </div>
       </div>
     </div>
