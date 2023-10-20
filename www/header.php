@@ -29,26 +29,22 @@
 </head>
 
 <!-- BODY -->
-<body id="body" class="">
+<body id="body" class="page page-<?php echo $page; ?>">
 
-<div class="page page-<?php echo $page; ?>">
+  <div class="backtotop" id="toTop">&uarr;</div>
 
   <header>
     <div class="container">
       <div class="col-100">
-        <div class="header-bar">
-          <div class="header-bar__logo show-on-desktop-only">
-            <div class="avatar"></div>
-          </div>
-          <nav class="header-bar__navigation">
-            <a href="index.php" class="menu-item <?php if($page == 'about') { echo 'active'; } ?>">About</a>
-            <a href="work.php" class="menu-item <?php if($page == 'work') { echo 'active'; } ?>">Work</a>
-            <a href="moments.php"class="menu-item <?php if($page == 'moments') { echo 'active'; } ?>">Moments</a>
-            <a href="notes.php"class="menu-item <?php if($page == 'notes') { echo 'active'; } ?>">Notes</a>
-            <a href="bikes.php"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>
-            <a href="now.php"class="menu-item <?php if($page == 'now') { echo 'active'; } ?>">Now</a>
-          </nav>
-        </div>
+        <nav class="header-nav">
+          <a href="index.php" class="menu-item <?php if($page == 'home') { echo 'active'; } ?>">About</a>
+          <span class="nav-separator">/</span>
+          <a href="work.php" class="menu-item <?php if($page == 'work') { echo 'active'; } ?>">Work</a>
+          <span class="nav-separator">/</span>
+          <a href="bikes.php"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>
+          <span class="nav-separator">/</span>
+          <a href="now.php"class="menu-item <?php if($page == 'now') { echo 'active'; } ?>">Now</a>
+        </nav>
       </div>
     </div>
   </header>

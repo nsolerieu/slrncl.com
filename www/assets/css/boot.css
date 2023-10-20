@@ -3,24 +3,20 @@
 -------------------------------------------------------------- */
 :root {
   --font-primary: -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
-  --font-mono: "MonoLisa", "Berkeley Mono", "IBM Plex Mono", "Source Code Pro", Menlo, SFMono-Regular, Consolas, "Roboto Mono", monospace;
+  --font-mono: SFMono-Regular, "Roboto Mono", "IBM Plex Mono", "Source Code Pro", monospace;
 
   --text-primary: #121212;
   --text-secondary: #828282;
   --bg-primary: #ffffff;
   --bg-secondary: #f8f8f8;
   --bg-secondary-darker: #f0f0f0;
-  --border: #ededed;
+  --border: #dedede;
   --border-darker: #e0e0e0;
 
   --font-size-regular: 18px;
-  --font-size-large: 26px;
+  --font-size-large: 24px;
+  --font-size-xl: 32px;
   --font-size-small: 14px;
-
-  --corner-radius-regular: 12px;
-  --corner-radius-large: 24px;
-  --corner-radius-small: 4px;
-  --corner-radius-full: 999px;
 }
 
 :root body.dark-mode {
@@ -178,10 +174,6 @@ body {
   width: 100%;
   height: auto;
 }
-.corner-radius-img {
-  border-radius: var(--corner-radius-regular);
-  overflow: hidden;
-}
 figure {
   padding: 0;
   margin: 0;
@@ -206,13 +198,11 @@ figcaption {
 .box.small {
   padding: 16px;
   border: 1px solid var(--border);
-  border-radius: var(--corner-radius-regular);
   position: relative;
 }
 .box.large {
   padding: 48px;
   border: 1px solid var(--border);
-  border-radius: var(--corner-radius-large);
   position: relative;
 }
 .box.white {
@@ -254,11 +244,12 @@ figcaption {
 .button {
   display: inline-block;
   cursor: pointer;
+  border-radius: 99px;
 }
 .button.primary {
   border: 1px solid var(--text-primary);
   background: var(--text-primary);
-  color: #ffffff;
+  color: var(--bg-primary);
 }
 .button.primary:hover {
   opacity: .8;
@@ -267,7 +258,6 @@ figcaption {
   border: 1px solid var(--border);
   background: transparent;
   color: var(--text-primary);
-  border-radius: 26px;
 }
 .button.secondary:hover {
   border-color: var(--border-darker);
@@ -275,13 +265,11 @@ figcaption {
 }
 .button.small {
   padding: 4px 12px;
-  border-radius: 26px;
-  font-size: 14px;
+  font-size: var(--font-size-small);
 }
 .button.regular {
   padding: 6px 16px;
-  border-radius: 12px;
-  font-size: 16px;
+  font-size: var(--font-size-regular)
 }
 
 /* --------------------------------------------------------------
@@ -408,10 +396,10 @@ p a {
   margin-top: 12vh;
 }
 .medium-margin-bottom {
-  margin-bottom: 4vh;
+  margin-bottom: 6vh;
 }
 .medium-margin-top {
-  margin-top: 4vh;
+  margin-top: 6vh;
 }
 .small-margin-bottom {
   margin-bottom: 1vh;
@@ -435,10 +423,10 @@ p a {
   padding-top: 12vh;
 }
 .medium-padding-bottom {
-  padding-bottom: 4vh;
+  padding-bottom: 6vh;
 }
 .medium-padding-top {
-  padding-top: 4vh;
+  padding-top: 6vh;
 }
 .small-padding-bottom {
   padding-bottom: 1vh;
