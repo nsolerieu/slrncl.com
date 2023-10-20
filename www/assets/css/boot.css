@@ -183,6 +183,25 @@ figcaption {
 }
 
 /* --------------------------------------------------------------
+/* = Border
+-------------------------------------------------------------- */
+.border-all-around {
+  border: 1px solid var(--border);
+}
+.border-top {
+  border-top: 1px solid var(--border);
+}
+.border-bottom {
+  border-bottom: 1px solid var(--border);
+}
+.border-left {
+  border-left: 1px solid var(--border);
+}
+.border-right {
+  border-right: 1px solid var(--border);
+}
+
+/* --------------------------------------------------------------
 /* = Max width / line length
 -------------------------------------------------------------- */
 .max-width-300 {
