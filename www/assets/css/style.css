@@ -179,6 +179,10 @@ h1 {
 h1 a {
   text-decoration: underline;
   text-decoration-color: var(--text-secondary);
+  text-underline-offset: 0.25rem;
+}
+h1 a:hover {
+  text-decoration-color: var(--text-primary);
 }
 h2, h3, h4, h5, h6 {
   font-size: var(--font-size-regular);

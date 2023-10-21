@@ -2,7 +2,7 @@
 /* =Variable
 -------------------------------------------------------------- */
 :root {
-  --font-primary: -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
+  --font-primary: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --font-mono: SFMono-Regular, "Roboto Mono", "IBM Plex Mono", "Source Code Pro", monospace;
 
   --text-primary: #121212;
@@ -11,7 +11,7 @@
   --bg-secondary: #f8f8f8;
   --bg-secondary-darker: #f0f0f0;
   --border: #dedede;
-  --border-darker: #e0e0e0;
+  --border-darker: #bebebe;
 
   --font-size-regular: 18px;
   --font-size-large: 24px;
@@ -379,6 +379,11 @@ a.block-link {
 }
 p a {
   text-decoration: underline;
+  text-decoration-color: var(--text-secondary);
+  text-underline-offset: 0.25rem;
+}
+p a:hover {
+  text-decoration-color: var(--text-primary);
 }
 
 @media screen and (max-width: 821px) {
