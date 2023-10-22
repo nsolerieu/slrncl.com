@@ -10,7 +10,7 @@
   --bg-primary: #ffffff;
   --bg-secondary: #f8f8f8;
   --bg-secondary-darker: #f0f0f0;
-  --border: #dedede;
+  --border: #dadada;
   --border-darker: #bebebe;
 
   --font-size-regular: 18px;
@@ -21,12 +21,12 @@
 
 :root body.dark-mode {
   --text-primary: #ffffff;
-  --text-secondary: #424242;
-  --bg-primary: #0A0A0A;
+  --text-secondary: #a1a1a1;
+  --bg-primary: #121212;
   --bg-secondary: #242424;
-  --bg-secondary-darker: #f0f0f0;
-  --border: #525252;
-  --border-darker: #6D6D6D;
+  --bg-secondary-darker: #393939;
+  --border: #2a2a2a;
+  --border-darker: #464646;
 }
 
 
@@ -76,20 +76,16 @@ body {
 }
 .full-row-border-top::before {
   content: "";
-  background: rgba(0, 0, 0, 0.08);
+  background: var(--border);
   height: 1px;
   width: calc(100% - 30px);
   top: 0;
   left: 15px;
   position: absolute;
 }
-.full-row-border-top.light::before,
-.full-col-border-top.light::before {
-  background: rgba(255, 255, 255, 0.08);
-}
 .full-col-border-top::before {
   content: "";
-  background: rgba(0, 0, 0, 0.08);
+  background: var(--border);
   height: 1px;
   width: 100%;
   top: 0;
@@ -368,7 +364,7 @@ p {
 }
 
 a {
-  color: #292934;
+  color: var(--text-primary);
   text-decoration: none;
   cursor: pointer;
   outline: none;
@@ -377,12 +373,12 @@ a.block-link {
   display: block;
   position: relative;
 }
-p a {
+p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: underline;
   text-decoration-color: var(--text-secondary);
   text-underline-offset: 0.25rem;
 }
-p a:hover {
+p a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   text-decoration-color: var(--text-primary);
 }
 

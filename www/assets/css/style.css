@@ -3,7 +3,7 @@
 -------------------------------------------------------------- */
 .header-nav {
   padding: 20px 0;
-  margin-top: 10vh;
+  margin-top: 6vh;
   font-size: var(--font-size-small);
 }
 .menu-item {
@@ -176,14 +176,6 @@ h1 {
   line-height: 1.3;
   font-weight: 500;
 }
-h1 a {
-  text-decoration: underline;
-  text-decoration-color: var(--text-secondary);
-  text-underline-offset: 0.25rem;
-}
-h1 a:hover {
-  text-decoration-color: var(--text-primary);
-}
 h2, h3, h4, h5, h6 {
   font-size: var(--font-size-regular);
   line-height: 1.2;
@@ -303,6 +295,7 @@ h2, h3, h4, h5, h6 {
   top: 15px;
   left: 50%;
   width: 320px;
+  font-size: var(--font-size-small);
   text-align: center;
   margin-left: -160px;
 }
@@ -311,6 +304,7 @@ h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 50%;
   width: 320px;
+  font-size: var(--font-size-small);
   text-align: center;
   margin-left: -160px;
   cursor: pointer;
@@ -321,6 +315,7 @@ h2, h3, h4, h5, h6 {
   top: 50%;
   height: 50px;
   line-height: 50px;
+  font-size: var(--font-size-regular);
   left: 10%;
   margin-top: -25px;
   cursor: pointer;
@@ -332,6 +327,7 @@ h2, h3, h4, h5, h6 {
   height: 50px;
   right: 10%;
   line-height: 50px;
+  font-size: var(--font-size-regular);
   margin-top: -25px;
   cursor: pointer;
   opacity: 0.5;

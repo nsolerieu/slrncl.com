@@ -14,20 +14,15 @@
             <a href="#links" class="button secondary regular">Say hi</a>
             <div class="availability">Not available</div>
           </div>
-          <figure>
-            <img src="assets/img/desk.gif" class="fluid-img medium-margin-top" alt="8bit style rendering of my messy desk with a laptop standing on top of books">
-            <figcaption class="text-small text-color-secondary">While I’m making a proper video reel – here is an 8bit render of my actual wfh setup</figcaption>
-          </figure>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="about" class="large-padding-bottom">
+  <section id="about" class="padded-section">
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h2 class="no-margin-top medium-margin-bottom text-color-primary">About</h2>
           <p class="text-regular text-color-secondary">
             I'm currently doing some web design stuff at <a href="https://github.com/nsolerieu">Github</a>. I'm used to working in fast-paced environments and collaborating with interdisciplinary teams. My specialty is web design but have been enjoying creating all sorts of visuals like icons, illustrations and prototypes. 
           </p>
@@ -43,8 +38,20 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h2 class="no-margin-top text-color-primary">Links</h2>
+          <h2 class="no-margin-top text-color-primary">All the links</h2>
           <div id="links" class="medium-margin-top">
+            <a href="mailto:hello@slrncl.com?subject=Yo" class="block-link">
+              <div class="box-link">
+                <p class="no-margin line-height-100 text-color-primary text-small">mailto::hello@slrncl.com</p>
+                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">Old school human communication</p>
+              </div>
+            </a>
+            <a href="https://read.cv/nicolas" class="block-link">
+              <div class="box-link">
+                <p class="no-margin line-height-100 text-color-primary text-small">cv/nicolas</p>
+                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">Good people and inspo</p>
+              </div>
+            </a>
             <a href="https://dribbble.com/SLRNCL" class="block-link">
               <div class="box-link">
                 <p class="no-margin line-height-100 text-color-primary text-small">dribbble/slrncl</p>
@@ -63,16 +70,10 @@
                 <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">If you are into these kinds of things</p>
               </div>
             </a>
-            <a href="mailto:hello@slrncl.com?subject=Yo" class="block-link">
+            <a href="https://slrncl.tumblr.com/" class="block-link">
               <div class="box-link">
-                <p class="no-margin line-height-100 text-color-primary text-small">mailto::hello@slrncl.com</p>
-                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">Old school human communication</p>
-              </div>
-            </a>
-            <a href="https://read.cv/nicolas" class="block-link">
-              <div class="box-link">
-                <p class="no-margin line-height-100 text-color-primary text-small">cv/nicolas</p>
-                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">Good people and inspo</p>
+                <p class="no-margin line-height-100 text-color-primary text-small">slrncl.tumblr.com</p>
+                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">This is my moodboard. I still have a thing for tumblr</p>
               </div>
             </a>
           </div>
@@ -98,9 +99,6 @@
             * SLRNCL is a simple concatenation of my last name and my first name without the vowels. It's hard to remember, which is great since I'm not trying to play the SEO game here. I agonized over my "personal brand" for years and finally buried this vanity. I still spend time updating this website, too regularly... so often that my own wife nags me about it.
           </p>
           <p class="text-small text-color-secondary medium-margin-bottom">
-            This website doesn't use cookies. I don't want your data for my own sake and the health of our society and infrastructure. In general I tend to keep things as simple as possible because I'm not a great engineer and quite frankly I prefer to stay 5 years behind. I'd happily trade the internet for fresh air and clean water. But the world we live in requires us to keep building and fixing things. So I'm here making websites with good old jquery, html and css. I don't recommend inspecting my code, it's really not great but decently light. I believe building stuff is a great way to keep myself grounded in the process. I've built many silly things over the years, most of them are gone, thankfully.
-          </p>
-          <p class="text-small text-color-secondary medium-margin-bottom">
             A mix of a weird work ethic and ego led me to define myself through the stuff I make. I like to make stuff (almost always too fast). That qualifies for the tech bro archetype, who needs to "make" things (often obvious mistakes) to learn. Unfortunately I am one of those monkeys for whom most learning comes from experience. As I age, I get reminded that the stuff that viscerally gets acknowledged rarely comes from passive consumption but rather from deeply engaged acts. Being a designer has been technical enough to make me believe I understand things better over time. But also abstract to keep me humble and hungry. Images and words are imperfect. It looks like we are just realizing the problem with words while we've been aware of how images can distort our perception for a long time. I'll keep making images and code stuff, that's my way to chip away at life's monolith, or to push my rock up the mountain like Sisyphus. I spend most of my time torn between ascetic ideals and pragmatic coping strategies, that's my version of the examined life.
           </p>
           <p class="text-small text-color-secondary medium-margin-bottom">
@@ -115,7 +113,7 @@
           <p class="text-small text-color-secondary medium-margin-bottom" >
             While I’m not a technologist, I’m not a monk either. I’m way too fidgety and working on it. Modern tech devices really rub my monkey mind the wrong way but I get that I need to accept it as a part of life. So I've been a fair-weather meditator for a while now. Believing that discipline was the only thing keeping me away from the peace and insights (silly, I know) I've been practicing on and off for years. Recent ventures into Zen and Daoism thought have removed the goals from the ritual, providing just enough guidance to allow a glance of the feeling. A feeling, not words or any other symbols. Understanding the importance of the non-verbal experience of life has been eye-opening. So when time opens up, I sit, just to sit, relax what is between my eyes, and watch my posture and breath.
           </p>
-          <p class="text-small text-color-secondary medium-margin-bottom">
+          <p class="text-small text-color-secondary">
             <i>They say feedback is a gift</i>. While I don't track anything, I like to know how you feel about being here on my website so feel free to <a href="#links">reach out</a>. My gratitude for the opportunity to be here now is larger than an html file can hold.
           </p>
         </div>

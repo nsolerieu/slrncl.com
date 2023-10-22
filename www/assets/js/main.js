@@ -4,6 +4,10 @@ $(window).on('load', function(){
 
 });
 
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  $('body').addClass( 'dark-mode' );
+}
+
 // DEFERRED STUFF
 
 $(document).ajaxStop(function(){
@@ -13,7 +17,7 @@ $(document).ajaxStop(function(){
         scrollDirection: 'vertical',
         effect: 'fadeIn',
         effectTime: 500,
-        placeholder: "https://slrncl.com/dev/new/assets/img/loader.gif",
+        placeholder: "https://slrncl.com/assets/img/loader.gif",
         threshold: 0,
         visibleOnly: true
       });
@@ -37,7 +41,7 @@ $(document).ready(function() {
 
   if (document.body.classList.contains('page-work')) {
 
-    var projectsData = "https://slrncl.com/dev/new/assets/data/projects.json";
+    var projectsData = "https://slrncl.com/assets/data/projects.json";
 
     $.getJSON( projectsData , function(data) {
 
@@ -63,7 +67,7 @@ $(document).ready(function() {
 
   if (document.body.classList.contains('page-bikes')) {
 
-    var bikesData = "https://slrncl.com/dev/new/assets/data/bikes.json";
+    var bikesData = "https://slrncl.com/assets/data/bikes.json";
 
     $.getJSON( bikesData , function(data) {
 
@@ -93,7 +97,7 @@ $(document).ready(function() {
 
   if (document.body.classList.contains('page-notes')) {
 
-    var notesData = "https://slrncl.com/dev/new/assets/data/notes.json";
+    var notesData = "https://slrncl.com/assets/data/notes.json";
 
     $.getJSON( notesData , function(data) {
 
@@ -176,7 +180,7 @@ if (document.body.classList.contains('page-moments')) {
     scrollDirection: 'vertical',
     effect: 'fadeIn',
     effectTime: 500,
-    placeholder: "https://slrncl.com/dev/new/assets/img/loader.gif",
+    placeholder: "https://slrncl.com/assets/img/loader.gif",
     threshold: 0,
     visibleOnly: true
   });
