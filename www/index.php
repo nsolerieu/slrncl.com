@@ -40,7 +40,7 @@
         <div class="col-100">
           <h2 class="no-margin-top text-color-primary">All the links</h2>
           <div id="links" class="medium-margin-top">
-            <a href="mailto:hello@slrncl.com?subject=Yo" class="block-link">
+            <a href="mailto:hello@slrncl.com?subject=Hello" class="block-link">
               <div class="box-link">
                 <p class="no-margin line-height-100 text-color-primary text-small">mailto::hello@slrncl.com</p>
                 <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">Old school human communication</p>
@@ -96,9 +96,6 @@
             I was born and raised in France, then in late 2016, <a href="https://www.linkedin.com/in/kojessica/">this lovely lady</a> found me on dribbble and flew me to the Bay Area to join Opendoor's design team where I spent 5 years. In less than 6 years I went from living out of a few bags to have a family. It's been wild to say the least. I never planned any of that. While I'm filled with gratitude I want to put as much intention as I can to figure out where I want to live and what kind of life. That - takes most of my free time. I like to think that I practice a sort of socratic examined life; a wholesome <i>summum bonum</i>. It has been complicated for me to find much satisfaction in my contribution as a web designer. A website is a website. Yet almost ten years later I'm still here, making websites.
           </p>
           <p class="text-small text-color-secondary medium-margin-bottom">
-            * SLRNCL is a simple concatenation of my last name and my first name without the vowels. It's hard to remember, which is great since I'm not trying to play the SEO game here. I agonized over my "personal brand" for years and finally buried this vanity. I still spend time updating this website, too regularly... so often that my own wife nags me about it.
-          </p>
-          <p class="text-small text-color-secondary medium-margin-bottom">
             A mix of a weird work ethic and ego led me to define myself through the stuff I make. I like to make stuff (almost always too fast). That qualifies for the tech bro archetype, who needs to "make" things (often obvious mistakes) to learn. Unfortunately I am one of those monkeys for whom most learning comes from experience. As I age, I get reminded that the stuff that viscerally gets acknowledged rarely comes from passive consumption but rather from deeply engaged acts. Being a designer has been technical enough to make me believe I understand things better over time. But also abstract to keep me humble and hungry. Images and words are imperfect. It looks like we are just realizing the problem with words while we've been aware of how images can distort our perception for a long time. I'll keep making images and code stuff, that's my way to chip away at life's monolith, or to push my rock up the mountain like Sisyphus. I spend most of my time torn between ascetic ideals and pragmatic coping strategies, that's my version of the examined life.
           </p>
           <p class="text-small text-color-secondary medium-margin-bottom">
@@ -114,7 +111,7 @@
             While I’m not a technologist, I’m not a monk either. I’m way too fidgety and working on it. Modern tech devices really rub my monkey mind the wrong way but I get that I need to accept it as a part of life. So I've been a fair-weather meditator for a while now. Believing that discipline was the only thing keeping me away from the peace and insights (silly, I know) I've been practicing on and off for years. Recent ventures into Zen and Daoism thought have removed the goals from the ritual, providing just enough guidance to allow a glance of the feeling. A feeling, not words or any other symbols. Understanding the importance of the non-verbal experience of life has been eye-opening. So when time opens up, I sit, just to sit, relax what is between my eyes, and watch my posture and breath.
           </p>
           <p class="text-small text-color-secondary">
-            <i>They say feedback is a gift</i>. While I don't track anything, I like to know how you feel about being here on my website so feel free to <a href="#links">reach out</a>. My gratitude for the opportunity to be here now is larger than an html file can hold.
+            <i>They say feedback is a gift</i>. While I don't track anything, I like to know how you feel about being here on my website so feel free to <a href="#links">reach out</a>. My gratitude for the opportunity to be here now is larger than an html file can hold. You could be anywhere &mdash; and yet, you are here now.<br>
           </p>
         </div>
       </div>

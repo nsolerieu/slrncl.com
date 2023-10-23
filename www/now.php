@@ -9,7 +9,7 @@
         <div class="col-100">
           <h1  class="text-color-primary no-margin">Now</h1>
           <p class="text-small text-color-secondary small-margin-top line-height-100">
-            Updated October 17th, 2023, from California
+            Updated October 22nd, 2023
           </p>
           <img src="assets/img/drawing-slrncl.jpg" class="fluid-img medium-margin-top" alt="portrait of a tall, lanky man sitting cross legged from the back">
         </div>

@@ -1,4 +1,4 @@
-<?php $page = "now";?>
+<?php $page = "colophon";?>
 <?php include 'header.php';?>
 
 <main>
@@ -8,8 +8,8 @@
       <div class="row">
         <div class="col-100">
           <h1  class="text-color-primary no-margin">Colophon</h1>
-          <p class="text-small text-color-secondary small-margin-top line-height-100">
-            This site is produced and maintained by mylsef, here a quick view under the hood. 
+          <p class="text-small text-color-secondary small-margin-top">
+            Just to "work with the garage door open", to give you a look behind the scenes, in the hope that you might stumble upon something interesting, funny, relatable, or silly. View full code more on <a href="https://github.com/nsolerieu/slrncl.com">github</a>.
           </p>
         </div>
       </div>
@@ -42,9 +42,12 @@
           </p>
           <h2 class="text-color-primary large-margin-top">Hosting</h2>
           <p class="small-margin-top text-regular text-color-secondary">
-            The site is hosted by <a href="https://www.ovhcloud.com/">OVH</a>, in france. If I ever become a US citizen I'll consider hosting it in america or selfhost it.
+            The site is hosted by <a href="https://www.ovhcloud.com/">OVH</a>, in france. If I ever become a US citizen I'll consider hosting it in america or even selfhost. 
           </p>
-          
+          <h2 class="text-color-primary large-margin-top">Domain name</h2>
+          <p class="small-margin-top text-regular text-color-secondary">
+            I adopted this the domain name in 2016 as I didn't like having my real name spelled out in the URL, it felt weird. I bought my initial domain back in 2012: nicolas-soleri.eu, I thought it was clever. SLRNCL is a simple concatenation of my last name and my first name without the vowels. It's hard to remember, which is great since I'm not trying to play the SEO game here. I agonized over my "personal brand" for years and finally buried this vanity. I still spend time updating this website, too regularly... so often that my own wife nags me about it.
+          </p>
         </div>
       </div>
     </div>
