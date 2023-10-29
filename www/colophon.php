@@ -9,7 +9,7 @@
         <div class="col-100">
           <h1  class="text-color-primary no-margin">Colophon</h1>
           <p class="text-small text-color-secondary small-margin-top">
-            Just to "work with the garage door open", to give you a look behind the scenes, in the hope that you might stumble upon something interesting, funny, relatable, or silly. View full code more on <a href="https://github.com/nsolerieu/slrncl.com">github</a>.
+            Just to "work with the garage door open", in the hope that you might stumble upon something interesting, funny, relatable, or silly. View source on <a href="https://github.com/nsolerieu/slrncl.com">github</a>.
           </p>
         </div>
       </div>
