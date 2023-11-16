@@ -41,9 +41,9 @@
           <p class="small-margin-top text-regular text-color-secondary">
             I have a complicated relationship with this website. I've been redesigning it too often but love to tinker on it. So far I'm denying myself the right to have a blog. I have my <a href="index#footnotes">footnotes</a> if I want to blab. It's on my homepage and some of the stuff in there is really personal and silly. 
           </p>
-          <h2 class="text-color-primary large-margin-top">Growing a beard</h2>
+          <h2 class="text-color-primary large-margin-top">2023 recap</h2>
           <p class="small-margin-top text-regular text-color-secondary">
-            Facial hair has been a recurring proxy for my frustration around pragmatism and the desire for ultimate closure. It would be really nice if rationality could clearly outline every decision and cycle for us. But that’s not how life seems to work. So I grow my beard. To a point where my wife nags me about it. A point where it periodically feels slightly uncomfortable physically and socially. I don’t do that as some kind of punishment but; rather, to increase my enjoyment of life. I will shave, I don’t know when nor why. The cycle will begin again. Like many other things in life there isn’t much satisfying closure, no “endgame”, no perfectly rational decision. Just cycles of change.
+            Lot has happened this year –– 2023: The agony, and ecstasy. I am working on my end year note, mostly to get it out of my head. Baby, work shit, existential thought, meltdowns and feelings of belonging, the whole thing in words.
           </p>
           <h2 class="text-color-primary large-margin-top">Making a (video) reel</h2>
           <p class="small-margin-top text-regular text-color-secondary">
