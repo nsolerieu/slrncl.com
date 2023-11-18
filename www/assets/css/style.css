@@ -13,7 +13,7 @@
 }
 .nav-separator {
   margin: 0 8px;
-  color: var(--border);
+  color: var(--text-secondary);
   line-height: 100%;
 }
 .menu-item:hover  {
@@ -243,15 +243,9 @@ h2, h3, h4, h5, h6 {
 .une-diapo {
   aspect-ratio: 1 / 1;
   margin: 15px 0;
-  border: 1px solid var(--border);
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
   height: auto;
   position: relative;
-  cursor: pointer;
-}
-.une-diapo:hover {
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-darker);
 }
 .une-diapo img {
   display: block;
@@ -266,7 +260,10 @@ h2, h3, h4, h5, h6 {
   -ms-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
 }
-.lightbox-container {
+.zoomlightbox-trigger {
+  cursor: zoom-in;
+}
+.zoomlightbox-container {
   background: var(--bg-primary);
   position: fixed;
   top: 0;
@@ -275,8 +272,9 @@ h2, h3, h4, h5, h6 {
   height: 100%;
   text-align: center;
   z-index: 4;
+  cursor: zoom-out;
 }
-.lightbox-image {
+.zoomlightbox-image {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -287,10 +285,7 @@ h2, h3, h4, h5, h6 {
   height: auto;
   width: auto;
 }
-.close-lightbox {
-  cursor: pointer;
-}
-.lightbox-image-name {
+.zoomlightbox-image-name {
   position: absolute;
   top: 15px;
   left: 50%;
@@ -299,7 +294,7 @@ h2, h3, h4, h5, h6 {
   text-align: center;
   margin-left: -160px;
 }
-.close-lightbox {
+.close-zoomlightbox {
   position: absolute;
   bottom: 15px;
   left: 50%;
@@ -307,35 +302,7 @@ h2, h3, h4, h5, h6 {
   font-size: var(--font-size-small);
   text-align: center;
   margin-left: -160px;
-  cursor: pointer;
   opacity: 0.5;
-}
-.prev-image {
-  position: absolute;
-  top: 50%;
-  height: 50px;
-  line-height: 50px;
-  font-size: var(--font-size-regular);
-  left: 10%;
-  margin-top: -25px;
-  cursor: pointer;
-  opacity: 0.5;
-}
-.next-image {
-  position: absolute;
-  top: 50%;
-  height: 50px;
-  right: 10%;
-  line-height: 50px;
-  font-size: var(--font-size-regular);
-  margin-top: -25px;
-  cursor: pointer;
-  opacity: 0.5;
-}
-.close-lightbox:hover,
-.prev-image:hover,
-.next-image:hover {
-  opacity: 1;
 }
 
 /* --------------------------------------------------------------

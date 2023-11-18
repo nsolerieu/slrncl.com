@@ -38,7 +38,7 @@
       <div class="col-100">
         <nav class="header-nav">
           <a href="index.php" class="menu-item <?php if($page == 'home') { echo 'active'; } ?>">@slrncl</a>
-          <span class="nav-separator">::</span>
+          <span class="nav-separator">:</span>
           <a href="work.php" class="menu-item <?php if($page == 'work') { echo 'active'; } ?>">Work</a>
           <span class="nav-separator">/</span>
           <a href="bikes.php"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>

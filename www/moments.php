@@ -25,8 +25,8 @@
         $images = glob($dir_name."*.jpg");
         foreach( array_reverse($images) as $image ) {
 
-        echo '<div class="col-33"><figure class="une-diapo" data-image-src="https://slrncl.com/'.$image.'">';
-        echo '<img data-src="https://slrncl.com/'.$image.'" alt="'.substr($image, 11).'" class="lazy fluid-img" >';
+        echo '<div class="col-33"><figure class="une-diapo">';
+        echo '<img data-src="https://slrncl.com/'.$image.'" alt="'.substr($image, 11).'" class="lazy fluid-img zoomlightbox-trigger" >';
         echo '</figure></div>';
 
         }

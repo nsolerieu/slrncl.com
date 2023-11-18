@@ -75,7 +75,7 @@ $(document).ready(function() {
 
         $('.bikes-feed').append(
           '<div class="block-link bike-card col-100 large-padding-bottom" >' +
-            '<img data-src="' + data.bikes[i].image + '" alt="image for ' + data.bikes[i].model + ' - ' + data.bikes[i].surname + '" class="lazy fluid-img corner-radius-img" >' +
+            '<img data-src="' + data.bikes[i].image + '" alt="image for ' + data.bikes[i].model + ' - ' + data.bikes[i].surname + '" class="lazy fluid-img zoomlightbox-trigger" >' +
             '<p class="text-regular text-color-primary medium-margin-top line-height-100">' + data.bikes[i].model + '</p>' +
             '<p class="text-small text-color-secondary small-margin-top line-height-100">"' + data.bikes[i].surname + '"</p>' +
             '<div class="bike-card__metas">' +
@@ -105,7 +105,7 @@ $(document).ready(function() {
 
         $('.notes-feed').append(
           '<a class="block-link note-card col-100" >' +
-            '<div class="box large white medium-margin-bottom">' +
+            '<div class="box large grey no-border medium-margin-bottom">' +
               '<p class="text-small text-color-secondary large-margin-bottom line-height-100">' + data.notes[i].date + '</p>' +
               '<p class="text-large text-color-primary medium-margin-bottom">' + data.notes[i].quote + '</p>' +
               '<p class="text-small text-color-primary large-margin-bottom line-height-100">&mdash; ' + data.notes[i].author + '</p>' +
@@ -170,7 +170,32 @@ $(window).scroll(function() {
 
 $("#toTop").click(function() {
     $("html, body").animate({scrollTop: 0}, 1000);
- });
+});
+
+// LIGHTBOX
+
+$(document).on('click', '.zoomlightbox-trigger', function () {
+
+  $('body').css( "overflow-y", "hidden" );
+
+  var lightboximage = $(this).attr('src');
+  var imagefilename = lightboximage.slice(lightboximage.lastIndexOf('/') + 1); // get end of the string after the last occurence of /
+
+  $('body').prepend(
+    '<div class="zoomlightbox-container">' +
+      '<div class="zoomlightbox-image-name">' + imagefilename + ' </div>' +
+      '<img src="' + lightboximage + '" class="zoomlightbox-image"/>' +
+      '<div class="close-zoomlightbox">Click/tap to close</div>' +
+    '</div>'
+  );
+
+});
+
+$(document).on('click', '.zoomlightbox-container', function () {
+  console.log("closeeeeee");
+  $(this).remove();
+  $('body').css( 'overflow-y', 'auto' );
+});
 
 // MOMENTS
 
@@ -183,49 +208,6 @@ if (document.body.classList.contains('page-moments')) {
     placeholder: "https://slrncl.com/assets/img/loader.gif",
     threshold: 0,
     visibleOnly: true
-  });
-
-  var activediapo = "";
-  var lightboximage = "";
-  var nextlightboximage = "";
-  var previouslightboximage = "";
-
-  $('.une-diapo').on( 'click', function() {
-
-    $('body').css( "overflow-y", "hidden" );
-
-    activediapo = $(this);
-    lightboximage = $(this).attr('data-image-src');
-
-    $('#body').prepend(
-      '<div class="lightbox-container">' +
-        '<div class="close-lightbox">Close</div>' +
-        '<div class="prev-image">&larr;</div>' +
-        '<div class="next-image">&rarr;</div>' +
-        '<img src="' + lightboximage + '" class="lightbox-image"/>' +
-        '<div class="lightbox-image-name">' + lightboximage.substr(38) + ' </div>' +
-      '</div>'
-    );
-
-  });
-
-  $(document).on("click", ".close-lightbox" , function() {
-    $(this).parent().remove();
-    $('body').css( "overflow-y", "auto" );
-  });
-
-  $(document).on("click", ".next-image" , function() {
-    activediapo = activediapo.parent().next().find('.une-diapo');
-    nextlightboximage = activediapo.attr('data-image-src');
-    $( ".lightbox-image" ).attr( "src", nextlightboximage );
-    $( ".lightbox-image-name" ).html( nextlightboximage.substr(38) );
-  });
-
-  $(document).on("click", ".prev-image" , function() {
-    activediapo = activediapo.parent().prev().find('.une-diapo');
-    previouslightboximage = activediapo.attr('data-image-src');
-    $( ".lightbox-image" ).attr( "src", previouslightboximage );
-    $( ".lightbox-image-name" ).html( previouslightboximage.substr(38) );
   });
 
 }
