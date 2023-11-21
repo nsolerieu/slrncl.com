@@ -24,7 +24,7 @@
       <div class="row">
         <div class="col-100">
           <p class="text-regular text-color-secondary">
-            I'm currently doing some web design stuff at <a href="https://github.com/nsolerieu">Github</a>. I'm used to working in fast-paced environments and collaborating with interdisciplinary teams. My specialty is web design but have been enjoying creating all sorts of visuals like icons, illustrations and prototypes. 
+            I'm currently doing some web design stuff at <a href="https://github.com/nsolerieu">GitHub</a>. I'm used to working in fast-paced environments and collaborating with interdisciplinary teams. My specialty is web design but have been enjoying creating all sorts of visuals like icons, illustrations and prototypes. 
           </p>
           <p class="medium-margin-top text-regular text-color-secondary">
             I'm a generalist focused on craft. My formula is doing the work, it's that simple (and hard). I'd label my design approach as realistic and creative, supported by skills in frontend development — all that to say that I (generally) know how to translate designs into code and understand the constraints of the digital ecosystem.
