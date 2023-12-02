@@ -309,16 +309,8 @@ h2, h3, h4, h5, h6 {
 /* =SMARTPHONE
 -------------------------------------------------------------- */
 @media screen and (max-width: 821px) {
-  .header-bar__navigation .menu-item {
-    margin-left: 0;
-  }
-  .lightbox-image {
-    max-width: 80%;
-  }
-  .next-image, .prev-image {
-    top: auto;
-    bottom: 15px;
-    height: 30px;
-    line-height: 30px;
+  .zoomlightbox-image {
+    max-width: 90%;
+    max-height: 60%;
   }
 }
