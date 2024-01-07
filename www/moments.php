@@ -1,5 +1,5 @@
 <?php $page = "moments";?>
-<?php include 'header.php';?>
+<?php include "header.php";?>
 
 <main>
 
@@ -16,7 +16,7 @@
     </div>
   </section>
 
-  <section id="notes" >
+  <section id="moments" >
     <div class="large-container">
       <div class="row moments-feed">
         <?php

@@ -1,5 +1,5 @@
 <?php $page = "notes";?>
-<?php include 'header.php';?>
+<?php include "header.php";?>
 
 <main>
 
@@ -37,4 +37,4 @@
   </section>
 </main>
 
-<?php include 'footer.php';?>
+<?php include "footer.php";?>

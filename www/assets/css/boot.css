@@ -364,6 +364,7 @@ p {
   margin: 0;
   font-size: var(--font-size-regular);
   line-height: 160%;
+  display: block;
 }
 
 a {
@@ -376,6 +377,7 @@ a.block-link {
   display: block;
   position: relative;
 }
+
 p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: underline;
   text-decoration-color: var(--text-secondary);

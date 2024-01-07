@@ -12,7 +12,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 
 $(document).ajaxStop(function(){
 
-    if (document.body.classList.contains('page-work') || document.body.classList.contains('page-bikes')) {
+    if (document.body.classList.contains('page-work') || document.body.classList.contains('page-bikes') || document.body.classList.contains('page-things')) {
       $(".lazy").Lazy({ 
         scrollDirection: 'vertical',
         effect: 'fadeIn',
@@ -31,6 +31,11 @@ $(document).ajaxStop(function(){
     if (document.body.classList.contains('page-notes')) {
       var noteCount = $('.note-card').length;
       $('.notes-counter').html(noteCount); 
+    }
+
+    if (document.body.classList.contains('page-things')) {
+      var thingsCount = $('.thing-card').length;
+      $('.things-counter').html(thingsCount); 
     }
     
 });
@@ -74,7 +79,7 @@ $(document).ready(function() {
       $.each( data.bikes, function( i, bike ) {
 
         $('.bikes-feed').append(
-          '<div class="block-link bike-card col-100 large-padding-bottom" >' +
+          '<div class="bike-card col-100 large-padding-bottom" >' +
             '<img data-src="' + data.bikes[i].image + '" alt="image for ' + data.bikes[i].model + ' - ' + data.bikes[i].surname + '" class="lazy fluid-img zoomlightbox-trigger" >' +
             '<p class="text-regular text-color-primary medium-margin-top line-height-100">' + data.bikes[i].model + '</p>' +
             '<p class="text-small text-color-secondary small-margin-top line-height-100">"' + data.bikes[i].surname + '"</p>' +
@@ -84,6 +89,36 @@ $(document).ready(function() {
               '<span class="text-small text-color-secondary line-height-100">' + data.bikes[i].mileage + ' miles</span>' +
             '</div>' +
             '<p class="text-regular text-color-secondary no-margin">' + data.bikes[i].notes + ' </p>' +
+          '</div>'
+        );
+
+      });
+
+    });
+
+  }
+
+  // THINGS
+
+  if (document.body.classList.contains('page-things')) {
+
+    var thingsData = "https://slrncl.com/assets/data/things.json";
+
+    $.getJSON( thingsData , function(data) {
+
+      $.each( data.things, function( i, thing ) {
+
+        $('.things-feed').append(
+          '<div class="thing-card row medium-margin-bottom" id="' + data.things[i].slug + '">' +
+            '<div class="col-50">' +
+              '<img data-src="' + data.things[i].image + '" alt="image for ' + data.things[i].name + '" class="lazy fluid-img thing-card__img" >' +
+            '</div>' +
+            '<div class="col-50">' +
+              '<p class="text-small text-color-secondary line-height-100 small-margin-bottom">' + data.things[i].origin + ' &bull; ' + data.things[i].category + ' </p>' +
+              '<h6 class="no-margin line-height-100">' + data.things[i].name + '</h6>' +
+              '<p class="text-small text-color-primary medium-margin-top">' + data.things[i].note + '</p>' +
+              '<a herf="' + data.things[i].link + '" class="button secondary small thing-card__button">' + data.things[i].linklabel + '</a>' +
+            '</div>' +
           '</div>'
         );
 

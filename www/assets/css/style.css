@@ -200,6 +200,27 @@ h2, h3, h4, h5, h6 {
 }
 
 /* --------------------------------------------------------------
+/* =Things
+-------------------------------------------------------------- */
+.thing-card {
+  position: relative;
+}
+.thing-card__button {
+  position: absolute;
+  bottom: 0;
+}
+@media screen and (max-width: 821px) {
+  .thing-card__button {
+    position: relative;
+    bottom: inherit;
+    margin-top: 40px;
+  }
+  .thing-card__img {
+    margin-bottom: 20px;
+  }
+}
+
+/* --------------------------------------------------------------
 /* =Bikes
 -------------------------------------------------------------- */
 .bike-card__metas {

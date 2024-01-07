@@ -1,0 +1,106 @@
+{
+  "things":[
+    {
+      "slug":"chums-wallet",
+      "name":"Surfshorts Wallet",
+      "origin":"Chums",
+      "category":"artifact",
+      "image":"https://slrncl.com/assets/img/things/chums-wallet.jpg",
+      "link":"Chttps://www.rei.com/product/199847/chums-surfshorts-wallet",
+      "linklabel":"Get it from REI",
+      "note":"I like the teenage simplicity of this wallet. I had many fancier, more minimal ones in teh past. This one seems to hold up well to my negligence. I also like th look people give me when they see it - like I'm a sloppy teenager. The ID card window is so american and funny to me, it makes me feel like a pokemon trainer."
+    },
+    {
+      "slug":"daruma",
+      "name":"Little wooden daruma",
+      "origin":"Tokyo Fish Market gift shop",
+      "category":"artifact",
+      "image":"https://slrncl.com/assets/img/things/daruma.jpg",
+      "link":"",
+      "linklabel":"Get one from a japanse store",
+      "note":"I bought this little guy for my wife's birthday and since then it's been hanging out in our house. I love to seen it around, it feels oddly sentient."
+    },
+    {
+      "slug":"favorite-rock",
+      "name":"My favorite rock",
+      "origin":"Berkeley hills",
+      "category":"artifact",
+      "image":"https://slrncl.com/assets/img/things/favorite-rock.jpg",
+      "link":"",
+      "linklabel":"Find one for yourself",
+      "note":"I found this smooth little oblong pebble during a baby walk in the Berkeley hills. I was talking to mysel trying to enjoy the moment when I decided to pick it from the ground. Since then I often carry it with me. I guess that what kids call a pet rock. Seeing it reminds me of the concept of Yugen. I feel an odd sense of beauty, even though the beauty doesn’t exist in the literal sense of the word and cannot be seen directly – in other words: beauty lies in the eye of the beholder. I love my rock."
+    },
+    {
+      "slug":"triggerpoint-foam-roller",
+      "name":"Grid Foam roller",
+      "origin":"Triggerpoint",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/triggerpoint-foam-roller.jpg",
+      "link":"https://www.rei.com/product/115936/trigger-point-performance-grid-foam-roller",
+      "linklabel":"Get it from REI",
+      "note":"I've been rolling (mostly my back) on this thing for years. I don't think I need to sell to the world the goodness of foam roller. this one is my favorite, not that I have tested that many. Not too firm, not too soft, no silly design or texture. This is the vanilla of foam rollers."
+    },
+    {
+      "slug":"nice-cotton-hanky",
+      "name":"A nice cotton hanky",
+      "origin":"Japan",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/nice-cotton-hanky.jpg",
+      "link":"https://kirikomade.com/collections/handkerchief",
+      "linklabel":"Get some from Kiriko",
+      "note":"It took me 30 years to acknownledge the necessity of carrying a good handkerchief. I upgraded my classic flannel grid pattern to nicer japense ones from Kiriko and highly recommend these to all those who have a runny nose or sweaty face. There is too many uses for it to list here. It's also a lovely thing have (and look at) in your pocket, even covered in dry boogers."
+    },
+    {
+      "slug":"drbronner-magic-balm",
+      "name":"Magic balm",
+      "origin":"Dr Bronner",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/drbronner-magic-balm.jpg",
+      "link":"",
+      "linklabel":"Get it locally, it feels good",
+      "note":"If I was single I would only use this stuff. My baby loved to chew on the tins and I like to fidget with it. Of course it moisturizes well, the format is waht makes it work for me... and Dr Bronner peppermint tingle is a personal favorite (alos, my wifes hates it)"
+    },
+    {
+      "slug":"tj-peppermint-tea",
+      "name":"TJ's peppermint tea",
+      "origin":"Any good brand",
+      "category":"food",
+      "image":"https://slrncl.com/assets/img/things/tj-peppermint-tea.jpg",
+      "link":"",
+      "linklabel":"Get it locally, it feels good",
+      "note":"Coffee is occasional for me but I like a good cup of peppermint tea. I like the tingle and the simplicity of the ritual. No one brags about having mint tea, except me."
+    },
+    {
+      "slug":"pb-jar",
+      "name":"PB glass jar",
+      "origin":"Berkeley Bowl",
+      "category":"artifact",
+      "image":"https://slrncl.com/assets/img/things/pb-jar.jpg",
+      "link":"",
+      "linklabel":"Glass jar are availabe anywhere",
+      "note":"I tried Mason jars but the lip and lids are not shaking-friendly, and I drink a lot of shakes. I kept this jar for years and it still does a great job at not spilling everywhere and it fits in my hand just perfectly."
+    },
+    {
+      "slug":"wildplanet-sardines",
+      "name":"Canned sardines",
+      "origin":"Wild planet",
+      "category":"food",
+      "image":"https://slrncl.com/assets/img/things/wildplanet-sardines.jpg",
+      "link":"https://wildplanetfoods.com/products/wild-planet-sardines",
+      "linklabel":"Bulk order online, you won't regret it",
+      "note":"Not only we all need more fish oil in our bodies but these are cheap and delicious. After all these years my wife still hates the smell and oil spills. I've had on average one tin every other day since 2017. I tried other fancier brands but came back to Wild planet for bulk order price and convenience."
+    },
+    {
+      "slug":"pure-lanolin-nipple-cream",
+      "name":"Lanolin cream",
+      "origin":"Sheeps",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/pure-lanolin-nipple-cream.jpg",
+      "link":"",
+      "linklabel":"Get it from target",
+      "note":"This thing works great for diaper rashes and sore nipples but also is the only thing that really helped with stuborn hangnails and foot sole cuts. This brand doesn’t smell like sheep, which is nice."
+    }
+  ]
+}
+
+
