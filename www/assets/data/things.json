@@ -1,12 +1,32 @@
 {
   "things":[
     {
+      "slug":"counting-beads-bracelet",
+      "name":"Wooden beads bracelet",
+      "origin":"aroundsquare",
+      "category":"good",
+      "image":"https://slrncl.com/assets/img/things/counting-beads-bracelet.jpg",
+      "link":"https://www.aroundsquare.com/collections/mkultras/products/mkultras-wooden-editions",
+      "linklabel":"Get some sleep balls",
+      "note":"I like sliding the beads slowly, as a pre-sleep self hypnosis ritual. I don't do it often but when I do it's very pleasant. I like the object itself, the feeling in hands is a good proxy to gage my degree of presence."
+    },
+    {
+      "slug":"ascent-whey-isolate",
+      "name":"Ascent whey protein",
+      "origin":"Ascent",
+      "category":"food",
+      "image":"https://slrncl.com/assets/img/things/ascent-whey-isolate.jpg",
+      "link":"https://www.ascentprotein.com/products/vanilla-bean-protein-powder?variant=31917023068234",
+      "linklabel":"Bulk order from Ascent",
+      "note":"I don't like eating too much meat, especially for breakfast or dinner, but I also don't want to be (too) protein deficient. I initially adopted this out of pure dietary pragmatism. I tried a few locally avialable options and end up settling for this brand. It's clearly fancy and the branding is silly. I like the taste, ingredients, and the 4lbs bag is (from my research) a good deal for this quality. It's my one ultra-processed sweetened flavored thing... oh well."
+    },
+    {
       "slug":"chums-wallet",
       "name":"Surfshorts Wallet",
       "origin":"Chums",
       "category":"artifact",
       "image":"https://slrncl.com/assets/img/things/chums-wallet.jpg",
-      "link":"Chttps://www.rei.com/product/199847/chums-surfshorts-wallet",
+      "link":"https://www.rei.com/product/199847/chums-surfshorts-wallet",
       "linklabel":"Get it from REI",
       "note":"I like the teenage simplicity of this wallet. I had many fancier, more minimal ones in teh past. This one seems to hold up well to my negligence. I also like th look people give me when they see it - like I'm a sloppy teenager. The ID card window is so american and funny to me, it makes me feel like a pokemon trainer."
     },
