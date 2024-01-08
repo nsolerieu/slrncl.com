@@ -116,8 +116,9 @@ $(document).ready(function() {
             '<div class="col-50">' +
               '<p class="text-small text-color-secondary line-height-100 small-margin-bottom">' + data.things[i].origin + ' &bull; ' + data.things[i].category + ' </p>' +
               '<h6 class="no-margin line-height-100">' + data.things[i].name + '</h6>' +
-              '<p class="text-small text-color-primary medium-margin-top">' + data.things[i].note + '</p>' +
-              '<a herf="' + data.things[i].link + '" class="button secondary small thing-card__button">' + data.things[i].linklabel + '</a>' +
+              
+              '<p class="text-small text-color-primary medium-margin-top small-margin-bottom">' + data.things[i].note + '</p>' +
+              '<a href="' + data.things[i].link + '" class="text-small text-color-secondary">&rarr; ' + data.things[i].linklabel + '</a>' +
             '</div>' +
           '</div>'
         );

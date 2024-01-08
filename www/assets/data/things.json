@@ -1,10 +1,20 @@
 {
   "things":[
     {
+      "slug":"altra-timp-3",
+      "name":"Timp 3",
+      "origin":"Altra",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/altra-timp-3.jpg",
+      "link":"https://www.altrarunning.com/shop/mens-shoes-trail",
+      "linklabel":"Get the latest Altra Timp",
+      "note":"Everyone who exercise regularly seems to have thre favorite brand and model of shoes. This is mine. I do everything with it. I love that it's zero-drop but still padded. The only downside is longevity, I destroy a pair in less than a year. I love the feel, versatility, and so far the look has not bothered me too much."
+    },
+    {
       "slug":"counting-beads-bracelet",
       "name":"Wooden beads bracelet",
       "origin":"aroundsquare",
-      "category":"good",
+      "category":"product",
       "image":"https://slrncl.com/assets/img/things/counting-beads-bracelet.jpg",
       "link":"https://www.aroundsquare.com/collections/mkultras/products/mkultras-wooden-editions",
       "linklabel":"Get some sleep balls",
