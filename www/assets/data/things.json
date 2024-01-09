@@ -1,6 +1,16 @@
 {
   "things":[
     {
+      "slug":"20lbs-dumbbell",
+      "name":"20 lbs dumbell",
+      "origin":"Generic",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/20lbs-dumbbell.jpg",
+      "link":"",
+      "linklabel":"Around $30 at your big box store",
+      "note":"I don't go to 'the gym'. I have one dumbell. 20 lbs is my sweetspot.  I like a set of slow curls to 80% RPE. A good pump is oddly meditative. It's a sanity check, reminding me that blood is flowing and that it's all that matters. It's versatile, ergonomic and fairly odd to have laying around the house - my wife hates to see it in random places. It's sometimes on the kitchen counter, next to my desk, or in the bathroom."
+    },
+    {
       "slug":"altra-timp-3",
       "name":"Timp 3",
       "origin":"Altra",
