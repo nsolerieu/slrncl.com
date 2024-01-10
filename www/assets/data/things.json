@@ -1,6 +1,16 @@
 {
   "things":[
     {
+      "slug":"steamer-basket",
+      "name":"Steamer basket",
+      "origin":"IKEA",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/steamer-basket.jpg",
+      "link":"https://www.ikea.com/us/en/p/klockren-steamer-insert-stainless-steel-00459277/",
+      "linklabel":"Get it from IKEA ($5)",
+      "note":"We eat some kind of steamed veggies at least twice a day. This guys is doing a lot of heavy lifting. I appreciate the simplicity of the all-steel construction. Sometimes stuff gets stuck or caked in. So simple, so cheap, so tough - love it."
+    },
+    {
       "slug":"20lbs-dumbbell",
       "name":"20 lbs dumbell",
       "origin":"Generic",

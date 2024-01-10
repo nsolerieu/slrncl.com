@@ -238,6 +238,32 @@ h2, h3, h4, h5, h6 {
 }
 
 /* --------------------------------------------------------------
+/* =Blog
+-------------------------------------------------------------- */
+.the-content p {
+  margin-bottom: 40px;
+}
+.the-content hr {
+  border-top: 1px dotted var(--border);
+  background: transparent;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 5vh 0;
+}
+.blog-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-list-item:hover {
+  opacity: 0.6;
+}
+.blog-list-item h2, .blog-list-item span {
+  margin: 1vh 0;
+}
+
+
+/* --------------------------------------------------------------
 /* =Moments
 -------------------------------------------------------------- */
 .une-diapo {
