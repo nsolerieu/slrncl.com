@@ -1,0 +1,15 @@
+# Not writing about it
+
+As 2019 was fading away, I was annoyed by all the typical “year in review” blogs, videos, and other things that people put out there for the occasion. I just brushed off my feelings a few days after the new year. I contemplated writing on this topic but quickly realized that making fun of anything new year would only make me sound more like a buzzkill. Not that I care about how I’m perceived, it’s not bringing any value to anybody. Plus, some great humorous pieces have already told just that in a much more eloquent way.
+
+Then I got married in February. We eloped more specifically. Nothing very interesting to talk about here since my marriage was a non-marriage. I would love to convince everybody of the absurdity of the logistics and everything surrounding marriage. But then again, I did my part to explain my thinking to my family, and when the idea of writing about it appeared I realized how unexceptional my thoughts on the matter were. Who would want to listen to me spew my disgust of love in the era of liberal capitalism, sounds unappealing even to me.
+
+And, that Coronavirus thing happens. Being part of the lucky ones, able to work from home, I get struck one more time by how absurd my job is. As a web designer, my direct contribution is very limited and I felt weird for a couple of days. I found a few side projects, a sort of mental fidgeting. That kept me busy for a while. But the idea of writing about my quarantine time revelation shortly arrived and the impulse to shut it down followed immediately.
+
+After suppressing myself many other times in between what I just described I finally snapped and started writing this thing. Why?
+
+I’m now sure that, I do not have a grand vision either for my life or the world around me. It took me longer than anticipated to get there. For a donkey like me having a partner and being stuck at home gave the critical hit to my distracted mind. Doing the grunt work of removing distractions one by one matters a lot even if it doesn’t look like it. Wanting to do something is the best way to not make anything impactful. There is an invisible layer of bullshit in every aspect of our daily life that become visible only when the essential is present around us.
+
+It all goes somewhere–Except that it doesn’t. I wish I could end this here, but then again. What sort of nihilistic empty message would this be? It would only please the Buddhists amongst us who already have accepted the futility of most things in life. I believe that for all of us creatives, trying to contribute, and doing a lot less is a way to move in this direction. Just like the world doesn’t need another tweet about your latest pun, you probably won’t benefit much from watching another TV show or reading another book. Consider what Blaise Pascal said “All of humanity’s problems stem from man’s inability to sit quietly in a room alone.” Maybe we should all learn to sit down quietly. I should get better at it for sure.
+
+For me, this translates into staying in my cave, talking to my wife, eating sardines, and most of the time doing nothing.
