@@ -243,6 +243,12 @@ h2, h3, h4, h5, h6 {
 .the-content p {
   margin-bottom: 40px;
 }
+.the-content img {
+  display: block;
+  margin: 4vh 0;
+  width: 100%;
+  height: auto;
+}
 .the-content hr {
   border-top: 1px dotted var(--border);
   background: transparent;
