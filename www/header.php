@@ -9,7 +9,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="description" content="Nicolas Solerieu - Digital designer" />
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="https://slrncl.com/assets/favicon.ico">
 
   <meta name="author" content="Nicolas SOLERIEU">
   <meta name="publisher" content="Nicolas SOLERIEU">
@@ -23,8 +23,8 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://slrncl.com/assets/img/slrncl-og-image.png" />
 
-  <link rel="stylesheet" href="assets/css/boot.css" >
-  <link rel="stylesheet" href="assets/css/style.css" >
+  <link rel="stylesheet" href="https://slrncl.com/assets/css/boot.css" >
+  <link rel="stylesheet" href="https://slrncl.com/assets/css/style.css" >
 
 </head>
 

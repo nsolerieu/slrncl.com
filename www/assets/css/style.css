@@ -275,14 +275,15 @@ pre {
   width: 100%;
 }
 .blog-list-item {
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  padding: 0.5vh 0;
+}
+.blog-list-item__title {
+  text-decoration: underline;
+  margin-left: 20px;
 }
 .blog-list-item:hover {
   opacity: 0.6;
-}
-.blog-list-item h2, .blog-list-item span {
-  margin: 1vh 0;
 }
 
 
