@@ -257,6 +257,23 @@ h2, h3, h4, h5, h6 {
   border-right: 0;
   margin: 5vh 0;
 }
+blockquote {
+  border-left: 1px solid var(--border);
+  margin: 2vh 0;
+  display: block;
+  padding-left: 2vh;
+  font-style: italic;
+}
+pre {
+  margin: 2vh;
+  background-color: var(--bg-secondary);
+  font-family: monospace;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  display: block;
+  height: auto;
+  width: 100%;
+}
 .blog-list-item {
   display: flex;
   justify-content: space-between;
