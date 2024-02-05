@@ -8,7 +8,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="description" content="Nicolas Solerieu - Digital designer" />
+  <meta name="description" content="Nicolas Solerieu - Web designer, father, cyclist and weirdo based in San Luis Obsipo, CA" />
   <link rel="icon" type="image/x-icon" href="https://slrncl.com/assets/favicon.ico">
 
   <meta name="author" content="Nicolas SOLERIEU">
@@ -37,13 +37,13 @@
     <div class="container">
       <div class="col-100">
         <nav class="header-nav">
-          <a href="index.php" class="menu-item <?php if($page == 'home') { echo 'active'; } ?>">@slrncl</a>
+          <a href="https://slrncl.com/index.php" class="menu-item <?php if($page == 'home') { echo 'active'; } ?>">@slrncl</a>
           <span class="nav-separator">:</span>
-          <a href="work.php" class="menu-item <?php if($page == 'work') { echo 'active'; } ?>">Work</a>
+          <a href="https://slrncl.com/work.php" class="menu-item <?php if($page == 'work') { echo 'active'; } ?>">Work</a>
           <span class="nav-separator">/</span>
-          <a href="bikes.php"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>
+          <a href="https://slrncl.com/bikes.php"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>
           <span class="nav-separator">/</span>
-          <a href="now.php"class="menu-item <?php if($page == 'now') { echo 'active'; } ?>">Now</a>
+          <a href="https://slrncl.com/now.php"class="menu-item <?php if($page == 'now') { echo 'active'; } ?>">Now</a>
         </nav>
       </div>
     </div>

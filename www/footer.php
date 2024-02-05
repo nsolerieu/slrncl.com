@@ -4,7 +4,7 @@
       <div class="col-100">
         <p class="text-small text-color-secondary medium-margin-bottom">
           Produced and maintained by Nicolas Solerieu<br>
-          <a href="colophon">Colophon</a> &bull; <a href="mailto:hello@slrncl.com?subject=Hello">hello@slrncl.com</a>
+          <a href="https://slrncl.com/colophon">Colophon</a> &bull; <a href="mailto:hello@slrncl.com?subject=Hello">hello@slrncl.com</a>
         </p>
         <div class="avatar"></div>
       </div>
