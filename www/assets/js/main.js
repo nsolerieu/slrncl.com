@@ -48,7 +48,18 @@ $(document).ready(function() {
 
     var projectsData = "https://slrncl.com/assets/data/projects.json";
 
-    $.getJSON( projectsData , function(data) {
+    $.getJSON( projectsData, {
+      format: "json",
+      type: 'GET',
+      dataType: 'jsonp',
+      CORS: true ,
+      contentType:'application/json',
+      secure: true,
+      headers: {
+      'Access-Control-Allow-Origin': '*',
+      }
+    })
+      .done(function( data ) {
 
       $.each( data.projects, function( i, project ) {
 
@@ -74,7 +85,18 @@ $(document).ready(function() {
 
     var bikesData = "https://slrncl.com/assets/data/bikes.json";
 
-    $.getJSON( bikesData , function(data) {
+    $.getJSON( bikesData, {
+      format: "json",
+      type: 'GET',
+      dataType: 'jsonp',
+      CORS: true ,
+      contentType:'application/json',
+      secure: true,
+      headers: {
+      'Access-Control-Allow-Origin': '*',
+      }
+    })
+      .done(function( data ) {
 
       $.each( data.bikes, function( i, bike ) {
 
@@ -104,7 +126,18 @@ $(document).ready(function() {
 
     var thingsData = "https://slrncl.com/assets/data/things.json";
 
-    $.getJSON( thingsData , function(data) {
+    $.getJSON( thingsData, {
+      format: "json",
+      type: 'GET',
+      dataType: 'jsonp',
+      CORS: true ,
+      contentType:'application/json',
+      secure: true,
+      headers: {
+      'Access-Control-Allow-Origin': '*',
+      }
+    })
+      .done(function( data ) {
 
       $.each( data.things, function( i, thing ) {
 
@@ -135,7 +168,18 @@ $(document).ready(function() {
 
     var notesData = "https://slrncl.com/assets/data/notes.json";
 
-    $.getJSON( notesData , function(data) {
+    $.getJSON( notesData, {
+      format: "json",
+      type: 'GET',
+      dataType: 'jsonp',
+      CORS: true ,
+      contentType:'application/json',
+      secure: true,
+      headers: {
+      'Access-Control-Allow-Origin': '*',
+      }
+    })
+      .done(function( data ) {
 
       $.each( data.notes, function( i, note ) {
 
@@ -155,13 +199,6 @@ $(document).ready(function() {
     });
 
   }
-
-  // TABS
-
-  $( '.one-project-row' ).on('click', function() {
-    $(this).toggleClass( "active" );
-    $(this).next().slideToggle();
-  });
 
   // SMOOTH SCROLL
   $('a[href*="#"]')
@@ -193,7 +230,7 @@ $(document).ready(function() {
     }
   });
 
-});
+}); // END Document.ready
 
 // BACK TO TOP
 $(window).scroll(function() {
@@ -228,7 +265,6 @@ $(document).on('click', '.zoomlightbox-trigger', function () {
 });
 
 $(document).on('click', '.zoomlightbox-container', function () {
-  console.log("closeeeeee");
   $(this).remove();
   $('body').css( 'overflow-y', 'auto' );
 });

@@ -1,6 +1,8 @@
 <?php
 
 $page = "blog";
+include "header.php";
+
 require_once("parsedown.php");
 
 define('FILE_EXT', 'md');
@@ -17,7 +19,7 @@ function sortPosts($a, $b) {
 if ( $is_post ) {
 	// Single post page
 	$post_name = filter_var($_GET['post'], FILTER_DEFAULT);
-	$file_path = 'assets/blog/'.$post_name.'.'.FILE_EXT;
+	$file_path = __DIR__.'/assets/blog/'.$post_name.'.'.FILE_EXT;
 
 	if ( file_exists($file_path) ) {
 		$file = fopen($file_path, 'r');
@@ -34,7 +36,7 @@ if ( $is_post ) {
 	}
 } else {
 	// Blog main page - list all posts
-	$files = new DirectoryIterator('assets/blog/');
+	$files = new DirectoryIterator(__DIR__.'/assets/blog/');
 	$files_array = [];
 	foreach ($files as $file) {
 		if ( $file->isFile() && $file->getExtension() == FILE_EXT ) {
@@ -52,8 +54,6 @@ if ( $is_post ) {
 }
 
 ?>
-
-<?php include "header.php";?>
 
 <main>
 
