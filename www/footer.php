@@ -14,9 +14,9 @@
 
 </body>
 
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/jquery.lazy.min.js"></script>
-<script src="assets/js/main.js" ></script>
+<script src="https://slrncl.com/assets/js/jquery.js"></script>
+<script src="https://slrncl.com/assets/js/jquery.lazy.min.js"></script>
+<script src="https://slrncl.com/assets/js/main.js" ></script>
 
 </body>
 </html>
