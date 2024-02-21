@@ -49,6 +49,8 @@
           <a href="<?php echo BASE_URL; ?>/bikes.php"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>
           <span class="nav-separator">/</span>
           <a href="<?php echo BASE_URL; ?>/now.php"class="menu-item <?php if($page == 'now') { echo 'active'; } ?>">Now</a>
+          <span class="nav-separator">/</span>
+          <a href="<?php echo BASE_URL; ?>/blog.php"class="menu-item <?php if($page == 'blog') { echo 'active'; } ?>">Blog</a>
         </nav>
       </div>
     </div>

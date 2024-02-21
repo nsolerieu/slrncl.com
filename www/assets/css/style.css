@@ -243,6 +243,9 @@ h2, h3, h4, h5, h6 {
 .the-content p {
   margin-bottom: 40px;
 }
+.the-content h1 {
+  margin-bottom: 80px;
+}
 .the-content img {
   display: block;
   margin: 4vh 0;
@@ -276,11 +279,15 @@ pre {
 }
 .blog-list-item {
   display: block;
-  padding: 0.5vh 0;
+  padding: 0.8vh 0;
 }
 .blog-list-item__title {
   text-decoration: underline;
   margin-left: 20px;
+}
+.blog-list-item__date {
+  width: 80px;
+  display: inline-block;
 }
 .blog-list-item:hover {
   opacity: 0.6;

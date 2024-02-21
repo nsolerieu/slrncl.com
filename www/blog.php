@@ -49,7 +49,7 @@ if ( $is_post ) {
 		$file_pointer = $file->openFile();
 		$post_title = trim($file_pointer->fgets(),'# ');
 		$dateonly = substr($filename_no_ext,0,7);
-		$content .= '<a href="blog.php?post='.$filename_no_ext.'" class="blog-list-item"><span class="blog-list-item__date text-color-secondary">'.str_replace("-", "&nbsp;•&nbsp;", $dateonly).'</span><span class="blog-list-item__title">'.$post_title.'</span></a>';
+		$content .= '<a href="blog.php?post='.$filename_no_ext.'" class="blog-list-item"><span class="blog-list-item__date text-color-secondary">'.str_replace("-", "&nbsp;/&nbsp;", $dateonly).'</span><span class="blog-list-item__title">'.$post_title.'</span></a>';
 	}
 }
 
