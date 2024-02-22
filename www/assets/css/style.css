@@ -246,6 +246,18 @@ h2, h3, h4, h5, h6 {
 .the-content h1 {
   margin-bottom: 80px;
 }
+.the-content h2, 
+.the-content h3, 
+.the-content h4,
+.the-content h5, 
+.the-content h6 {
+  margin-top: 80px;
+}
+.the-content ul {
+  margin-bottom: 40px;
+  padding: 0 0 0 20px;
+  font-size: var(--font-size-regular);
+}
 .the-content img {
   display: block;
   margin: 4vh 0;
@@ -264,11 +276,12 @@ blockquote {
   border-left: 1px solid var(--border);
   margin: 2vh 0;
   display: block;
-  padding-left: 2vh;
+  padding-left: 40px;
   font-style: italic;
 }
 pre {
-  margin: 2vh;
+  margin: 2vh 0;
+  padding: 40px;
   background-color: var(--bg-secondary);
   font-family: monospace;
   white-space: pre-wrap;
