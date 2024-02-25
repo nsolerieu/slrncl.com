@@ -284,7 +284,7 @@ pre {
   padding: 40px;
   background-color: var(--bg-secondary);
   font-family: monospace;
-  white-space: pre-wrap;
+  white-space: pre;
   overflow-x: auto;
   display: block;
   height: auto;
