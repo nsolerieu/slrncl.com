@@ -7,7 +7,7 @@
 
 <head>
 
-  <title>SLRNCL</title>
+  <title>slrncl / <?php echo $page; ?> <?php if ( $is_post ) { echo '/'.$post_title; } ?></title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -24,7 +24,7 @@
   <link rel="pingback" href="https://webmention.io/slrncl.com/xmlrpc">
   <link rel="webmention" href="https://webmention.io/slrncl.com/webmention">
 
-  <meta property="og:title" content="SLRNCL" />
+  <meta property="og:title" content="<?php echo $page; ?> <?php if ( $is_post ) { echo '/'.$post_title; } ?>" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="<?php echo BASE_URL; ?>/assets/img/slrncl-og-image.png" />
 

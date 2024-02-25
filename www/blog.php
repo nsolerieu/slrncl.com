@@ -1,8 +1,5 @@
 <?php
 
-$page = "blog";
-include "header.php";
-
 require_once("parsedown.php");
 
 define('FILE_EXT', 'md');
@@ -56,6 +53,9 @@ if ( $is_post ) {
 		// $content .= '<a href="blog.php?post='.$filename_no_ext.'" class="blog-list-item"><span class="blog-list-item__date text-color-secondary">'.str_replace("-", "&nbsp;/&nbsp;", $dateonly).'</span><span class="blog-list-item__title">'.$post_title.'</span></a>'; 
 	}
 }
+
+$page = "blog";
+include "header.php";
 
 ?>
 
