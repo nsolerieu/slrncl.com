@@ -1,4 +1,4 @@
-# Tools, autonomy, and contemplation
+# Tools, autonomy, contemplation
 
 A few years ago I wrote a rather silly post that was rambling on how tools were not the point, but rather the way they were used. Duh. I used the comparison between the Apollo 11 landing module code, written in Assembly, 11MB back in 1983, and Snapchat, which back in 2019 was all the rage with the first AR filters. My point was simple and silly: our use of seemingly better code or technology is appalling because nowadays it serves mostly useless ends. Thus the title of the post: From the Moon to Snapchat.
 
