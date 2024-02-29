@@ -1,6 +1,26 @@
 {
   "things":[
     {
+      "slug":"long-handle-camping-spoon",
+      "name":"Titanium Long Handle Spoon with Polished Bowl",
+      "origin":"TOAKS",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/long-handle-camping-spoon.jpg",
+      "link":"https://www.rei.com/product/139473/toaks-titanium-long-handle-spoon-with-polished-bowl",
+      "linklabel":"Get it from REI",
+      "note":"This makes all other spoons look dumb. Best unintentional baby toy. Also great for adult. The slim titanium handle is loevly between my lanky findger. It's also great to eat straight out of deep jar, which I do very often. I never used it while actually camping."
+    },
+    {
+      "slug":"global-chef-knife",
+      "name":"Classic Chef knife 6in",
+      "origin":"Global",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/global-classic-chef-knife-6in.jpg",
+      "link":"",
+      "linklabel":"Got it from Amazon, terrible me",
+      "note":"Not too fancy but clearly a well design object. We use it at least twice a day. The one piece construction is pleasing in small and big hands. The size has only rarely been an issues. Sure, it's not ideal to chop a giant pineapple. "
+    },
+    {
       "slug":"steamer-basket",
       "name":"Steamer basket",
       "origin":"IKEA",
