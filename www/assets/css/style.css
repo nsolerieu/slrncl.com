@@ -383,4 +383,7 @@ pre {
     max-width: 90%;
     max-height: 60%;
   }
+  .thing-card__img {
+    margin-bottom: 20px;
+  }
 }
