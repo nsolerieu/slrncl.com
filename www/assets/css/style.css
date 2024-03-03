@@ -5,22 +5,30 @@
   padding: 20px 0;
   margin-top: 6vh;
   font-size: var(--font-size-small);
+  display: flex;
+  gap: 16px;
 }
 .menu-item {
   text-decoration: none;
   color: var(--text-secondary);
-  line-height: 100%;
-}
-.nav-separator {
-  margin: 0 8px;
-  color: var(--text-secondary);
-  line-height: 100%;
+  line-height: 24px;
+  height: 24px;
+  display: inline-block;
+  font-size: var(--font-size-regular);
 }
 .menu-item:hover  {
   opacity: .8;
 }
 .menu-item.active  {
   color: var(--text-primary);
+}
+.home-button {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  background: var(--text-primary);
+
 }
 .backtotop {
   position: fixed;
@@ -31,7 +39,7 @@
   line-height: 38px;
   text-align: center;
   z-index: 3;
-  font-size: var( --font-size-regular);
+  font-size: var(--font-size-regular);
   color: var(--text-primary);
   border-radius: 99px;
   background: var(--bg-primary);
@@ -173,11 +181,15 @@
 }
 h1 {
   font-size: var(--font-size-xl);
-  line-height: 1.3;
+  line-height: 1.1;
   font-weight: 500;
+  letter-spacing: -0.03em;
+}
+h1.site-headline {
+  line-height: 1.3;
 }
 h2, h3, h4, h5, h6 {
-  font-size: var(--font-size-regular);
+  font-size: var(--font-size-large);
   line-height: 1.2;
   font-weight: 600;
 }

@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h1>
+          <h1 class="site-headline">
             Hi &mdash; I'm Nicolas, a <a href="/work">designer</a> at <a href="https://github.com/nsolerieu">GitHub</a>, father, and <a href="bikes">cyclist</a>. I also regularly take <a href="notes">notes</a> and <a href="moments">pictures</a>.
           </h1>
           <div class="row medium-margin-top">

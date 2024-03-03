@@ -13,9 +13,9 @@
   --border: #e1e1e1;
   --border-darker: #bebebe;
 
-  --font-size-regular: 18px;
+  --font-size-regular: 16px;
   --font-size-large: 24px;
-  --font-size-xl: 32px;
+  --font-size-xl: 40px;
   --font-size-small: 14px;
 }
 
@@ -38,15 +38,14 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   outline: 0 !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
 }
 body {
   line-height: 1.6;
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
   font-family: var(--font-primary);
   background: var(--bg-primary);
   color: var(--text-primary);
@@ -130,6 +129,9 @@ body {
 }
 
 @media screen and (max-width: 821px) {
+  .large-container, .container {
+    padding: 0 15px;
+  }
   .row {
     display: block;
   }

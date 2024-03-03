@@ -42,14 +42,10 @@
     <div class="container">
       <div class="col-100">
         <nav class="header-nav">
-          <a href="<?php echo BASE_URL; ?>/index.php" class="menu-item <?php if($page == 'home') { echo 'active'; } ?>">@slrncl</a>
-          <span class="nav-separator">:</span>
+          <a href="<?php echo BASE_URL; ?>/index.php" class="home-button menu-item <?php if($page == 'home') { echo 'active'; } ?>"></a>
           <a href="<?php echo BASE_URL; ?>/work.php" class="menu-item <?php if($page == 'work') { echo 'active'; } ?>">Work</a>
-          <span class="nav-separator">/</span>
           <a href="<?php echo BASE_URL; ?>/bikes.php"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>
-          <span class="nav-separator">/</span>
           <a href="<?php echo BASE_URL; ?>/now.php"class="menu-item <?php if($page == 'now') { echo 'active'; } ?>">Now</a>
-          <span class="nav-separator">/</span>
           <a href="<?php echo BASE_URL; ?>/blog.php"class="menu-item <?php if($page == 'blog') { echo 'active'; } ?>">Blog</a>
         </nav>
       </div>
