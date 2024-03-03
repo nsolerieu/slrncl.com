@@ -184,7 +184,7 @@ $(document).ready(function() {
       $.each( data.notes, function( i, note ) {
 
         $('.notes-feed').append(
-          '<a class="block-link note-card col-100" >' +
+          '<a class="col-100" >' +
             '<div class="box large grey no-border medium-margin-bottom">' +
               '<p class="text-small text-color-secondary large-margin-bottom line-height-100">' + data.notes[i].date + '</p>' +
               '<p class="text-large text-color-primary medium-margin-bottom">' + data.notes[i].quote + '</p>' +

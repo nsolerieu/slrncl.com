@@ -26,7 +26,7 @@
         foreach( array_reverse($images) as $image ) {
 
         echo '<div class="col-33"><figure class="une-diapo">';
-        echo '<img data-src="https://slrncl.com/'.$image.'" alt="'.substr($image, 11).'" class="lazy fluid-img zoomlightbox-trigger" >';
+        echo '<img data-src="https://slrncl.com/'.$image.'" alt="'.substr($image, 11).'" class="lazy zoomlightbox-trigger" >';
         echo '</figure></div>';
 
         }

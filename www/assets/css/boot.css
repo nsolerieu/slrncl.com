@@ -17,6 +17,10 @@
   --font-size-large: 24px;
   --font-size-xl: 40px;
   --font-size-small: 14px;
+
+  --radius-large: 16px;
+  --radius-regular: 8px;
+  --radius-small: 4px;
 }
 
 :root body.dark-mode {
@@ -171,6 +175,8 @@ body {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: var(--radius-small);
+  overflow: hidden;
 }
 figure {
   padding: 0;
@@ -216,11 +222,13 @@ figcaption {
   padding: 16px;
   border: 1px solid var(--border);
   position: relative;
+  border-radius: var(--radius-small);
 }
 .box.large {
   padding: 48px;
   border: 1px solid var(--border);
   position: relative;
+  border-radius: var(--radius-large);
 }
 .box.no-border {
   border: none;

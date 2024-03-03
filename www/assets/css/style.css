@@ -275,6 +275,8 @@ h2, h3, h4, h5, h6 {
   margin: 4vh 0;
   width: 100%;
   height: auto;
+  border-radius: var(--radius-small);
+  overflow: hidden;
 }
 .the-content hr {
   border-top: 1px dotted var(--border);
@@ -301,6 +303,7 @@ pre {
   display: block;
   height: auto;
   width: 100%;
+  border-radius: var(--radius-small);
 }
 .blog-list-item {
   display: block;
@@ -328,6 +331,7 @@ pre {
   background-color: var(--bg-secondary);
   height: auto;
   position: relative;
+  border-radius: var(--radius-small);
 }
 .une-diapo img {
   display: block;
