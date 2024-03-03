@@ -29,7 +29,7 @@ $(document).ajaxStop(function(){
     }
 
     if (document.body.classList.contains('page-notes')) {
-      var noteCount = $('.note-card').length;
+      var noteCount = $('.one-note').length;
       $('.notes-counter').html(noteCount); 
     }
 
@@ -184,7 +184,7 @@ $(document).ready(function() {
       $.each( data.notes, function( i, note ) {
 
         $('.notes-feed').append(
-          '<a class="col-100" >' +
+          '<a class="one-note col-100" >' +
             '<div class="box large grey no-border medium-margin-bottom">' +
               '<p class="text-small text-color-secondary large-margin-bottom line-height-100">' + data.notes[i].date + '</p>' +
               '<p class="text-large text-color-primary medium-margin-bottom">' + data.notes[i].quote + '</p>' +

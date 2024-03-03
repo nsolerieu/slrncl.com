@@ -19,7 +19,7 @@
     </div>
   </section>
 
-  <section id="about" class="padded-section">
+  <section id="about" class="large-padding-bottom">
     <div class="container">
       <div class="row">
         <div class="col-100">

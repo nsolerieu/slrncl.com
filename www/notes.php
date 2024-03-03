@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h1  class="text-color-primary line-height-100">Carnet de notes <span class="label regular secondary notes-counter" style="vertical-align: 20%;"></span></h1>
+          <h1  class="text-color-primary line-height-100"><span class="notes-counter"></span> notes </h1>
         </div>
       </div>
     </div>
