@@ -45,9 +45,9 @@ if ( $is_post ) {
 		$filename_no_ext = $file->getBasename('.'.FILE_EXT);
 		$file_pointer = $file->openFile();
 		$post_title = trim($file_pointer->fgets(),'# ');
-		$dateonly = substr($filename_no_ext,0,7);
+		$dateonly = substr($filename_no_ext,2,5);
 
-		$content .= '<a href="'.$filename_no_ext.'" class="blog-list-item"><span class="blog-list-item__date text-color-secondary">'.str_replace("-", "&nbsp;/&nbsp;", $dateonly).'</span><span class="blog-list-item__title">'.$post_title.'</span></a>';
+		$content .= '<a href="'.$filename_no_ext.'" class="blog-list-item"><span class="blog-list-item__date text-color-secondary">'.str_replace("-", ".", $dateonly).'</span><span class="blog-list-item__title">'.$post_title.'</span></a>';
 
 		// redirect via HTACCESS for clean URL
 		// $content .= '<a href="blog.php?post='.$filename_no_ext.'" class="blog-list-item"><span class="blog-list-item__date text-color-secondary">'.str_replace("-", "&nbsp;/&nbsp;", $dateonly).'</span><span class="blog-list-item__title">'.$post_title.'</span></a>'; 

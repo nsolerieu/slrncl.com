@@ -2,17 +2,16 @@
 /* =Header
 -------------------------------------------------------------- */
 .header-nav {
-  padding: 20px 0;
-  margin-top: 6vh;
+  margin-top: 8vh;
   font-size: var(--font-size-small);
   display: flex;
-  gap: 16px;
+  gap: 20px;
 }
 .menu-item {
   text-decoration: none;
   color: var(--text-secondary);
-  line-height: 24px;
-  height: 24px;
+  line-height: 20px;
+  height: 20px;
   display: inline-block;
   font-size: var(--font-size-regular);
 }
@@ -24,8 +23,8 @@
 }
 .home-button {
   display: inline-block;
-  height: 24px;
-  width: 24px;
+  height: 20px;
+  width: 20px;
   border-radius: 12px;
   background: var(--text-primary);
 
@@ -185,9 +184,6 @@ h1 {
   font-weight: 500;
   letter-spacing: -0.03em;
 }
-h1.site-headline {
-  line-height: 1.3;
-}
 h2, h3, h4, h5, h6 {
   font-size: var(--font-size-large);
   line-height: 1.2;
@@ -197,18 +193,8 @@ h2, h3, h4, h5, h6 {
 /* --------------------------------------------------------------
 /* =Work
 -------------------------------------------------------------- */
-.project-details {
-  position: relative;
-}
-.project-details::before {
-  content: "\2197";
-  font-size: 14px;
-  font-weight: 400;
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: var(--text-secondary);
-  line-height: 100%;
+.project-card:hover {
+  opacity: 0.7;
 }
 
 /* --------------------------------------------------------------
@@ -307,15 +293,17 @@ pre {
 }
 .blog-list-item {
   display: block;
-  padding: 0.8vh 0;
+  padding: 1.5vh 0;
+  border-top: 1px solid var(--border);
 }
 .blog-list-item__title {
-  text-decoration: underline;
-  margin-left: 20px;
+  margin-left: 10px;
+  font-size: var(--font-size-regular);
 }
 .blog-list-item__date {
-  width: 80px;
+  width: 48px;
   display: inline-block;
+  font-size: var(--font-size-small);
 }
 .blog-list-item:hover {
   opacity: 0.6;

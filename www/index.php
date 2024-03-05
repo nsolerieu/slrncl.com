@@ -7,34 +7,24 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h1 class="site-headline">
-            Hi &mdash; I'm Nicolas, a <a href="/work">designer</a> at <a href="https://github.com/nsolerieu">GitHub</a>, father, and <a href="bikes">cyclist</a>. I also regularly take <a href="notes">notes</a> and <a href="moments">pictures</a>.
+          <h1 class="text-color-secondary large-margin-bottom">
+            <span class="text-color-primary">Nicolas Solerieu</span><br>
+            Digital designer<br>
+            SLO, CA
           </h1>
-          <div class="row medium-margin-top">
-            <a href="#links" class="button secondary regular">Say hi</a>
-            <div class="availability">Not available</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="about" class="large-padding-bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-100">
           <p class="text-regular text-color-secondary">
-            I'm currently doing some web design stuff at <a href="https://github.com/nsolerieu">GitHub</a>. I'm used to working in fast-paced environments and collaborating with interdisciplinary teams. My specialty is web design but have been enjoying creating all sorts of visuals like icons, illustrations and prototypes. 
+            I'm a web designer at <a href="https://github.com/nsolerieu">GitHub</a>, father, and <a href="/bikes">cyclist</a>. I also regularly take <a href="/notes">notes</a>, and <a href="/moments">pictures</a>. This site is my medium for contemplation, of the <a href="/things">things</a> that I use and love, and <a href="/blog">thoughts</a> thats I need to get out of my head.
           </p>
           <p class="medium-margin-top text-regular text-color-secondary">
-            I'm a generalist focused on craft. My formula is doing the work, it's that simple (and hard). I'd label my design approach as realistic and creative, supported by skills in frontend development — all that to say that I (generally) know how to translate designs into code and understand the constraints of the digital ecosystem.
+            My specialty is web design but have been enjoying creating all sorts of visuals like icons, illustrations and prototypes. I'm a generalist focused on craft. My formula is doing the work, it's that simple (and hard). I'd label my design approach as realistic, supported by skills in frontend development — all that to say that I (roughly) know how to translate designs into code and understand the constraints of the digital ecosystem.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="links" >
+  <section id="links" class="large-padding-top">
     <div class="container">
       <div class="row">
         <div class="col-100">

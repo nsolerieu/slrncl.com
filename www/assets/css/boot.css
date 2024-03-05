@@ -272,7 +272,7 @@ figcaption {
 .button {
   display: inline-block;
   cursor: pointer;
-  border-radius: 99px;
+  border-radius: var(--radius-regular);
 }
 .button.primary {
   border: 1px solid var(--text-primary);
