@@ -46,6 +46,20 @@
   cursor: pointer;
 }
 
+.item-value-row {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--border);
+  padding: 0.5vh 0;
+}
+.item-value-row__item {
+  color: var(--text-secondary);
+}
+.item-value-row__value, .label-item-row__value a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
 /* --------------------------------------------------------------
 /* =Footer
 -------------------------------------------------------------- */
@@ -144,6 +158,17 @@
   padding: 6vh 0;
   position: relative;
 }
+h1 {
+  font-size: var(--font-size-xl);
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+h2, h3, h4, h5, h6 {
+  font-size: var(--font-size-large);
+  line-height: 1.2;
+  font-weight: 600;
+}
 
 /* --------------------------------------------------------------
 /* =Work
@@ -170,21 +195,6 @@
   background-color: var(--bg-secondary);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-}
-
-/* --------------------------------------------------------------
-/* =Footnotes
--------------------------------------------------------------- */
-.answers {
-  padding: 16px 0;
-}
-.answers .message {
-  background: rgba(0, 0, 0, 0.1);
-  padding: 4px 12px;
-  border-radius: 6px;
-}
-.answers .button {
-  margin-right: 4px;
 }
 
 /* --------------------------------------------------------------
