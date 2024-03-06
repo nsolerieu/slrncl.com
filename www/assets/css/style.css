@@ -257,24 +257,23 @@ pre {
 /* Blog Feed */
 
 .the-content .blog-list-item {
-  display: flex;
-  padding: 3vh 0;
-  border-top: 1px dotted var(--border);
+  padding: 1vh 0;
+  border-top: 1px solid var(--border);
+  display: block;
 }
 .the-content .blog-list-item__title {
-  padding-left: 10px;
-  font-size: var(--font-size-regular);
+  display: block;
   margin: 0;
-  width: calc(100% - 50px);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-size: var(--font-size-regular);
+  font-weight: 500;
+  color: var(--text-primary);
 }
-.the-content .blog-list-item__date {
-  width: 50px;
-  padding-top: 2px;
-  display: inline-block;
+.the-content .blog-list-item__info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
   font-size: var(--font-size-small);
+  color: var(--text-secondary);
 }
 .the-content .blog-list-item:hover {
   opacity: 0.6;
