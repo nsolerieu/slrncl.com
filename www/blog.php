@@ -45,9 +45,17 @@ if ( $is_post ) {
 		$filename_no_ext = $file->getBasename('.'.FILE_EXT);
 		$file_pointer = $file->openFile();
 		$post_title = trim($file_pointer->fgets(),'# ');
-		$dateonly = substr($filename_no_ext,2,5);
+		$dateonly = substr($filename_no_ext,2,8);
+		$wordCount = str_word_count(file_get_contents($file));
 
-		$content .= '<a href="'.$filename_no_ext.'" class="blog-list-item"><span class="blog-list-item__date text-color-secondary">'.str_replace("-", ".", $dateonly).'</span><p class="blog-list-item__title">'.$post_title.'</p></a>';
+		$content .= '
+			<a href="'.$filename_no_ext.'" class="blog-list-item">
+				<p class="blog-list-item__title">'.$post_title.'</p>
+				<div class="blog-list-item__info">
+					<div class="blog-list-item__info__date">'.str_replace("-", ".", $dateonly).'</div>
+					<div class="blog-list-item__info__wordcount">'.$wordCount.' Words</div>
+				</div>
+			</a>';
 
 		// redirect via HTACCESS for clean URL
 		// $content .= '<a href="blog.php?post='.$filename_no_ext.'" class="blog-list-item"><span class="blog-list-item__date text-color-secondary">'.str_replace("-", "&nbsp;/&nbsp;", $dateonly).'</span><span class="blog-list-item__title">'.$post_title.'</span></a>'; 
@@ -66,7 +74,7 @@ include "header.php";
     <div class="container">
       <div class="row">
         <div class="col-100">
-        	<h1>Many words</h1>
+        	<h1>Blog. <span class="text-color-secondary">Undercooked thoughts, occasional rants, nothing really personal, web design, tech, internet, and IRL inspired words.</span></h1>
         </div>
       </div>
     </div>
