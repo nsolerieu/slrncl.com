@@ -66,7 +66,7 @@ $(document).ready(function() {
         $('.projects-feed').append(
           '<a class="block-link project-card col-100" href="' + data.projects[i].link + '" >' +
             '<img data-src="' + data.projects[i].image + '" alt="image for ' + data.projects[i].name + '" class="lazy fluid-img corner-radius-img medium-margin-bottom" width="1600px" height="1200px" >' +
-            '<div class="project-details large-padding-bottom right-padded-col">' +
+            '<div class="project-details large-padding-bottom">' +
               '<h2 class="text-color-primary medium-margin-bottom line-height-100">' + data.projects[i].name + '</h2>' +
               '<p class="text-regular text-color-secondary medium-margin-bottom">' + data.projects[i].description + '</p>' +
               '<p class="text-small text-color-secondary no-margin">' + data.projects[i].category + ' &nbsp;&nbsp;&mdash;&nbsp;&nbsp; ' + data.projects[i].type + ' </p>' +
@@ -103,12 +103,11 @@ $(document).ready(function() {
         $('.bikes-feed').append(
           '<div class="bike-card col-100 large-padding-bottom" >' +
             '<img data-src="' + data.bikes[i].image + '" alt="image for ' + data.bikes[i].model + ' - ' + data.bikes[i].surname + '" class="lazy fluid-img zoomlightbox-trigger" >' +
-            '<p class="text-regular text-color-primary medium-margin-top line-height-100">' + data.bikes[i].model + '</p>' +
-            '<p class="text-small text-color-secondary small-margin-top line-height-100">"' + data.bikes[i].surname + '"</p>' +
-            '<div class="bike-card__metas">' +
-              '<span class="text-small text-color-secondary line-height-100">' + data.bikes[i].years + '</span>' +
-              '<span class="text-small text-color-secondary line-height-100">' + data.bikes[i].status + '</span>' +
-              '<span class="text-small text-color-secondary line-height-100">' + data.bikes[i].mileage + ' miles</span>' +
+            '<h2 class="text-color-primary medium-margin-top">' + data.bikes[i].model + '<span class="text-color-secondary"> "' + data.bikes[i].surname + '"</span></h2>' +
+            '<div class="bike-card__metas small-margin-top medium-margin-bottom ">' +
+              '<span class="label small secondary">' + data.bikes[i].years + '</span>' +
+              '<span class="label small secondary">' + data.bikes[i].status + '</span>' +
+              '<span class="label small secondary">' + data.bikes[i].mileage + ' mi</span>' +
             '</div>' +
             '<p class="text-regular text-color-secondary no-margin">' + data.bikes[i].notes + ' </p>' +
           '</div>'

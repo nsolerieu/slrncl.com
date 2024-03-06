@@ -14,8 +14,8 @@
   --border-darker: #bebebe;
 
   --font-size-regular: 16px;
-  --font-size-large: 24px;
-  --font-size-xl: 40px;
+  --font-size-large: 20px;
+  --font-size-xl: 32px;
   --font-size-small: 14px;
 
   --radius-large: 16px;
@@ -240,25 +240,6 @@ figcaption {
   background: var(--bg-secondary);
 }
 
-.box-link {
-  padding: 24px 0;
-  border-top: 1px solid var(--border);
-  position: relative;
-}
-.box-link:hover {
-  border-top: 1px solid var(--border-darker);
-}
-.box-link::before {
-  content: "\2197";
-  font-size: 14px;
-  line-height: 100%;
-  font-weight: 400;
-  position: absolute;
-  top: 24px;
-  right: 0;
-  color: var(--text-secondary);
-}
-
 @media screen and (max-width: 821px) {
   .box.large {
     padding: 24px;
@@ -314,11 +295,11 @@ figcaption {
 }
 .label.small {
   font-size: var(--font-size-small);
-  padding: 2px 8px;
+  padding: 4px 12px;
 }
 .label.regular {
   font-size: var(--font-size-regular);
-  padding: 4px 12px;
+  padding: 8px 20px;
 }
 .label.primary {
   border: 1px solid var(--text-primary);
@@ -391,7 +372,7 @@ a.block-link {
 p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: underline;
   text-decoration-color: var(--text-secondary);
-  text-underline-offset: 0.25rem;
+  text-underline-offset: 0.1rem;
 }
 p a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   text-decoration-color: var(--text-primary);

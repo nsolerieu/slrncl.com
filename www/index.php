@@ -14,59 +14,20 @@
           </h1>
 
           <p class="text-regular text-color-secondary">
-            I'm a web designer at <a href="https://github.com/nsolerieu">GitHub</a>, father, and <a href="/bikes">cyclist</a>. I also regularly take <a href="/notes">notes</a>, and <a href="/moments">pictures</a>. This site is my medium for contemplation, of the <a href="/things">things</a> that I use and love, and <a href="/blog">thoughts</a> thats I need to get out of my head.
+            I'm a web designer at <a href="https://github.com/nsolerieu">GitHub</a>, father, and <a href="/bikes">cyclist</a>. I also regularly take <a href="/notes">notes</a>, and <a href="/moments">pictures</a>. This site is my medium for contemplation, of the <a href="/things">things</a> that I use and love, and <a href="/blog">thoughts</a> thats I need to get out of my head. Oh, Sometime I pin stuff in my old <a href="https://slrncl.tumblr.com/">Tumblr</a> moodbaord.
           </p>
           <p class="medium-margin-top text-regular text-color-secondary">
-            My specialty is web design but have been enjoying creating all sorts of visuals like icons, illustrations and prototypes. I'm a generalist focused on craft. My formula is doing the work, it's that simple (and hard). I'd label my design approach as realistic, supported by skills in frontend development — all that to say that I (roughly) know how to translate designs into code and understand the constraints of the digital ecosystem.
+            My specialty is web design but have been enjoying creating all sorts of visuals like icons, illustrations and prototypes. I'm a generalist focused on craft. My formula is doing the work, it's that simple (and hard). I'd label my design approach as realistic, supported by skills in frontend development — all that to say that I (roughly) know how to translate designs into code and understand the constraints of the digital ecosystem. You can follow my work on <a href="https://dribbble.com/SLRNCL">dribbble</a> or (very occasional) case study on <a href="https://behance.com/SLRNCL">Behance</a>
           </p>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="links" class="large-padding-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-100">
-          <h2 class="no-margin-top text-color-primary">All the links</h2>
-          <div id="links" class="medium-margin-top">
-            <a href="mailto:hello@slrncl.com?subject=Hello" class="block-link">
-              <div class="box-link">
-                <p class="no-margin line-height-100 text-color-primary text-small">mailto::hello@slrncl.com</p>
-                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">Old school human communication</p>
-              </div>
-            </a>
-            <a href="https://read.cv/nicolas" class="block-link">
-              <div class="box-link">
-                <p class="no-margin line-height-100 text-color-primary text-small">cv/nicolas</p>
-                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">Good people and inspo</p>
-              </div>
-            </a>
-            <a href="https://dribbble.com/SLRNCL" class="block-link">
-              <div class="box-link">
-                <p class="no-margin line-height-100 text-color-primary text-small">dribbble/slrncl</p>
-                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">What I’m working on (regular updates)</p>
-              </div>
-            </a>
-            <a href="https://behance.com/SLRNCL" class="block-link">
-              <div class="box-link">
-                <p class="no-margin line-height-100 text-color-primary text-small">behance/slrncl</p>
-                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">Occasional case study (is this still a thing?)</p>
-              </div>
-            </a>
-            <a href="https://dribbble.com/SLRNCL" class="block-link">
-              <div class="box-link">
-                <p class="no-margin line-height-100 text-color-primary text-small">linkedin/nicolas-solerieu</p>
-                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">If you are into these kinds of things</p>
-              </div>
-            </a>
-            <a href="https://slrncl.tumblr.com/" class="block-link">
-              <div class="box-link">
-                <p class="no-margin line-height-100 text-color-primary text-small">slrncl.tumblr.com</p>
-                <p class="no-margin-bottom small-margin-top line-height-100 text-color-secondary text-small small">This is my moodboard. I still have a thing for tumblr</p>
-              </div>
-            </a>
+          <p class="text-regular medium-margin-top text-color-primary">Contact</p>
+
+          <div class="small-margin-top">
+            <a href="mailto=hello@slrncl.com" class="text-color-secondary text-regular">m = hello@slrncl.com</a><br>
+            <a href="https://read.cv/nicolas" class="text-color-secondary text-regular">cv / @nicolas</a><br>
+            <a href="https://read.cv/nicolas" class="text-color-secondary text-regular">li / nicolas-solerieu</a>
           </div>
+
         </div>
       </div>
     </div>

@@ -193,20 +193,17 @@ h2, h3, h4, h5, h6 {
 /* --------------------------------------------------------------
 /* =Work
 -------------------------------------------------------------- */
-.project-card:hover {
-  opacity: 0.7;
+.project-card:hover h2 {
+  text-decoration: underline;
+  text-decoration-color: var(--text-secondary);
+  text-underline-offset: 0.25rem;
 }
 
 /* --------------------------------------------------------------
 /* =Bikes
 -------------------------------------------------------------- */
-.bike-card__metas {
-  border-top: 1px solid var(--border);
-  padding-top: 10px;
-  margin: 40px 0;
-}
 .bike-card__metas span {
-  margin-right: 16px;
+  margin-right: 4px;
 }
 
 /* --------------------------------------------------------------
@@ -291,21 +288,30 @@ pre {
   width: 100%;
   border-radius: var(--radius-small);
 }
-.blog-list-item {
-  display: block;
-  padding: 1.5vh 0;
-  border-top: 1px solid var(--border);
+
+/* Blog Feed */
+
+.the-content .blog-list-item {
+  display: flex;
+  padding: 3vh 0;
+  border-top: 1px dotted var(--border);
 }
-.blog-list-item__title {
-  margin-left: 10px;
+.the-content .blog-list-item__title {
+  padding-left: 10px;
   font-size: var(--font-size-regular);
+  margin: 0;
+  width: calc(100% - 50px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.blog-list-item__date {
-  width: 48px;
+.the-content .blog-list-item__date {
+  width: 50px;
+  padding-top: 2px;
   display: inline-block;
   font-size: var(--font-size-small);
 }
-.blog-list-item:hover {
+.the-content .blog-list-item:hover {
   opacity: 0.6;
 }
 
