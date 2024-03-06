@@ -9,23 +9,30 @@
         <div class="col-100">
           <h1 class="text-color-secondary large-margin-bottom">
             <span class="text-color-primary">Nicolas Solerieu</span><br>
-            Digital designer<br>
+            Web & Brand designer<br>
             SLO, CA
           </h1>
 
           <p class="text-regular text-color-secondary">
-            I'm a web designer at <a href="https://github.com/nsolerieu">GitHub</a>, father, and <a href="/bikes">cyclist</a>. I also regularly take <a href="/notes">notes</a>, and <a href="/moments">pictures</a>. This site is my medium for contemplation, of the <a href="/things">things</a> that I use and love, and <a href="/blog">thoughts</a> thats I need to get out of my head. Oh, Sometime I pin stuff in my old <a href="https://slrncl.tumblr.com/">Tumblr</a> moodbaord.
-          </p>
-          <p class="medium-margin-top text-regular text-color-secondary">
-            My specialty is web design but have been enjoying creating all sorts of visuals like icons, illustrations and prototypes. I'm a generalist focused on craft. My formula is doing the work, it's that simple (and hard). I'd label my design approach as realistic, supported by skills in frontend development — all that to say that I (roughly) know how to translate designs into code and understand the constraints of the digital ecosystem. You can follow my work on <a href="https://dribbble.com/SLRNCL">dribbble</a> or (very occasional) case study on <a href="https://behance.com/SLRNCL">Behance</a>
+            I'm currently doing some web design stuff at <a href="https://github.com/nsolerieu">GitHub</a>. I'm used to working in fast-paced environments and collaborating with interdisciplinary teams. My specialty is web design but have been enjoying creating all sorts of visuals like icons, illustrations and prototypes. <br>
+            <br>
+            I'm a generalist focused on craft. My formula is doing the work, it's that simple (and hard). I'd label my design approach as realistic, supported by skills in frontend development — all that to say that I (roughly) know how to translate designs into code and understand the constraints of the digital ecosystem. You can follow my work on <a href="https://dribbble.com/SLRNCL">dribbble</a> or (very occasional) case study on <a href="https://behance.com/SLRNCL">Behance</a>.
           </p>
 
-          <p class="text-regular medium-margin-top text-color-primary">Contact</p>
 
-          <div class="small-margin-top">
-            <a href="mailto=hello@slrncl.com" class="text-color-secondary text-regular">m = hello@slrncl.com</a><br>
-            <a href="https://read.cv/nicolas" class="text-color-secondary text-regular">cv / @nicolas</a><br>
-            <a href="https://read.cv/nicolas" class="text-color-secondary text-regular">li / nicolas-solerieu</a>
+          <h2 class="text-regular medium-margin-top">Contact</h2>
+
+          <div class="item-value-row">
+            <div class="item-value-row__item">Mail</div>
+            <div class="item-value-row__value"><a href="">hello@slrncl.com</a></div>
+          </div>
+          <div class="item-value-row">
+            <div class="item-value-row__item">Read.cv</div>
+            <div class="item-value-row__value"><a href="https://read.cv/nicolas">@nicolas</a></div>
+          </div>
+          <div class="item-value-row">
+            <div class="item-value-row__item">Linkedin</div>
+            <div class="item-value-row__value"><a href="https://www.linkedin.com/in/nicolas-solerieu/">nicolas-solerieu</a></div>
           </div>
 
         </div>
