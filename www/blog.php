@@ -49,7 +49,7 @@ if ( $is_post ) {
 		$wordCount = str_word_count(file_get_contents($file));
 
 		$content .= '
-			<a href="'.$filename_no_ext.'" class="blog-list-item">
+			<a href="'.$filename_no_ext.'" class="blog-list-item row-box-reveal-hover">
 				<p class="blog-list-item__title">'.$post_title.'</p>
 				<div class="blog-list-item__info">
 					<div class="blog-list-item__info__date">'.str_replace("-", ".", $dateonly).'</div>

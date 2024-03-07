@@ -18,7 +18,9 @@
 
   <section id="projects" >
     <div class="container">
-      <div class="row projects-feed"></div>
+      <div class="row">
+        <div class="col-100 projects-feed"></div>
+      </div>
     </div>
   </section>
 
