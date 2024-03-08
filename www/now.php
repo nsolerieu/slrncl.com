@@ -26,16 +26,12 @@
           <p class="small-margin-top text-regular text-color-secondary">
             I'm quietly bringing my blog back. It's not in the primary nav yet as I'm figuring out the setup and content. This might take a while to take a decent shape and end up be a bit messy and personal (in a therapeutic way). 
           </p>
-          <h2 class="text-color-primary large-margin-top">Making a (video) reel</h2>
-          <p class="small-margin-top text-regular text-color-secondary">
-            Unsure when I'll have time for this but I'd love to compile a nice reel for my homepage. Maybe it's an ego this that will or should go away. Anyway, it's on my list.
-          </p>
           <h2 class="text-color-primary large-margin-top">Sketches</h2>
           <p class="small-margin-top text-regular text-color-secondary">
             I'm trying to stop being a compulsive doodler. I blame the ipad. When I make something decent, I sometimes post it <a href="https://folio.procreate.com/slrncl">Here</a>.
           </p>
           <p class="text-regular text-color-secondary large-margin-top">
-            -- Updated March 3rd, 2023
+            -- Updated March 8th, 2023
           </p>
         </div>
       </div>
