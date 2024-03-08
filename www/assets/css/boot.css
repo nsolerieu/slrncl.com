@@ -185,6 +185,13 @@ figure {
 figcaption {
   margin-top: 12px;
 }
+video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-large);
+  overflow: hidden;
+}
 
 /* --------------------------------------------------------------
 /* = Border

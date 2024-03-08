@@ -7,13 +7,18 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h1 class="text-color-secondary large-margin-bottom">
+          <h1 class="text-color-secondary medium-margin-bottom">
             <span class="text-color-primary">Nicolas Solerieu</span><br>
             Web & Brand designer<br>
             SLO, CA
           </h1>
 
-          <p class="text-regular text-color-secondary">
+          <video autoplay controls controlsList="noremoteplayback nofullscreen nodownload"width="100%">
+            <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/webm" />
+            <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/mp4" />
+          </video>
+
+          <p class="text-regular text-color-secondary medium-margin-top">
             I'm currently doing some web design stuff at <a href="https://github.com/nsolerieu">GitHub</a>. I'm used to working in fast-paced environments and collaborating with interdisciplinary teams. My specialty is web design but have been enjoying creating all sorts of visuals like icons, illustrations and prototypes. <br>
             <br>
             I'm a generalist focused on craft. My formula is doing the work, it's that simple (and hard). I'd label my design approach as realistic, supported by skills in frontend development — all that to say that I (roughly) know how to translate designs into code and understand the constraints of the digital ecosystem. You can follow my work on <a href="https://dribbble.com/SLRNCL">dribbble</a> or (very occasional) case study on <a href="https://behance.com/SLRNCL">Behance</a>.
