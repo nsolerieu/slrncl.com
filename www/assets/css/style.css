@@ -308,15 +308,23 @@ pre {
 /* --------------------------------------------------------------
 /* =Moments
 -------------------------------------------------------------- */
-.une-diapo {
+.gallery-container {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.diapo {
   aspect-ratio: 1 / 1;
-  margin: 15px 0;
+  width: 220px;
   background-color: var(--bg-secondary);
   height: auto;
   position: relative;
   border-radius: var(--radius-small);
 }
-.une-diapo img {
+.diapo img {
   display: block;
   width: auto;
   height: auto;
@@ -384,5 +392,11 @@ pre {
   }
   .thing-card__img {
     margin-bottom: 20px;
+  }
+  .gallery-container {
+    padding: 0 30px;
+  }
+  .diapo {
+    width: calc(50% - 5px);
   }
 }

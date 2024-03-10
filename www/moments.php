@@ -17,22 +17,19 @@
   </section>
 
   <section id="moments" >
-    <div class="large-container">
-      <div class="row moments-feed">
+    <div class="gallery-container moments-feed">
         <?php
 
         $dir_name = "assets/img/moments/";
         $images = glob($dir_name."*.jpg");
         foreach( array_reverse($images) as $image ) {
 
-        echo '<div class="col-33"><figure class="une-diapo">';
-        echo '<img data-src="https://slrncl.com/'.$image.'" alt="'.substr($image, 11).'" class="lazy zoomlightbox-trigger" >';
-        echo '</figure></div>';
-
+        echo '<figure class="diapo">
+                <img data-src="https://slrncl.com/'.$image.'" alt="'.substr($image, 11).'" class="lazy zoomlightbox-trigger" >
+              </figure>';
         }
 
         ?>
-      </div>
     </div>
   </section>
 
