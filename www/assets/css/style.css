@@ -397,6 +397,6 @@ pre {
     padding: 0 30px;
   }
   .diapo {
-    width: calc(50% - 5px);
+    width: calc(50% - 10px);
   }
 }
