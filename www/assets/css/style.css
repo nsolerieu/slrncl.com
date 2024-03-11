@@ -266,12 +266,12 @@ blockquote {
   border-left: 1px solid var(--border);
   margin: 2vh 0;
   display: block;
-  padding-left: 40px;
+  padding-left: 24px;
   font-style: italic;
 }
 pre {
   margin: 2vh 0;
-  padding: 40px;
+  padding: 24px;
   background-color: var(--bg-secondary);
   font-family: monospace;
   white-space: pre;
