@@ -58,7 +58,7 @@ if ( $is_post ) {
 			</a>';
 
 		// redirect via HTACCESS for clean URL
-		// $content .= '<a href="blog.php?post='.$filename_no_ext.'" class="blog-list-item"><span class="blog-list-item__date text-color-secondary">'.str_replace("-", "&nbsp;/&nbsp;", $dateonly).'</span><span class="blog-list-item__title">'.$post_title.'</span></a>'; 
+		// Previous link structure $content .= '<a href="blog.php?post='.$filename_no_ext.'
 	}
 }
 
@@ -74,7 +74,7 @@ include "header.php";
     <div class="container">
       <div class="row">
         <div class="col-100">
-        	<h1>Blog. <span class="text-color-secondary">Undercooked thoughts, occasional rants, nothing really personal, web design, tech, internet, and IRL inspired words.</span></h1>
+        	<h1>Blog. <span class="text-color-secondary">Undercooked. Often odd. On web design, internet, and "real" life.</span></h1>
         </div>
       </div>
     </div>
