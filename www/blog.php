@@ -53,7 +53,7 @@ if ( $is_post ) {
 				<p class="blog-list-item__title">'.$post_title.'</p>
 				<div class="blog-list-item__info">
 					<div class="blog-list-item__info__date">'.str_replace("-", ".", $dateonly).'</div>
-					<div class="blog-list-item__info__wordcount">'.$wordCount.' Words</div>
+					<div class="blog-list-item__info__wordcount">'.$wordCount.'</div>
 				</div>
 			</a>';
 
@@ -74,7 +74,7 @@ include "header.php";
     <div class="container">
       <div class="row">
         <div class="col-100">
-        	<h1>Blog. <span class="text-color-secondary">Undercooked. Often odd. On web design, internet, and "real" life.</span></h1>
+        	<h1>Blog</h1>
         </div>
       </div>
     </div>
