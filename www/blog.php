@@ -89,7 +89,7 @@ include "header.php";
 
           	<?php echo $content; ?>
 
-          	<?php if ( $is_post ) { $dateonly = substr($post_name,0,10); $formateddate = str_replace("-", "/", $dateonly); ?>
+          	<?php if ( $is_post ) { $dateonly = substr($post_name,0,10); $formateddate = str_replace("-", ".", $dateonly); ?>
         			<p class='large-margin-top text-small text-color-secondary'><a href="blog.php">&larr; Index</a> <span class="nav-separator">/</span> Published on <?php echo $formateddate; ?></p>
         		<?php } ?>
 
