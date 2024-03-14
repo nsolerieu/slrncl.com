@@ -17,8 +17,6 @@
   <meta name="author" content="Nicolas SOLERIEU">
   <meta name="publisher" content="Nicolas SOLERIEU">
 
-  <base href="https://slrncl.com/">
-
   <link href="https://github.com/nsolerieu" rel="me">
   <link rel="canonical" href="https://slrncl.com">
   <link rel="pingback" href="https://webmention.io/slrncl.com/xmlrpc">
@@ -42,11 +40,11 @@
     <div class="container">
       <div class="col-100">
         <nav class="header-nav">
-          <a href="<?php echo BASE_URL; ?>/index.php" class="home-button menu-item <?php if($page == 'home') { echo 'active'; } ?>"></a>
-          <a href="<?php echo BASE_URL; ?>/work.php" class="menu-item <?php if($page == 'work') { echo 'active'; } ?>">Work</a>
-          <a href="<?php echo BASE_URL; ?>/bikes.php"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>
-          <a href="<?php echo BASE_URL; ?>/now.php"class="menu-item <?php if($page == 'now') { echo 'active'; } ?>">Now</a>
-          <a href="<?php echo BASE_URL; ?>/blog.php"class="menu-item <?php if($page == 'blog') { echo 'active'; } ?>">Blog</a>
+          <a href="<?php echo BASE_URL; ?>/index" class="home-button menu-item <?php if($page == 'home') { echo 'active'; } ?>"></a>
+          <a href="<?php echo BASE_URL; ?>/work" class="menu-item <?php if($page == 'work') { echo 'active'; } ?>">Work</a>
+          <a href="<?php echo BASE_URL; ?>/bikes"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>
+          <a href="<?php echo BASE_URL; ?>/now"class="menu-item <?php if($page == 'now') { echo 'active'; } ?>">Now</a>
+          <a href="<?php echo BASE_URL; ?>/blog/"class="menu-item <?php if($page == 'blog') { echo 'active'; } ?>">Blog</a>
         </nav>
       </div>
     </div>

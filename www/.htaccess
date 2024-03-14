@@ -1,0 +1,19 @@
+RewriteEngine On
+
+## ensure https
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI}
+
+## Remove file extensions
+## RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteCond %{REQUEST_URI} ^(.+)\.php$
+RewriteRule (.*)\.php$ /$1 [R=301,L]
+
+## Redirects the index.php file to the root domain
+RewriteCond %{THE_REQUEST} ^[A-Z][3,9]\/([^/]+/)*index\.php\ HTTP/
+RewriteRule ^(([^/]+/)*)index.php$ https://www.slrncl.com/$1 [R=301,L]
+
+## 404 page
+ErrorDocument 404 /404
