@@ -21,7 +21,7 @@ if ( file_exists($file_path) ) {
 	$content = '
 		<h2>Not Found</h2>
 		<p>Sorry, couldn\'t find a post with that name. Please try again, or go to the 
-		<a href="https://slrncl.com/blog.php">home page</a> to select a different post.</p>';
+		<a href="https://slrncl.com/blog/">home page</a> to select a different post.</p>';
 }
 
 $page = "blog";
@@ -40,12 +40,11 @@ include "../header.php";
           	<?php echo $content; ?>
 
           	<?php 
-          		$dateonly = substr($post_name,0,10); 
-          		$formateddate = str_replace("-", ".", $dateonly); 
+          		$date = substr($post_name,0,10); 
           	?>
 
         		<p class='large-margin-top text-small text-color-secondary'>
-        			<a href="/blog/">&larr; Index</a> <span class="nav-separator">/</span> Published on <?php echo $formateddate; ?>
+        			<a href="/blog/">&larr; Index</a> <span class="nav-separator">/</span> Published on <?php echo $date; ?>
         		</p>
         	
           </div>

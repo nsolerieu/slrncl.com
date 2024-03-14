@@ -27,14 +27,14 @@ foreach ($files_array as $file) {
 	$file_pointer = $file->openFile();
 
 	$post_title = trim($file_pointer->fgets(),'# ');
-	$dateonly = substr($filename_no_ext,2,8);
+	$date = substr($filename_no_ext,2,8);
 	$wordCount = str_word_count(file_get_contents($file));
 
 	$content .= '
 		<a href="'.$filename_no_ext.'" class="blog-list-item row-box-reveal-hover">
 			<p class="blog-list-item__title">'.$post_title.'</p>
 			<div class="blog-list-item__info">
-				<div class="blog-list-item__info__date">'.str_replace("-", ".", $dateonly).'</div>
+				<div class="blog-list-item__info__date">'.$date.'</div>
 				<div class="blog-list-item__info__wordcount">'.$wordCount.'</div>
 			</div>
 		</a>';
