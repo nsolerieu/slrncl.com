@@ -8,7 +8,7 @@ Product design cannibalized most of the educational enthusiasm during the app bo
 ## Containers
 Containers are the foundation of the grid. They contain the columns and are most often centered on the page. Sizes vary but rarely go over 1300px. There are common patterns but no set standard. On mobile the container flexes to 100% minus side padding.
 
-![2 examples of containers, one narrow containing a heading, one larger with two boxes](https://slrncl.com/assets/blog/img/web-grid-container.jpg)
+![2 examples of containers, one narrow containing a heading, one larger with two boxes](https://slrncl.com/blog/content/img/web-grid-container.jpg)
 
 It's common to have 2-3 container sizes (narrow - regular - large) to accommodate different types of content. Large for image or video. Narrow for text or headings.
 
@@ -25,7 +25,7 @@ Grids are most often defined as a fixed set of columns. Either centered (taking 
 
 Generally, 1 to 4 columns will cover all layouts. Limiting the number of columns to a maximum of 4 allows for good density, even 4 columns are already very dense.
 
-![Centered grid of 12 columns, 4 overlaping rows with sets of columns](https://slrncl.com/assets/blog/img/web-grid-columns.jpg)
+![Centered grid of 12 columns, 4 overlaping rows with sets of columns](https://slrncl.com/blog/content/img/web-grid-columns.jpg)
 
 The grid itself is here only to define columns. You may not use it to avoid too much visual noise during design.
 
