@@ -284,19 +284,19 @@ pre {
 
 /* Blog Feed */
 
-.the-content .blog-list-item {
+.blog-list-item {
   padding: 1vh 0;
   border-top: 1px solid var(--border);
   display: block;
 }
-.the-content .blog-list-item__title {
+.blog-list-item__title {
   display: block;
   margin: 0;
   font-size: var(--font-size-regular);
   font-weight: 500;
   color: var(--text-primary);
 }
-.the-content .blog-list-item__info {
+.blog-list-item__info {
   display: flex;
   justify-content: space-between;
   margin: 0;

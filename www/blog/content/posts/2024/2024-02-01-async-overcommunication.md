@@ -1,0 +1,7 @@
+# Async over-communication
+
+A notification pops up somewhere. A bot relays it to project management and/or comms (slack). A thread gets started in situ. Always ends up being mentioned or continued in a different context. Some will type an actual reply, most will only react. May get indexed as a task in PM software. A loom or more extensive notes get sent out to address it. Then maybe a meeting happens to further align « in person ». The meeting gets recorded and distributed via multiple channels to reach everyone who might be related to the discussion items. Automated email notifications are sent via tagging. Comments and reactions add up at all levels and channels. Sometimes a « resolved » status gets added if/when the task gets cleared in one or more contexts.
+
+Human groups (you know, friends) and companies rely on these patterns and tools to various degrees. What used to be called the « game of telephone » got to a whole different level. The situation remains the same but the degree of removal via interface has stripped even more humanity from the process.
+
+Our species is where it's at thanks to its ability to communicate and collaborate. From massive gains from the invention of the printing press to the controversial Slack. It’s been a gradual escalation of over-communication. To a point where I often wonder if we haven’t reached the inversion of the ratio of effort(showing the cumulation of friction, miscommunication) to result…
