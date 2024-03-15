@@ -1,4 +1,4 @@
-# Hair care
+# Hair and pragmatism
 
 Balancing pragmatism, social adequacy and emotional health is an exercise that all of us have to carry throughout different aspects of our lives. Hair is one of those.
 
