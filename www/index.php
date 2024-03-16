@@ -13,7 +13,7 @@
             SLO, CA
           </h1>
 
-          <video autoplay controls controlsList="noremoteplayback nofullscreen nodownload"width="100%">
+          <video autoplay controls controlsList="noremoteplayback nofullscreen nodownload" width="1600" height="1200">
             <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/webm" />
             <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/mp4" />
           </video>
