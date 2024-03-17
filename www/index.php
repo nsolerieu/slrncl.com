@@ -39,6 +39,49 @@
             <div class="item-value-row__item">Linkedin</div>
             <div class="item-value-row__value"><a href="https://www.linkedin.com/in/nicolas-solerieu/">nicolas-solerieu</a></div>
           </div>
+          
+
+          <h2 class="text-regular large-margin-top">Directories</h2>
+          
+          <a href="/moments">
+            <div class="item-stack row-box-reveal-hover">
+              <div class="item-stack__left">→ /</div>
+              <div class="item-stack__right">
+                <p class="item-stack__right__title">moments</p>
+                <p class="item-stack__right__description">An instagram replacement. More like a camera roll folder</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="/notes">
+            <div class="item-stack row-box-reveal-hover">
+              <div class="item-stack__left">→ /</div>
+              <div class="item-stack__right">
+                <p class="item-stack__right__title">notes</p>
+                <p class="item-stack__right__description">Annotated collection of quotes. Famous lines and bumper stickers</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="/things">
+            <div class="item-stack row-box-reveal-hover">
+              <div class="item-stack__left">→ /</div>
+              <div class="item-stack__right">
+                <p class="item-stack__right__title">things</p>
+                <p class="item-stack__right__description">What brings utility and true joy to my days. An anti-elite showcase.</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="/bikes">
+            <div class="item-stack row-box-reveal-hover">
+              <div class="item-stack__left">→ /</div>
+              <div class="item-stack__right">
+                <p class="item-stack__right__title">bikes</p>
+                <p class="item-stack__right__description">One of the greatest human inventions, and part of my life</p>
+              </div>
+            </div>
+          </a>
 
         </div>
       </div>
