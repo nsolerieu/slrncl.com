@@ -23,13 +23,48 @@
             <br>
             I'm a generalist focused on craft. My formula is doing the work, it's that simple (and hard). I'd label my design approach as realistic, supported by skills in frontend development — all that to say that I (roughly) know how to translate designs into code and understand the constraints of the digital ecosystem. You can follow my work on <a href="https://dribbble.com/SLRNCL">dribbble</a> or (very occasional) case study on <a href="https://behance.com/SLRNCL">Behance</a>.
           </p>
+          
+
+          <h2 class="large-margin-top">Directories</h2>
+
+          <a href="/moments" class="block-link small-margin-bottom">
+            <div class="box large secondary-bg no-border">
+              <p class="text-regular text-color-primary line-height-100 small-margin-bottom">Moments &#8599;</p>
+              <p class="text-regular text-color-secondary small-margin-bottom">An instagram replacement, more like a camera roll folder. No tags, no likes, no links, low res only.</p>
+              <p class="text-small line-height-100 text-color-secondary">Latest: 202403-slo-laguna-lake-1.jpg</p>
+            </div>
+          </a>
+
+          <a href="/notes" class="block-link small-margin-bottom">
+            <div class="box large secondary-bg no-border">
+              <p class="text-regular text-color-primary line-height-100 small-margin-bottom">Notes &#8599;</p>
+              <p class="text-regular text-color-secondary small-margin-bottom">Famous words and bumper stickers curated, collected, and annotated. Years of reading and conversation, distilled.</p>
+              <p class="text-small line-height-100 text-color-secondary">Latest: 2024-03-14</p>
+            </div>
+          </a>
+
+          <a href="/things" class="block-link small-margin-bottom">
+            <div class="box large secondary-bg no-border">
+              <p class="text-regular text-color-primary line-height-100 small-margin-bottom">Things &#8599;</p>
+              <p class="text-regular text-color-secondary small-margin-bottom">What brings utility and joy to my days. A simple portrait as an homage with a short note. As anti elite-designer goods showcase.</p>
+              <p class="text-small line-height-100 text-color-secondary">Latest: Titanium Long Handle Spoon</p>
+            </div>
+          </a>
+
+          <a href="/bikes" class="block-link small-margin-bottom">
+            <div class="box large secondary-bg no-border">
+              <p class="text-regular text-color-primary line-height-100 small-margin-bottom">Bikes &#8599;</p>
+              <p class="text-regular text-color-secondary small-margin-bottom">One of the greatest human inventions, and part of my life. A little wall of fame for the bikes of mine, past and present.</p>
+              <p class="text-small line-height-100 text-color-secondary">Latest: Giant Talon 1 "Dad bike"</p>
+            </div>
+          </a>
 
 
-          <h2 class="text-regular medium-margin-top">Contact</h2>
+          <h2 class="large-margin-top">Contact</h2>
 
           <div class="item-value-row">
             <div class="item-value-row__item">Mail</div>
-            <div class="item-value-row__value"><a href="">hello@slrncl.com</a></div>
+            <div class="item-value-row__value"><a href="mailto:hello@slrncl.com">hello@slrncl.com</a></div>
           </div>
           <div class="item-value-row">
             <div class="item-value-row__item">Read.cv</div>
@@ -39,49 +74,6 @@
             <div class="item-value-row__item">Linkedin</div>
             <div class="item-value-row__value"><a href="https://www.linkedin.com/in/nicolas-solerieu/">nicolas-solerieu</a></div>
           </div>
-          
-
-          <h2 class="text-regular large-margin-top">Directories</h2>
-          
-          <a href="/moments">
-            <div class="item-stack row-box-reveal-hover">
-              <div class="item-stack__left">→ /</div>
-              <div class="item-stack__right">
-                <p class="item-stack__right__title">moments</p>
-                <p class="item-stack__right__description">An instagram replacement. More like a camera roll folder</p>
-              </div>
-            </div>
-          </a>
-
-          <a href="/notes">
-            <div class="item-stack row-box-reveal-hover">
-              <div class="item-stack__left">→ /</div>
-              <div class="item-stack__right">
-                <p class="item-stack__right__title">notes</p>
-                <p class="item-stack__right__description">Annotated collection of quotes. Famous lines and bumper stickers</p>
-              </div>
-            </div>
-          </a>
-
-          <a href="/things">
-            <div class="item-stack row-box-reveal-hover">
-              <div class="item-stack__left">→ /</div>
-              <div class="item-stack__right">
-                <p class="item-stack__right__title">things</p>
-                <p class="item-stack__right__description">What brings utility and true joy to my days. An anti-elite showcase.</p>
-              </div>
-            </div>
-          </a>
-
-          <a href="/bikes">
-            <div class="item-stack row-box-reveal-hover">
-              <div class="item-stack__left">→ /</div>
-              <div class="item-stack__right">
-                <p class="item-stack__right__title">bikes</p>
-                <p class="item-stack__right__description">One of the greatest human inventions, and part of my life</p>
-              </div>
-            </div>
-          </a>
 
         </div>
       </div>

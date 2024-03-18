@@ -14,9 +14,9 @@
   --border-darker: #bebebe;
 
   --font-size-regular: 16px;
-  --font-size-large: 20px;
+  --font-size-large: 18px;
   --font-size-xl: 32px;
-  --font-size-small: 14px;
+  --font-size-small: 12px;
 
   --radius-large: 16px;
   --radius-regular: 8px;
@@ -51,6 +51,7 @@ body {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   font-family: var(--font-primary);
+  font-size: var(--font-size-regular);
   background: var(--bg-primary);
   color: var(--text-primary);
 }
@@ -226,13 +227,13 @@ video {
 /* = Box
 -------------------------------------------------------------- */
 .box.small {
-  padding: 16px;
+  padding: 20px;
   border: 1px solid var(--border);
   position: relative;
   border-radius: var(--radius-small);
 }
 .box.large {
-  padding: 48px;
+  padding: 40px;
   border: 1px solid var(--border);
   position: relative;
   border-radius: var(--radius-large);
@@ -240,16 +241,19 @@ video {
 .box.no-border {
   border: none;
 }
-.box.white {
+.box.primary-bg {
   background: var(--bg-primary);
 }
-.box.grey {
+.box.secondary-bg {
   background: var(--bg-secondary);
 }
 
 @media screen and (max-width: 821px) {
   .box.large {
-    padding: 24px;
+    padding: 20px;
+  }
+  .box.small {
+    padding: 10px;
   }
 }
 
@@ -361,7 +365,7 @@ p {
   font-weight: 400;
   margin: 0;
   font-size: var(--font-size-regular);
-  line-height: 160%;
+  line-height: 140%;
   display: block;
 }
 
@@ -386,9 +390,6 @@ p a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hove
 }
 
 @media screen and (max-width: 821px) {
-  .text-regular {
-    font-size: 16px;
-  }
   .text-large {
     font-size: 20px;
     line-height: 130%;
@@ -425,10 +426,10 @@ p a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hove
   margin-top: 6vh;
 }
 .small-margin-bottom {
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
 }
 .small-margin-top {
-  margin-top: 1vh;
+  margin-top: 2vh;
 }
 
 .no-padding {
@@ -436,7 +437,7 @@ p a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hove
 }
 
 .padded-section {
-  padding: 12vh 0;
+  padding: 8vh 0;
 }
 
 .large-padding-bottom {
@@ -452,9 +453,9 @@ p a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hove
   padding-top: 6vh;
 }
 .small-padding-bottom {
-  padding-bottom: 1vh;
+  padding-bottom: 2vh;
 }
 .small-padding-top {
-  padding-top: 1vh;
+  padding-top: 2vh;
 }
 

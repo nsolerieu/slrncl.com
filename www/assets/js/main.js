@@ -67,7 +67,7 @@ $(document).ready(function() {
           '<a class="box-reveal-hover block-link project-card large-margin-bottom" href="' + data.projects[i].link + '" >' +
             '<img data-src="' + data.projects[i].image + '" alt="image for ' + data.projects[i].name + '" class="lazy fluid-img corner-radius-img medium-margin-bottom" width="1600px" height="1200px" >' +
             '<div class="project-details">' +
-              '<h2 class="text-color-primary medium-margin-bottom line-height-100">' + data.projects[i].name + '</h2>' +
+              '<h2 class="text-color-primary line-height-100">' + data.projects[i].name + '</h2>' +
               '<p class="text-regular text-color-secondary medium-margin-bottom">' + data.projects[i].description + '</p>' +
               '<p class="text-small text-color-secondary no-margin">' + data.projects[i].category + ' &nbsp;&nbsp;&mdash;&nbsp;&nbsp; ' + data.projects[i].type + ' </p>' +
             '</div>' +
@@ -184,10 +184,10 @@ $(document).ready(function() {
 
         $('.notes-feed').append(
           '<a class="one-note col-100" >' +
-            '<div class="box large grey no-border medium-margin-bottom">' +
+            '<div class="box large secondary-bg no-border medium-margin-bottom">' +
               '<p class="text-small text-color-secondary large-margin-bottom line-height-100">' + data.notes[i].date + '</p>' +
-              '<p class="text-large text-color-primary medium-margin-bottom">' + data.notes[i].quote + '</p>' +
-              '<p class="text-small text-color-primary large-margin-bottom line-height-100">&mdash; ' + data.notes[i].author + '</p>' +
+              '<p class="text-large text-color-primary small-margin-bottom">' + data.notes[i].quote + '</p>' +
+              '<p class="text-small text-color-secondary large-margin-bottom line-height-100">&mdash; ' + data.notes[i].author + '</p>' +
               '<p class="text-small text-color-secondary no-margin">' + data.notes[i].notes + ' </p>' +
             '</div>' +
           '</a>'
