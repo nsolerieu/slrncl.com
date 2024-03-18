@@ -49,7 +49,7 @@ include "../header.php";
 
 								} elseif (is_dir($path)) {
 
-									echo '<h2 class="medium-margin-top">'.$folder.'</h2>';
+									echo '<h2 class="large-margin-top">'.$folder.'</h2>';
 
 									$files = new DirectoryIterator(__DIR__.'/content/posts/'.$folder);
 
@@ -71,8 +71,10 @@ include "../header.php";
 										$date = substr($filename_no_ext,2,8);
 										$wordCount = str_word_count(file_get_contents($file));
 
+										//<a href="post.php?folder='.$folder.'&post='.$filename_no_ext.'" class="blog-list-item row-box-reveal-hover">
+
 										echo '
-											<a href="post.php?folder='.$folder.'&post='.$filename_no_ext.'" class="blog-list-item row-box-reveal-hover">
+											<a href="'.$folder.'/'.$filename_no_ext.'" class="blog-list-item row-box-reveal-hover">
 												<p class="blog-list-item__title">'.$post_title.'</p>
 												<div class="blog-list-item__info">
 													<div class="blog-list-item__info__date">'.$date.'</div>
