@@ -1,4 +1,0 @@
-RewriteEngine On
-
-## Blog
-RewriteRule ^([^/\.]+)/?$  post.php?post=$1 [L]
