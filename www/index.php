@@ -27,7 +27,7 @@
 
           <h2 class="large-margin-top">Directories</h2>
 
-          <a href="/moments" class="block-link small-margin-bottom">
+          <a href="/moments/" class="block-link small-margin-bottom">
             <div class="box large secondary-bg no-border">
               <p class="text-regular text-color-primary line-height-100 small-margin-bottom">Moments &#8599;</p>
               <p class="text-regular text-color-secondary small-margin-bottom">An instagram replacement, more like a camera roll folder. No tags, no likes, no links, low res only.</p>

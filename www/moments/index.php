@@ -1,5 +1,5 @@
 <?php $page = "moments";?>
-<?php include "header.php";?>
+<?php include "../header.php";?>
 
 <main>
 
@@ -20,12 +20,12 @@
     <div class="gallery-container moments-feed">
         <?php
 
-        $dir_name = "assets/img/moments/";
+        $dir_name = "photos/";
         $images = glob($dir_name."*.jpg");
         foreach( array_reverse($images) as $image ) {
 
         echo '<figure class="diapo">
-                <img data-src="https://slrncl.com/'.$image.'" alt="'.substr($image, 11).'" class="lazy zoomlightbox-trigger" >
+                <img data-src="https://slrncl.com/moments/'.$image.'" alt="'.substr($image, 11).'" class="lazy zoomlightbox-trigger" >
               </figure>';
         }
 
@@ -59,4 +59,4 @@
   </section>
 </main>
 
-<?php include 'footer.php';?>
+<?php include '../footer.php';?>
