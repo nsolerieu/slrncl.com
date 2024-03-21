@@ -42,6 +42,22 @@ $(document).ajaxStop(function(){
 
 $(document).ready(function() {
 
+  // SHOWREAL PLAY/PAUSE
+
+  var video = document.getElementById('showreel');
+
+  $(document).on('click', '.video-container__button', function () {   
+    
+    $(this).toggleClass('playing');
+    if ( $(this).hasClass('playing') ) {
+      video.play();
+    }
+    else {
+      video.pause();
+    }
+
+  });
+
   // WORKS
 
   if (document.body.classList.contains('page-work')) {

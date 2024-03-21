@@ -13,10 +13,25 @@
             SLO, CA
           </h1>
 
-          <video autoplay controls controlsList="noremoteplayback nofullscreen nodownload" width="1600" height="1200">
-            <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/webm" />
-            <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/mp4" />
-          </video>
+          <div class="video-container">
+            <div class="video-container__button">
+              <div class="video-container__button__play">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 16V0L14 7.5L2 16Z" fill="black"/>
+                </svg>
+              </div>
+              <div class="video-container__button__pause">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 16V0H7V16H2Z" fill="black"/>
+                  <path d="M9 16V0H14V16H9Z" fill="black"/>
+                </svg>
+              </div>
+            </div>
+            <video loop muted width="1600px" height="1200px" id="showreel">
+              <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/webm" />
+              <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/mp4" />
+            </video>
+          </div>
 
           <p class="text-regular text-color-secondary medium-margin-top">
             I'm currently doing some web design stuff at <a href="https://github.com/nsolerieu">GitHub</a>. I'm used to working in fast-paced environments and collaborating with interdisciplinary teams. My specialty is web design but have been enjoying creating all sorts of visuals like icons, illustrations and prototypes. <br>

@@ -27,7 +27,6 @@
   width: 20px;
   border-radius: 12px;
   background: var(--text-primary);
-
 }
 .backtotop {
   position: fixed;
@@ -152,12 +151,50 @@
 }
 
 /* --------------------------------------------------------------
-/* =Hero
+/* =Homepage
 -------------------------------------------------------------- */
 .hero {
   padding: 6vh 0;
   position: relative;
 }
+.video-container {
+  position: relative;
+}
+.video-container video {
+  position: relative;
+  z-index: 1;
+}
+.video-container__button {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: var(--radius-regular);
+  background: #ffffff;
+  padding: 12px;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 35px rgb(0, 0, 0, 0.4);
+  z-index: 3;
+}
+.video-container__button svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+.video-container__button.playing .video-container__button__play {
+  display: none;
+}
+.video-container__button .video-container__button__pause {
+  display: none;
+} 
+.video-container__button.playing .video-container__button__pause {
+  display: block;
+}
+
+/* --------------------------------------------------------------
+/* =Opinionated type
+-------------------------------------------------------------- */
 h1 {
   font-size: var(--font-size-xl);
   line-height: 1.1;
