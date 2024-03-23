@@ -164,6 +164,10 @@
   position: relative;
   z-index: 1;
 }
+.video-container video::-webkit-media-controls {
+  display: none;
+  pointer-events: none;
+}
 .video-container__button {
   position: absolute;
   height: 40px;

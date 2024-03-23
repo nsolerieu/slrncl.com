@@ -27,7 +27,7 @@
                 </svg>
               </div>
             </div>
-            <video loop muted width="1600px" height="1200px" id="showreel">
+            <video loop muted width="1600" height="1200" id="showreel" poster="/assets/video/reel-cover.jpg">
               <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/webm" />
               <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/mp4" />
             </video>
