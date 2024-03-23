@@ -4,7 +4,7 @@ Once Annie described the typical life progression a way I still found agreeable:
 
 > As a child, you’re told what to do by your parents. Then school becomes your main goal, all the way to the end of your educational journey. Then you find a job and become independent. Then you’re completely free. A thrilling and terrifying feeling.
 
-I thought I knew what I wanted. I landed a great job, started to save some money, got some romantic satisfaction, traveled a bit, got myself some nice shoes… and then I sat on [that bench in Tokyo](https://slrncl.com/2017-05-01-yanaka) on my 25th birthday.
+I thought I knew what I wanted. I landed a great job, started to save some money, got some romantic satisfaction, traveled a bit, got myself some nice shoes… and then I sat on [that bench in Tokyo](https://slrncl.com/blog/2017/2017-05-01-yanaka) on my 25th birthday.
 
 Since then I got married, had a kid, and bought a house. I resumed the progression through the establishment of the Western way of life. It makes sense, conceptually. It doesn’t come without pain but the shared conceptual basis is so strong that it’s easy to reframe.
 
