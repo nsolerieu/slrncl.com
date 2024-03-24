@@ -28,7 +28,7 @@
               </div>
             </div>
             <video loop muted width="1600" height="1200" id="showreel" poster="/assets/video/reel-cover.jpg">
-              <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/webm" />
+              <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.webm" type="video/webm" />
               <source src="<?php echo BASE_URL; ?>/assets/video/slrncl-reel.mp4" type="video/mp4" />
             </video>
           </div>
