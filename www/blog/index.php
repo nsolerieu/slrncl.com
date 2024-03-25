@@ -33,58 +33,59 @@ include "../header.php";
 							$b_value = $b->getFilename();
 							return strcmp($b_value, $a_value);
 						}
+
+						$files = new DirectoryIterator(__DIR__.'/content/posts/');
+						$files_array = [];
+
+						foreach ($files as $file) {
+
+							if ( $file->isFile() && $file->getExtension() == FILE_EXT ) {
+								array_push($files_array, $file->getFileInfo());
+							}
+						}
+						usort($files_array, 'sortPosts');
+
+						$first_post_year = 2017;
+						$current_year = date("Y");
 						
-						$directory = 'content/posts';
-						$folders = scandir($directory, SCANDIR_SORT_DESCENDING);
-						
-						foreach ($folders as $folder) {
-						    
-							if ($folder !== '.' && $folder !== '..') {
+						for ($year = $current_year; $year >= $first_post_year; $year--) {
 
-							$path = $directory . '/' . $folder;
+							$empty_year = TRUE;
 
-								if (is_file($path)) {
+							echo '<h2 class="large-margin-top">'.$year.'</h2>';
 
-								    echo "File: {$folder}\n<br>";
+							foreach ($files_array as $file) {
 
-								} elseif (is_dir($path)) {
+								$filename_no_ext = $file->getBasename('.'.FILE_EXT);
+								$file_pointer = $file->openFile();
 
-									echo '<h2 class="large-margin-top">'.$folder.'</h2>';
+								$post_title = trim($file_pointer->fgets(),'# ');
+								$date = substr($filename_no_ext,2,8);
+								$post_year = substr($filename_no_ext,0,4);
+								$wordCount = str_word_count(file_get_contents($file));
 
-									$files = new DirectoryIterator(__DIR__.'/content/posts/'.$folder);
+								//<a href="post.php?folder='.$folder.'&post='.$filename_no_ext.'" class="blog-list-item row-box-reveal-hover">
 
-									$files_array = [];
+								if ( $post_year == $year ) {
 
-									foreach ($files as $file) {
-										if ( $file->isFile() && $file->getExtension() == FILE_EXT ) {
-											array_push($files_array, $file->getFileInfo());
-										}
-									}
-									usort($files_array, 'sortPosts');
+									$empty_year = FALSE;
 
-									foreach ($files_array as $file) {
-
-										$filename_no_ext = $file->getBasename('.'.FILE_EXT);
-										$file_pointer = $file->openFile();
-
-										$post_title = trim($file_pointer->fgets(),'# ');
-										$date = substr($filename_no_ext,2,8);
-										$wordCount = str_word_count(file_get_contents($file));
-
-										//<a href="post.php?folder='.$folder.'&post='.$filename_no_ext.'" class="blog-list-item row-box-reveal-hover">
-
-										echo '
-											<a href="'.$folder.'/'.$filename_no_ext.'" class="blog-list-item row-box-reveal-hover">
-												<p class="blog-list-item__title">'.$post_title.'</p>
-												<div class="blog-list-item__info">
-													<div class="blog-list-item__info__date">'.$date.'</div>
-													<div class="blog-list-item__info__wordcount">'.$wordCount.'</div>
-												</div>
-											</a>
-										';
-									}
+									echo '
+										<a href="'.$filename_no_ext.'" class="blog-list-item row-box-reveal-hover">
+											<p class="blog-list-item__title">'.$post_title.'</p>
+											<div class="blog-list-item__info">
+												<div class="blog-list-item__info__date">'.$date.'</div>
+												<div class="blog-list-item__info__wordcount">'.$wordCount.'</div>
+											</div>
+										</a>
+									';
 								}
 							}
+
+							if ( $empty_year == TRUE ) {
+								echo '<div class="box secondary-bg no-border small text-color-secondary text-small">I had nothing to share in '.$year.'</div>';
+							}
+
 						}
 
         	?>

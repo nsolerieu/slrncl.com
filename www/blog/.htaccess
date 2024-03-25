@@ -1,4 +1,4 @@
 RewriteEngine On
 
 ## Blog
-RewriteRule ^([0-9a-zA-Z_-]+)/([0-9a-zA-Z_-]+)$ post.php?folder=$1&post=$2 [L]
+RewriteRule ^([^/\.]+)/?$  post.php?post=$1 [L]
