@@ -1,9 +1,9 @@
-<footer class="small-padding-top large-padding-bottom">
+<footer class="large-padding-top large-padding-bottom">
   <div class="container">
-    <div class="row full-row-border-top medium-padding-top">
+    <div class="row">
       <div class="col-100">
-        <p class="text-small text-color-secondary medium-margin-bottom">
-          Produced and maintained by Nicolas Solerieu<br>
+        <p class="text-color-secondary medium-margin-bottom">
+          Thank you for visiting<br>
           <a href="<?php echo BASE_URL; ?>/colophon">Colophon</a> &bull; <a href="mailto:hello@slrncl.com?subject=Hello">hello@slrncl.com</a>
         </p>
         <div class="avatar"></div>

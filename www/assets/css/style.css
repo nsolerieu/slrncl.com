@@ -5,7 +5,7 @@
   margin-top: 8vh;
   font-size: var(--font-size-small);
   display: flex;
-  gap: 20px;
+  gap: 16px;
 }
 .menu-item {
   text-decoration: none;
@@ -23,33 +23,17 @@
 }
 .home-button {
   display: inline-block;
-  height: 20px;
-  width: 20px;
+  height: 14px;
+  width: 14px;
+  margin-top: 3px;
   border-radius: 12px;
   background: var(--text-primary);
 }
-.backtotop {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  height: 40px;
-  width: 40px;
-  line-height: 38px;
-  text-align: center;
-  z-index: 3;
-  font-size: var(--font-size-regular);
-  color: var(--text-primary);
-  border-radius: 99px;
-  background: var(--bg-primary);
-  border: 1px solid var(--border);
-  cursor: pointer;
-}
-
 .item-value-row {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid var(--border);
-  padding: 0.5vh 0;
+  padding: 0.8vh 0;
 }
 .item-value-row__item {
   color: var(--text-secondary);

@@ -30,9 +30,6 @@
           <p class="small-margin-top text-regular text-color-secondary">
             I'm trying to stop being a compulsive doodler. I blame the ipad. When I make something decent, I sometimes post it <a href="https://folio.procreate.com/slrncl">Here</a>.
           </p>
-          <p class="text-regular text-color-secondary large-margin-top">
-            -- Updated March 8th, 2023
-          </p>
         </div>
       </div>
     </div>
