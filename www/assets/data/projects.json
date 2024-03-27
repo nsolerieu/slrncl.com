@@ -1,6 +1,16 @@
 {
   "projects":[
     {
+      "year":"2024",
+      "name":"Daytona",
+      "category":"Web, Brand, Product",
+      "type":"Freelance",
+      "image":"https://slrncl.com/assets/img/projects/slrncl-daytonaio.png",
+      "description":"Early brand and product for work for Daytona, the enterprise-grade Codespaces alternative for managing self-hosted, secure and standardized dev environments.",
+      "link":"https://dribbble.com/SLRNCL/projects/7008631-Daytona-io",
+      "linklabel":"View project folder"
+    },
+    {
       "year":"2023",
       "name":"GitHub Universe23",
       "category":"Web design",
@@ -13,7 +23,7 @@
     {
       "year":"2023",
       "name":"Roam",
-      "category":"Web design, Branding",
+      "category":"Web design, Brand",
       "type":"Freelance",
       "image":"https://slrncl.com/assets/img/projects/slrncl-roam.png",
       "description":"Roam is the platform for affordable home ownership. I helped shape the first 2 versions of the branding and the website.",
@@ -23,7 +33,7 @@
     {
       "year":"2023",
       "name":"Ottomate",
-      "category":"Branding, Web design & dev",
+      "category":"Brand, Web design & Dev",
       "type":"Freelance",
       "image":"https://slrncl.com/assets/img/projects/slrncl-ottomate.png",
       "description":"Ottomate is a lifecycle marketing company providing consulting and training. I got the chance to shape from idea to production. Black and white circular logo. Custom HTML/CSS build, no framework.",
@@ -53,7 +63,7 @@
     {
       "year":"2023",
       "name":"emdashreads",
-      "category":"Web design, Branding, Web development",
+      "category":"Web design, Brand, Dev",
       "type":"Self-initiated",
       "image":"https://slrncl.com/assets/img/projects/slrncl-emdashreads.png",
       "description":"Initially a side project to put a friend book out there. We made —reads to publish online books by independent authors. No legacy file formats, no Amazon or Apple games.",
@@ -103,7 +113,7 @@
     {
       "year":"2022",
       "name":"Eisen",
-      "category":"Web design, Branding",
+      "category":"Web design, Brand",
       "type":"Freelance",
       "image":"https://slrncl.com/assets/img/projects/slrncl-eisen.png",
       "description":"I helped designing the first version of Eisen visual identity and website in a few weeks. Eisen is a crypto infrastructure startup.",
@@ -123,7 +133,7 @@
     {
       "year":"2021",
       "name":"The Manual",
-      "category":"Product design, Branding",
+      "category":"Product, Brand",
       "type":"Freelance",
       "image":"https://slrncl.com/assets/img/projects/slrncl-the-manual.png",
       "description":"The Compound Manual – is a web based platform that features wealth planning resources for founders and startup employees. The design approach for this project was to find ways to make references to physical books in the UI. Artifacts such as covers, grain, and page paper bend when opening the navigation are visual hints at the physical book via the UI on screen.",
@@ -133,7 +143,7 @@
     {
       "year":"2021",
       "name":"Kicks",
-      "category":"Web design, Branding, Illustration",
+      "category":"Web design, Brand, Illustration",
       "type":"Personal",
       "image":"https://slrncl.com/assets/img/projects/slrncl-kicks.png",
       "description":"I tried to make a an NFT collection with friends. It didn't go anywhere but it was fun and I got to make a bunch of stuff, fun times.",
@@ -163,7 +173,7 @@
     {
       "year":"2021",
       "name":"Opendoor brand design",
-      "category":"Branding",
+      "category":"Brand",
       "type":"In-house",
       "image":"https://slrncl.com/assets/img/projects/slrncl-opendoor-brand.png",
       "description":"I worked on all things brand at Opendoor: Guidelines, illustrations, icon and other facets of how Opendoor looks and feel.",
@@ -173,7 +183,7 @@
     {
       "year":"2020",
       "name":"Opendoor Brand evolution",
-      "category":"Branding, Illustration",
+      "category":"Brand, Illustration",
       "type":"In-house",
       "image":"https://slrncl.com/assets/img/projects/slrncl-opendoor-brand-evolution.png",
       "description":"I led the brand/visual work during the brand evolution effort where Opendoor set out to elevate by improving consistency of its patterns and establish a strong system geared toward production quality.",
@@ -203,7 +213,7 @@
     {
       "year":"2020",
       "name":"Broadcast",
-      "category":"Product design, Branding",
+      "category":"Product, Brand",
       "type":"Freelance",
       "image":"https://slrncl.com/assets/img/projects/slrncl-broadcast.png",
       "description":"Broadcast streamlines recurring updates, empowering every person with information they need when they need it. I helped Broadcast define it's early product and brand.",
@@ -223,7 +233,7 @@
     {
       "year":"2020",
       "name":"Realkit",
-      "category":"Branding",
+      "category":"Brand",
       "type":"Freelance",
       "image":"https://slrncl.com/assets/img/projects/slrncl-realkit-branding.png",
       "description":"Realkit – is a marketing suite for anyone in the real estate community. The goal and vision behind the company is to harness and provide many marketing tools for commercial and residential real estate agents. The visual identity's goal was to simply convey the concept of realtor's kit.",
@@ -243,7 +253,7 @@
     {
       "year":"2019",
       "name":"Compound",
-      "category":"Product design, Branding",
+      "category":"Product design, Brand",
       "type":"Freelance",
       "image":"https://slrncl.com/assets/img/projects/slrncl-compound.png",
       "description":"Compound's mission is to offer a solution to manage your holistic financial life. I got the chance to shape the first version of the brand visual identity, landing page, and product UI.",
@@ -253,7 +263,7 @@
     {
       "year":"2019",
       "name":"Trym",
-      "category":"Web design, Branding",
+      "category":"Web design, Brand",
       "type":"Freelance",
       "image":"https://slrncl.com/assets/img/projects/slrncl-trym.png",
       "description":"Trym is an online insurance marketplace dedicated to small business. My role was to help get the team's vision off the ground and give it its first shape.",
@@ -263,7 +273,7 @@
     {
       "year":"2019",
       "name":"Federal Compass",
-      "category":"Web design, Branding",
+      "category":"Web design, Brand",
       "type":"Freelance",
       "image":"https://slrncl.com/assets/img/projects/slrncl-federal-compass.png",
       "description":"Federal Compass is a SaaS solution that enables strategy, growth, and process for federal contractors. I worked on the branding and first homepage.",
@@ -273,7 +283,7 @@
     {
       "year":"2018",
       "name":"Culdesac",
-      "category":"Web design, Branding",
+      "category":"Web design, Brand",
       "type":"Freelance",
       "image":"https://slrncl.com/assets/img/projects/slrncl-culdesac-2018.png",
       "description":"I had the chance of working with Culdesac in 2018 as the company just started. Culdesac is a technology-driven developer and property manager building car-free communities from scratch. I created the first version of the guidelines, landing page and resident app focusing on the neighborly vibe with warm color and lots of white space.",
