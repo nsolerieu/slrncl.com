@@ -2,7 +2,7 @@
 /* =Variable
 -------------------------------------------------------------- */
 :root {
-  --font-primary: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --font-mono: SFMono-Regular, "Roboto Mono", "IBM Plex Mono", "Source Code Pro", monospace;
 
   --text-primary: #121212;
@@ -13,10 +13,9 @@
   --border: #e1e1e1;
   --border-darker: #bebebe;
 
+  --font-size-small: 12px;
   --font-size-regular: 16px;
   --font-size-large: 20px;
-  --font-size-xl: 32px;
-  --font-size-small: 14px;
 
   --radius-large: 16px;
   --radius-regular: 8px;
@@ -61,7 +60,7 @@ body {
 -------------------------------------------------------------- */
 .container {
   width: 100%;
-  max-width: 540px;
+  max-width: 640px;
   margin: 0 auto;
   padding: 0 5px;
 }
@@ -216,8 +215,8 @@ video {
 /* --------------------------------------------------------------
 /* = Max width / line length
 -------------------------------------------------------------- */
-.max-width-300 {
-  max-width: 300px;
+.max-width-400 {
+  max-width: 400px;
 }
 .max-width-600 {
   max-width: 600px;
@@ -322,6 +321,7 @@ video {
 /* --------------------------------------------------------------
 /* = Type
 -------------------------------------------------------------- */
+
 .text-color-primary {
   color: var(--text-primary);
 }
@@ -349,13 +349,7 @@ video {
 .text-large {
   font-size:  var(--font-size-large);
   width: 100%;
-  max-width: 700px;
   line-height: 140%;
-}
-.text-extralarge {
-  font-size: 32px;
-  line-height: 130%;
-  max-width: 800px;
 }
 
 p {

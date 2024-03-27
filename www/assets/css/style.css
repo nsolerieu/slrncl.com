@@ -1,33 +1,13 @@
 /* --------------------------------------------------------------
 /* =Header
 -------------------------------------------------------------- */
-.header-nav {
+header {
   margin-top: 8vh;
-  font-size: var(--font-size-small);
+}
+.header-path {
   display: flex;
-  gap: 16px;
-}
-.menu-item {
-  text-decoration: none;
-  color: var(--text-secondary);
-  line-height: 20px;
-  height: 20px;
-  display: inline-block;
-  font-size: var(--font-size-regular);
-}
-.menu-item:hover  {
-  opacity: .8;
-}
-.menu-item.active  {
-  color: var(--text-primary);
-}
-.home-button {
-  display: inline-block;
-  height: 14px;
-  width: 14px;
-  margin-top: 3px;
-  border-radius: 12px;
-  background: var(--text-primary);
+  gap: 12px;
+  font-size: var(--font-size-small);
 }
 .item-value-row {
   display: flex;
@@ -46,6 +26,14 @@
 /* --------------------------------------------------------------
 /* =Footer
 -------------------------------------------------------------- */
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer ul li {
+  margin: 10px 0;
+}
 .avatar {
   display: block;
   width: 26px;
@@ -138,7 +126,7 @@
 /* =Homepage
 -------------------------------------------------------------- */
 .hero {
-  padding: 6vh 0;
+  padding: 25vh 0;
   position: relative;
 }
 .video-container {
@@ -184,15 +172,14 @@
 /* =Opinionated type
 -------------------------------------------------------------- */
 h1 {
-  font-size: var(--font-size-xl);
-  line-height: 1.1;
-  font-weight: 500;
-  letter-spacing: -0.03em;
+  font-size: var(--font-size-regular);
+  line-height: 1.4;
+  font-weight: 400;
 }
 h2, h3, h4, h5, h6 {
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-regular);
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* --------------------------------------------------------------
