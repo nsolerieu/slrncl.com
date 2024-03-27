@@ -8,9 +8,6 @@
       <div class="row">
         <div class="col-100">
           <h1  class="text-color-primary">Selected projects <br><span class="text-color-secondary">2016-<?php echo date("y"); ?></span></h1>
-          <p class="text-regular text-color-secondary">
-            I'm currently doing some web design stuff at <a href="https://github.com/nsolerieu">GitHub</a>. Before that I was at <a href="https://www.opendoor.com/">Opendoor</a> and aside of my main gig I've been working with early stage startup and friends.
-          </p>
         </div>
       </div>
     </div>

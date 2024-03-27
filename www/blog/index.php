@@ -11,17 +11,17 @@ include "../header.php";
 
 <main>
 
-	<section class="blog-hero medium-padding-top">
+	<section class="hero">
     <div class="container">
       <div class="row">
         <div class="col-100">
-        	<h1>Blog</h1>
+        	<h1>So many words</h1>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="blog-feed medium-padding-bottom">
+  <section class="blog-feed">
     <div class="container">
       <div class="row">
         <div class="col-100">

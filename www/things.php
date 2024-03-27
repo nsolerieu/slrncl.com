@@ -7,10 +7,11 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h1  class="text-color-primary line-height-100"><span class="things-counter"></span> things that mean a lot to me</h1>
-          <p class="text-regular text-color-secondary">
-            This is not another designer curated goods gallery, nor a product review thing. This is mostly an inventory of the stuff I particularly appreciate - practically and spiritually. <a href="#why">Learn more</a> 
+          <h1><span class="things-counter"></span> of my favorite things</h1>
+          <p class="medium-margin-top text-small text-color-secondary max-width-400">
+            What brings utility and joy to my days. A simple portrait as an homage with a short note. As anti elite-designer goods showcase.
           </p>
+          <a href="#why" class="small-margin-top text-small">Learn more</a> 
         </div>
       </div>
     </div>

@@ -31,7 +31,7 @@ include "../header.php";
 
 <main>
 
-  <section class="blog-content medium-padding-bottom medium-padding-top">
+  <section class="blog-content large-padding-top">
     <div class="container">
       <div class="row">
         <div class="col-100">

@@ -7,10 +7,11 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h1  class="text-color-primary">Moments</h1>
-          <p class="text-regular text-color-secondary">
-            I got away from instagram but still wanted a place to keep my photos. Many years, many cameras. <a href="#why">Learn more</a>
+          <h1>Moments</h1>
+          <p class="medium-margin-top text-small text-color-secondary max-width-400">
+            An instagram replacement, more like a camera roll folder. No tags, no likes, no links, low res only. Many years, many cameras.
           </p>
+          <a href="#why" class="small-margin-top text-small">Learn more</a> 
         </div>
       </div>
     </div>

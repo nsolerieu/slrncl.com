@@ -34,16 +34,14 @@
 <!-- BODY -->
 <body id="body" class="page page-<?php echo $page; ?>">
 
-  <header>
-    <div class="container">
-      <div class="col-100">
-        <nav class="header-nav">
-          <a href="<?php echo BASE_URL; ?>/index" class="home-button menu-item <?php if($page == 'home') { echo 'active'; } ?>"></a>
-          <a href="<?php echo BASE_URL; ?>/work" class="menu-item <?php if($page == 'work') { echo 'active'; } ?>">Work</a>
-          <a href="<?php echo BASE_URL; ?>/bikes"class="menu-item <?php if($page == 'bikes') { echo 'active'; } ?>">Bikes</a>
-          <a href="<?php echo BASE_URL; ?>/now"class="menu-item <?php if($page == 'now') { echo 'active'; } ?>">Now</a>
-          <a href="<?php echo BASE_URL; ?>/blog/"class="menu-item <?php if($page == 'blog') { echo 'active'; } ?>">Blog</a>
-        </nav>
+<header>
+  <div class="container">
+    <div class="col-100">
+      <div class="header-path">
+        <a href="<?php echo BASE_URL; ?>" class="text-color-secondary">slrncl.com</a>
+        <span class="text-color-secondary">/</span>
+        <span><?php echo $page; ?></span>
       </div>
     </div>
-  </header>
+  </div>
+</header>
