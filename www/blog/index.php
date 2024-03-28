@@ -15,7 +15,7 @@ include "../header.php";
     <div class="container">
       <div class="row">
         <div class="col-100">
-        	<h1>So many words</h1>
+        	<h1>Talking to myself</h1>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@ include "../header.php";
 
 							$empty_year = TRUE;
 
-							echo '<h2 class="large-margin-top">'.$year.'</h2>';
+							echo '<h2>'.$year.'</h2>';
 
 							foreach ($files_array as $file) {
 

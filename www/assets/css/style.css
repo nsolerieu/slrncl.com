@@ -308,6 +308,12 @@ pre {
 
 /* Blog Feed */
 
+.blog-feed h2 {
+  margin-top: 12vh;
+}
+.blog-feed h2:first-of-type {
+  margin-top: 0;
+}
 .blog-list-item {
   padding: 1.5vh 0;
   border-top: 1px solid var(--border);
