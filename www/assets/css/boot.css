@@ -22,12 +22,12 @@
 }
 
 :root body.dark-mode {
-  --text-primary: hsl(0,100%,25%);
-  --text-secondary: hsl(0,100%,50%);
-  --bg-primary: hsl(0,100%,100%);
-  --bg-secondary: hsl(0,100%,98%);
-  --border: hsl(0,100%,94%);
-  --border-darker: hsl(0,100%,92%);
+  --text-primary: hsl(0,0%,100%);
+  --text-secondary: hsl(0,0%,75%);
+  --bg-primary: hsl(0,0%,0%);
+  --bg-secondary: hsl(0,0%,10%);
+  --border: hsl(0,0%,16%);
+  --border-darker: hsl(0,0%,20%);
 }
 
 

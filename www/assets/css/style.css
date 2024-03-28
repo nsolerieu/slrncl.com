@@ -135,7 +135,7 @@ footer ul li a {
 /* =Homepage
 -------------------------------------------------------------- */
 .hero {
-  padding: 30vh 0;
+  padding: 25vh 0;
 }
 .video-container {
   position: relative;
@@ -180,8 +180,8 @@ footer ul li a {
 /* =Opinionated type
 -------------------------------------------------------------- */
 h1 {
-  font-size: var(--font-size-regular);
-  line-height: 1.4;
+  font-size: var(--font-size-large);
+  line-height: 1.2;
   font-weight: 400;
 }
 h2, h3, h4, h5, h6 {
@@ -256,7 +256,7 @@ h2, h3, h4, h5, h6 {
   color: var(--text-secondary);
 }
 .the-content h1 {
-  margin-bottom: 30vh;
+  margin-bottom: 12vh;
 }
 .the-content h2, 
 .the-content h3, 
