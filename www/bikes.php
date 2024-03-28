@@ -18,7 +18,11 @@
 
   <section id="bikes" >
     <div class="container">
-      <div class="row bikes-feed"></div>
+        <div class="row">
+          <div class="col-100">
+            <div class="bikes-feed"></div>
+          </div>
+        </div>
     </div>
   </section>
 

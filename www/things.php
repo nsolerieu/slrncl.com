@@ -19,7 +19,7 @@
 
   <section id="things" >
     <div class="large-container">
-      <div class="row things-feed"></div>
+      <div class="things-feed"></div>
     </div>
   </section>
 

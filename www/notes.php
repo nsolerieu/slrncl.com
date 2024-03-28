@@ -15,7 +15,11 @@
 
   <section id="notes" >
     <div class="container">
-      <div class="row notes-feed"></div>
+      <div class="row">
+        <div class="col-100">
+          <div class="notes-feed"></div>
+        </div>
+      </div>
     </div>
   </section>
 
