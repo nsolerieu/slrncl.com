@@ -5,16 +5,15 @@
   --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --font-mono: SFMono-Regular, "Roboto Mono", "IBM Plex Mono", "Source Code Pro", monospace;
 
-  --text-primary: #121212;
-  --text-secondary: #828282;
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8f8f8;
-  --bg-secondary-darker: #f0f0f0;
-  --border: #e1e1e1;
-  --border-darker: #bebebe;
+  --text-primary: hsl(0,0%,25%);
+  --text-secondary: hsl(0,0%,50%);
+  --bg-primary: hsl(0,0%,100%);
+  --bg-secondary: hsl(0,0%,98%);
+  --border: hsl(0,0%,94%);
+  --border-darker: hsl(0,0%,92%);
 
   --font-size-small: 12px;
-  --font-size-regular: 16px;
+  --font-size-regular: 15px;
   --font-size-large: 20px;
 
   --radius-large: 16px;
@@ -23,13 +22,12 @@
 }
 
 :root body.dark-mode {
-  --text-primary: #ededed;
-  --text-secondary: #a0a0a0;
-  --bg-primary: #161616;
-  --bg-secondary: #1c1c1c;
-  --bg-secondary-darker: #393939;
-  --border: #232323;
-  --border-darker: #464646;
+  --text-primary: hsl(0,100%,25%);
+  --text-secondary: hsl(0,100%,50%);
+  --bg-primary: hsl(0,100%,100%);
+  --bg-secondary: hsl(0,100%,98%);
+  --border: hsl(0,100%,94%);
+  --border-darker: hsl(0,100%,92%);
 }
 
 
@@ -118,6 +116,7 @@ body {
 .col-100 {
   width: 100%;
   padding: 0 15px;
+  max-width: 100%;
 }
 
 .row.unpadded .col-50,
@@ -135,9 +134,6 @@ body {
 @media screen and (max-width: 821px) {
   .large-container, .container {
     padding: 0 15px;
-  }
-  .row {
-    display: block;
   }
   .col-50, .col-25, .col-33, .col-75 {
     width: 100%;
@@ -356,7 +352,7 @@ p {
   font-weight: 400;
   margin: 0;
   font-size: var(--font-size-regular);
-  line-height: 1.5;
+  line-height: 1.6;
   display: block;
   hyphens: auto;
   -webkit-hyphenate-character: "-";
@@ -380,16 +376,6 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 p a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   text-decoration-color: var(--text-primary);
-}
-
-@media screen and (max-width: 821px) {
-  .text-large {
-    font-size: 20px;
-    line-height: 130%;
-  }
-  .text-extralarge {
-    font-size: 24px;
-  }
 }
 
 
