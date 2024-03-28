@@ -24,7 +24,7 @@ $(document).ajaxStop(function(){
     }
 
     if (document.body.classList.contains('page-bikes')) {
-      var bikeCount = $('.bike-card').length;
+      var bikeCount = $('.one-bike').length;
       $('.bikes-counter').html(bikeCount);
     }
 
@@ -34,7 +34,7 @@ $(document).ajaxStop(function(){
     }
 
     if (document.body.classList.contains('page-things')) {
-      var thingsCount = $('.thing-card').length;
+      var thingsCount = $('.one-thing').length;
       $('.things-counter').html(thingsCount); 
     }
     
@@ -83,8 +83,8 @@ $(document).ready(function() {
           '<a class="box-reveal-hover block-link project-card large-margin-bottom" href="' + data.projects[i].link + '" >' +
             '<img data-src="' + data.projects[i].image + '" alt="image for ' + data.projects[i].name + '" class="lazy fluid-img corner-radius-img medium-margin-bottom" width="1600px" height="1200px" >' +
             '<div class="project-details">' +
-              '<h2 class="text-color-primary line-height-100">' + data.projects[i].name + '</h2>' +
-              '<p class="text-regular text-color-secondary medium-margin-bottom">' + data.projects[i].description + '</p>' +
+              '<h2>' + data.projects[i].name + '</h2>' +
+              '<p class="text-regular text-color-secondary small-margin-bottom">' + data.projects[i].description + '</p>' +
               '<p class="text-small text-color-secondary no-margin">' + data.projects[i].category + ' &nbsp;&nbsp;&mdash;&nbsp;&nbsp; ' + data.projects[i].type + ' </p>' +
             '</div>' +
           '</a>'
@@ -117,7 +117,7 @@ $(document).ready(function() {
       $.each( data.bikes, function( i, bike ) {
 
         $('.bikes-feed').append(
-          '<div class="bike-card col-100 large-padding-bottom" >' +
+          '<div class="one-bike large-padding-bottom" >' +
             '<img data-src="' + data.bikes[i].image + '" alt="image for ' + data.bikes[i].model + ' - ' + data.bikes[i].surname + '" class="lazy fluid-img zoomlightbox-trigger" >' +
             '<h2 class="text-color-primary medium-margin-top">' + data.bikes[i].model + '<span class="text-color-secondary"> "' + data.bikes[i].surname + '"</span></h2>' +
             '<div class="bike-card__metas small-margin-top medium-margin-bottom ">' +
@@ -157,14 +157,13 @@ $(document).ready(function() {
       $.each( data.things, function( i, thing ) {
 
         $('.things-feed').append(
-          '<div class="thing-card row medium-margin-bottom" id="' + data.things[i].slug + '">' +
+          '<div class="one-thing row large-margin-bottom" id="' + data.things[i].slug + '">' +
             '<div class="col-50">' +
               '<img data-src="' + data.things[i].image + '" alt="image for ' + data.things[i].name + '" class="lazy fluid-img thing-card__img" >' +
             '</div>' +
             '<div class="col-50">' +
-              '<p class="text-small text-color-secondary line-height-100 small-margin-bottom">' + data.things[i].origin + ' &bull; ' + data.things[i].category + ' </p>' +
-              '<h6 class="no-margin line-height-100">' + data.things[i].name + '</h6>' +
-              
+              '<p class="text-small text-color-secondary">' + data.things[i].origin + ' &bull; ' + data.things[i].category + ' </p>' +
+              '<p class="text-large">' + data.things[i].name + '</p>' +
               '<p class="text-small text-color-primary medium-margin-top small-margin-bottom">' + data.things[i].note + '</p>' +
               '<a href="' + data.things[i].link + '" class="text-small text-color-secondary">&rarr; ' + data.things[i].linklabel + '</a>' +
             '</div>' +
@@ -199,14 +198,12 @@ $(document).ready(function() {
       $.each( data.notes, function( i, note ) {
 
         $('.notes-feed').append(
-          '<a class="one-note col-100" >' +
-            '<div class="box large secondary-bg no-border medium-margin-bottom">' +
-              '<p class="text-small text-color-secondary large-margin-bottom line-height-100">' + data.notes[i].date + '</p>' +
-              '<p class="text-large text-color-primary small-margin-bottom">' + data.notes[i].quote + '</p>' +
-              '<p class="text-small text-color-secondary large-margin-bottom line-height-100">&mdash; ' + data.notes[i].author + '</p>' +
-              '<p class="text-small text-color-secondary no-margin">' + data.notes[i].notes + ' </p>' +
-            '</div>' +
-          '</a>'
+          '<div class="one-note box large secondary-bg no-border medium-margin-bottom">' +
+            '<p class="text-small text-color-secondary large-margin-bottom line-height-100">' + data.notes[i].date + '</p>' +
+            '<p class="text-large text-color-primary small-margin-bottom">' + data.notes[i].quote + '</p>' +
+            '<p class="text-small text-color-secondary large-margin-bottom line-height-100">&mdash; ' + data.notes[i].author + '</p>' +
+            '<p class="text-small text-color-secondary no-margin">' + data.notes[i].notes + ' </p>' +
+          '</div>'
         );
 
       });
