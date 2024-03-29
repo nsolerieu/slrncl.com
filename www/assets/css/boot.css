@@ -64,7 +64,7 @@ body {
 }
 .large-container {
   width: 100%;
-  max-width: 880px;
+  max-width: 840px;
   margin: 0 auto;
   padding: 0 5px;
 }
@@ -224,13 +224,11 @@ video {
 .box.small {
   padding: 20px;
   border: 1px solid var(--border);
-  position: relative;
   border-radius: var(--radius-regular);
 }
 .box.large {
   padding: 40px;
   border: 1px solid var(--border);
-  position: relative;
   border-radius: var(--radius-large);
 }
 .box.no-border {

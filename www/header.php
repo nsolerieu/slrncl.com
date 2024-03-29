@@ -36,11 +36,46 @@
 
 <header>
   <div class="container">
-    <div class="col-100">
-      <div class="header-path">
-        <a href="<?php echo BASE_URL; ?>" class="text-color-secondary">slrncl.com</a>
-        <span class="text-color-secondary">/</span>
-        <span><?php echo $page; ?></span>
+    <div class="row">
+      <div class="col-100 header-container">
+
+        <div class="main-header">
+          <div class="header-path">
+            <a href="<?php echo BASE_URL; ?>" class="text-color-secondary">slrncl.com</a>
+            <span class="text-color-secondary">/</span>
+            <span><?php echo $page; ?></span>
+          </div>
+          <div class="header-menu-bt">
+            <div class="open-menu-button button small secondary">Menu</div>
+            <div class="close-menu-button button small secondary" style="display: none;">Close</div>
+          </div>
+        </div>
+        
+        <div class="menu-panel box large primary-bg">
+          <div class="nav-columns">
+            <div class="column">
+              <h2 class="no-margin">Information</h2>
+              <ul>
+                <li><a href="<?php echo BASE_URL; ?>/about">About</a></li>
+                <li><a href="<?php echo BASE_URL; ?>/work">Work</a></li>
+                <li><a href="<?php echo BASE_URL; ?>/now">Now</a></li>
+                <li><a href="<?php echo BASE_URL; ?>/contact">Contact</a></li>
+                <li><a href="<?php echo BASE_URL; ?>/colophon">Colophon</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <h2 class="no-margin">Browse</h2>
+              <ul>
+                <li><a href="<?php echo BASE_URL; ?>/blog/">Blog</a></li>
+                <li><a href="<?php echo BASE_URL; ?>/moments/">Moments</a></li>
+                <li><a href="<?php echo BASE_URL; ?>/notes">Notes</a></li>
+                <li><a href="<?php echo BASE_URL; ?>/things">Things</a></li>
+                <li><a href="<?php echo BASE_URL; ?>/bikes">Bikes</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>

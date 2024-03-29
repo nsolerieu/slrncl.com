@@ -8,6 +8,18 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
   $('body').addClass( 'dark-mode' );
 }
 
+$(document).on('click', '.open-menu-button', function () {
+  $(this).hide();
+  $('.close-menu-button').show();
+  $('.menu-panel').toggleClass('open');
+});
+
+$(document).on('click', '.close-menu-button', function () {
+  $(this).hide();
+  $('.open-menu-button').show();
+  $('.menu-panel').toggleClass('open');
+});
+
 // DEFERRED STUFF
 
 $(document).ajaxStop(function(){

@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-100">
     
-        <div class="columns">
+        <div class="nav-columns large-margin-bottom">
           <div class="column">
             <h2>Information</h2>
             <ul>
