@@ -80,12 +80,27 @@ $(document).ready(function() {
       $.each( data.projects, function( i, project ) {
 
         $('.projects-feed').append(
-          '<a class="box-reveal-hover block-link project-card large-margin-bottom" href="' + data.projects[i].link + '" >' +
-            '<img data-src="' + data.projects[i].image + '" alt="image for ' + data.projects[i].name + '" class="lazy fluid-img corner-radius-img medium-margin-bottom" width="1600px" height="1200px" >' +
-            '<div class="project-details">' +
-              '<h2>' + data.projects[i].name + '</h2>' +
-              '<p class="text-regular text-color-secondary small-margin-bottom">' + data.projects[i].description + '</p>' +
-              '<p class="text-small text-color-secondary no-margin">' + data.projects[i].category + ' &nbsp;&nbsp;&mdash;&nbsp;&nbsp; ' + data.projects[i].type + ' </p>' +
+          '<a class="block-link large-margin-bottom" href="' + data.projects[i].link + '" >' +
+            '<div class="large-container" >' +
+              '<div class="row" >' +
+                '<div class="col-100" >' +
+                  '<img data-src="' + data.projects[i].image + '" alt="image for ' + data.projects[i].name + '" class="lazy fluid-img corner-radius-img medium-margin-bottom" width="1600" height="1200" >' +
+                '</div>' +
+              '</div>' +
+            '</div>' +
+            '<div class="container" >' +
+              '<div class="row" >' +
+                '<div class="row" >' +
+                  '<div class="col-25" >' +
+                    '<p class="text-regular text-color-secondary small-margin-bottom line-height-100 show-on-desktop-only">' + data.projects[i].year + '</p>' +
+                  '</div>' +
+                  '<div class="col-75" >' +
+                    '<h2 class="no-margin-top">' + data.projects[i].name + '</h2>' +
+                    '<p class="text-regular text-color-secondary small-margin-bottom">' + data.projects[i].description + '</p>' +
+                    '<p class="text-small text-color-secondary no-margin">' + data.projects[i].category + ' &nbsp;&nbsp;&mdash;&nbsp;&nbsp; ' + data.projects[i].type + ' </p>' +
+                  '</div>' +
+                '</div>' +
+              '</div>' +
             '</div>' +
           '</a>'
         );
