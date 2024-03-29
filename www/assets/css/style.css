@@ -291,8 +291,16 @@ h2, h3, h4, h5, h6 {
 }
 .the-content ul {
   margin-bottom: 40px;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 1em;
+  list-style: none;
   font-size: var(--font-size-regular);
+  color: var(--text-secondary);
+}
+.the-content ul li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1em;
 }
 .the-content img {
   display: block;
