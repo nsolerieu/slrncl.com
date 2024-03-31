@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h1>May you wish to communicate with me</h1>
+          <h1>On the Web</h1>
         </div>
       </div>
     </div>
