@@ -21,6 +21,10 @@
   --radius-small: 4px;
 
   --gutter: 15px;
+
+  --spacer-small: 2vh;
+  --spacer-medium: 6vh;
+  --spacer-large: 12vh;
 }
 
 :root body.dark-mode {
@@ -392,49 +396,56 @@ p a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hove
 .no-margin-bottom {
   margin-bottom: 0;
 }
+
 .large-margin-bottom {
-  margin-bottom: 12vh;
+  margin-bottom: var(--spacer-large);
 }
 .large-margin-top {
-  margin-top: 12vh;
+  margin-top: var(--spacer-large);
 }
 .medium-margin-bottom {
-  margin-bottom: 6vh;
+  margin-bottom: var(--spacer-medium);
 }
 .medium-margin-top {
-  margin-top: 6vh;
+  margin-top: var(--spacer-medium);
 }
 .small-margin-bottom {
-  margin-bottom: 2vh;
+  margin-bottom: var(--spacer-small);
 }
 .small-margin-top {
-  margin-top: 2vh;
+  margin-top: var(--spacer-small);
 }
 
 .no-padding {
   margin: 0;
 }
-
-.padded-section {
-  padding: 8vh 0;
+.no-padding-top {
+  padding-top: 0;
+}
+.no-padding-bottom {
+  padding-bottom: 0;
 }
 
 .large-padding-bottom {
-  padding-bottom: 12vh;
+  padding-bottom: var(--spacer-large);
 }
 .large-padding-top {
-  padding-top: 12vh;
+  padding-top: var(--spacer-large);
 }
 .medium-padding-bottom {
-  padding-bottom: 6vh;
+  padding-bottom: var(--spacer-medium);
 }
 .medium-padding-top {
-  padding-top: 6vh;
+  padding-top: var(--spacer-medium);;
 }
 .small-padding-bottom {
-  padding-bottom: 2vh;
+  padding-bottom: var(--spacer-small);
 }
 .small-padding-top {
-  padding-top: 2vh;
+  padding-top: var(--spacer-small);
+}
+
+.padded-section {
+  padding: var(--spacer-large) 0;
 }
 
