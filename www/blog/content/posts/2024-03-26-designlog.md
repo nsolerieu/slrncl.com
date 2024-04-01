@@ -90,13 +90,14 @@ Each project gets a standardized markdown file:
 - Optional annotated visual highlights
 - Component used tagged # (to refer to design system docs)
 
-Treating the designLog as a standalone entity with its own front end gives it dimension and incentivizes good maintenance. It doesn’t need to be fancy, a simple PHP script reading a folder, hosted on GitHub pages will do it. Here is a template **[link TBD]**
+The (markdown) format allows to cover both shipped items but also longer form content such as design principles, team processes and others topic that require depth. The default should be simple and can flex up. Treating the designLog as a standalone entity with its own front end gives it dimension and incentivizes good maintenance. It doesn’t need to be fancy, a simple PHP script reading a folder, hosted on GitHub pages will do it. Here is a template **[link TBD]**
 
 It is not:
 - A full case study
 - A metrics report
 - Another Google doc or Dropbox folder
 - A shiny portfolio
+- Only a changleog with images
 - As simple as a social post
 
 ---
