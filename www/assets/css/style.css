@@ -304,8 +304,8 @@ h2, h3, h4, h5, h6 {
 }
 .the-content img {
   display: block;
-  margin: 4vh 0;
-  width: 100%;
+  margin: 6vh -10%;
+  width: 130%;
   height: auto;
   border-radius: var(--radius-small);
   overflow: hidden;
@@ -460,5 +460,9 @@ pre {
   }
   .diapo {
     width: calc(50% - 10px);
+  }
+  .the-content img {
+    margin: 6vh 0;
+    width: 100%;
   }
 }
