@@ -1,12 +1,6 @@
 $(window).on('load', function(){
-
   $('body').toggleClass( 'loading-done' );
-
 });
-
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  $('body').addClass( 'dark-mode' );
-}
 
 $(document).on('click', '.open-menu-button', function () {
   $(this).hide();
