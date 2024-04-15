@@ -38,9 +38,15 @@ I love riding my bikes. There is too much to say and not much I can articulate b
 - Anticipate, wether on asphalt or in nature you're the smallest around
 - Cables over electronics
 - Don't ride stock pedals
+- Group rides are odd
+- If someone wants to talk about bikes, it's a hit or miss
+- Cycling as a few sub-niches that don't uderstand each other
+- Popping a tire bead is very rewarding
+- The rain is not ideal, strong wind is much harder to handle
 - Keep your helmet on - great conversation starter, and filter
 - What goes up, goes down
 - Cables > hydraulics > electronics
 - It is always worth it, once you are out
 - Stretching makes a huge difference
 - Dead hang after a ride
+- Patch kits
