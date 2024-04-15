@@ -64,11 +64,15 @@ Organizing notes. Choas seems invevitable and productive. Only scale can and sho
 
 Strava
 
+Group rides. Perhaps I'm too socially anxious or not interested in talking gear. I just want to be out.
+
 Video games. Sold my "gaming" computer in 2017 and never looked back.
 
-Talking about my feelings. Verbalizing a feeling is giving it more definition and reality, the opposite of the initial intent. More meditation, less talking.
+Talking about feelings. Verbalizing a feeling is giving it more definition and reality, the opposite of the initial intent. More meditation, less talking.
 
+Talking about health. Partial knowledge, opinion and personal sensitivity are too hard to navigate to make it worth it. And nobody knows, everyone should chill, myself included.
 
+Travel plans than involves more than a destination. Way too complicated, too hard to relax.
 
 ---
 
