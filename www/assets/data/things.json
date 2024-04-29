@@ -1,6 +1,16 @@
 {
   "things":[
     {
+      "slug":"cycling-mitts",
+      "name":"Cycling mitts",
+      "origin":"Thousands",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/cycling-mitts.jpg",
+      "link":"https://explorethousand.com/products/bike-gloves",
+      "linklabel":"Get a pair",
+      "note":"Very practical and visually pleasing. I love the feel of the crocheted cotton. I't also remarkably durable and ages nicely. Great for all type of rides with lot of stops. I got an oddly large amount of compliment on these."
+    },
+    {
       "slug":"long-handle-camping-spoon",
       "name":"Titanium Long Handle Spoon",
       "origin":"TOAKS",
