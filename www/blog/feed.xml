@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   <title>SLRNCL's blog</title>
+   <description>About half baked thoughts on web design, tech work, </description>
+   <link>https://slrncl.com/blog</link>
+   <atom:link href="https://slrncl.com/blog/feed.xml" rel="self" type="application/rss+xml" />
+
+   <item>
+     <title>Digital peasantry</title>
+     <link>https://slrncl.com/blog/2021-09-12-digital-peasantry</link>
+     <guid>https://slrncl.com/blog/2021-09-12-digital-peasantry</guid>
+     <pubDate>Sun, 12 Sep 2021 00:00:00 PST</pubDate>
+   </item>
+
+   <item>
+     <title>Unlearning</title>
+     <link>https://slrncl.com/blog/2021-07-04-unlearning</link>
+     <guid>https://slrncl.com/blog/2021-07-04-unlearning</guid>
+     <pubDate>Sun, 4 Jul 2021 00:00:00 PST</pubDate>
+   </item>
+
+   <item>
+     <title>The socratic squat</title>
+     <link>https://slrncl.com/blog/2021-02-21-data-collection</link>
+     <guid>https://slrncl.com/blog/2021-02-21-data-collection</guid>
+     <pubDate>Sun, 21 Feb 2021 00:00:00 PST</pubDate>
+   </item>
+
+   <item>
+     <title>The socratic squat</title>
+     <link>https://slrncl.com/blog/2020-05-12-the-socratic-squat</link>
+     <guid>https://slrncl.com/blog/2020-05-12-the-socratic-squat</guid>
+     <pubDate>Tue, 12 May 2020 00:00:00 PST</pubDate>
+   </item>
+
+   <item>
+     <title>Not writing about it</title>
+     <link>https://slrncl.com/blog/2019-12-26-not-writing-about-it</link>
+     <guid>https://slrncl.com/blog/2019-12-26-not-writing-about-it</guid>
+     <pubDate>Thu, 26 Dec 2019 00:00:00 PST</pubDate>
+   </item>
+
+   <item>
+     <title>You don’t need to care</title>
+     <link>https://slrncl.com/blog/2019-05-15-you-dont-need-to-care</link>
+     <guid>https://slrncl.com/blog/2019-05-15-you-dont-need-to-care</guid>
+     <pubDate>Wed, 15 May 2019 00:00:00 PST</pubDate>
+   </item>
+
+   <item>
+     <title>Yanaka</title>
+     <link>https://slrncl.com/blog/2017-05-01-yanaka</link>
+     <guid>https://slrncl.com/blog/2017-05-01-yanaka</guid>
+     <pubDate>Mon, 1 May 2017 00:00:00 PST</pubDate>
+   </item>
+
+</channel>
+</rss>
