@@ -15,7 +15,7 @@ include "../header.php";
     <div class="container">
       <div class="row">
         <div class="col-100">
-        	<h1>Talking to myself</h1>
+        	<h1>Talking to myself <a href="feed.xml" target="_blank">(RSS)</a></h1>
         </div>
       </div>
     </div>
