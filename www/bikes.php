@@ -9,7 +9,7 @@
         <div class="col-100">
           <h1><span class="bikes-counter"></span> bikes <span class="text-color-secondary">(only)</span></h1>
           <p class="medium-margin-top text-small text-color-secondary max-width-400">
-             I love bikes, I think they are one of the greatest human inventions. They get me out of my head and the house. Also, I don’t have a car. Here are mine (current, past and dreams) and their stories.
+             I love bikes, I think they are one of the greatest human inventions. They get me out of my head and the house. Here are mine (current, past and dreams) and their stories.
           </p>
         </div>
       </div>
