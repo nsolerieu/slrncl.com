@@ -1,8 +1,4 @@
-# On cycling [draft]
-
-This post is in progress - I don't have a draft function on my website, so... Bring on the public drafts
-
----
+# On cycling
 
 I love riding my bikes. There is too much to say and not much I can articulate beyond simple bullets. Mostly because I prefer to be out than writing.
 
@@ -23,7 +19,7 @@ I love riding my bikes. There is too much to say and not much I can articulate b
 - Quit strava already
 - Upgrade the tires firsts
 - For long ride and bikepacking, consider YAGNI (You ain’t gonna need it)
-- Buy basics locally, buy the fancy, special stuff online
+- Buy basics locally, buy the fancy stuff online
 - Sanity is somewhere between miles 2 and 5
 - Learn to talk to yourself, or strap something to your handlebar
 - You can, and should change your chain, break pads and tires yourself
@@ -37,12 +33,12 @@ I love riding my bikes. There is too much to say and not much I can articulate b
 - Don't be too nice, you're the one sweating
 - Anticipate, wether on asphalt or in nature you're the smallest around
 - Cables over electronics
-- Don't ride stock pedals
+- Stock pedals are fine
 - Group rides are odd
 - If someone wants to talk about bikes, it's a hit or miss
 - Cycling as a few sub-niches that don't uderstand each other
 - Popping a tire bead is very rewarding
-- The rain is not ideal, strong wind is much harder to handle
+- The rain is not ideal, wind is always harder
 - Keep your helmet on - great conversation starter, and filter
 - What goes up, goes down
 - Cables > hydraulics > electronics
@@ -50,3 +46,8 @@ I love riding my bikes. There is too much to say and not much I can articulate b
 - Stretching makes a huge difference
 - Dead hang after a ride
 - Patch kits
+- Outdoor > Indoor
+- Take layers off before you start sweating
+- Gloves and helmet is all you need
+- Most tech/accessories are overrated
+- You need to prepare for 90% of your rides
