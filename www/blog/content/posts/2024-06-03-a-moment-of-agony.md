@@ -1,0 +1,11 @@
+# A moment of agony
+
+We're in an actual bank on a Monday morning. I forgot how unpleasant banks are, but sometimes you gotta go. Too much carpet, makeup, and sketchers. Millennial-me hates it but my inner stoic wants to hold judgment.
+
+We waited standing up for 10min max, which felt like 30min for my pregnant wife. The little one has touched everything interesting in 5 minutes and starts running in circles.
+
+We get redirected to an account manager because: process. More waiting. The wife is bummed by how inefficient everything is and the delay potentially messing with our lunch plan after. I can see it on her face, her tone, she's going down. She is the only one talking to the bank people, I wrangle the kiddo - unapologetic gender-based division of labor.
+
+Our guy is just clocking in, quietly, politely, awkwardly. I try to smile and make things as smooth as possible, just as awkwardly. If you can't do anything helpful, at least, smile - this is my Modus operandi. Baby boy bounces around in the tiny space between the desk and chairs until he melts down after hitting the copy machine tray lock button a dozen times while repeating the word "button". At some point he pooped. The diaper is stinking up the cubicle. This whole thing is punctuated by Slack notifications sounds. Shuffling while carrying a wiggly 25lbs wears me down. The drool stains on my short bug me everytime I see them. I can barely hear anything - like,oh yeah, my social security number? I need to pee. My neck hurt. I’m sweating. This is pure agony. A primal soup of frustration, sweat, and a deep sense of inadequacy. I’m so present in the moment, I feel it all. It's comically atrocious.
+
+Stuff like this happens all the time. And here's the glorious thing: it's not unique. This chaos, this shared struggle for breath, it connects us all. We all breathe the same air but not with the same ease. Whatever the reason. Affliction is everywhere. On the flipside, the satisfaction of dealing "well" with these kinds of moments is the most rewarding experience, nature’s antidepressant. The quiet triumph of getting out of the bank today felt like a natural high.
