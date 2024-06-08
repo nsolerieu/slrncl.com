@@ -7,7 +7,10 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h1  class="text-color-primary">Nowadays...</h1>
+          <h1>Now</h1>
+          <p class="medium-margin-top text-small text-color-secondary max-width-400">
+             Updated Jun 7th, 2024
+          </p>
         </div>
       </div>
     </div>
@@ -23,7 +26,11 @@
           </p>
           <h2 class="large-margin-top">Blogging</h2>
           <p class="medium-margin-top text-color-secondary">
-            My blog is back. This might take a while to take a decent shape and end up be a bit messy and personal (in a therapeutic way). 
+            I'm having alot of fun jamming and posting. That's my only current side project and it feels great. So far it's relatively silly. First assessment is coming.
+          </p>
+          <h2 class="large-margin-top">(professional) Social media?</h2>
+          <p class="medium-margin-top text-color-secondary">
+            I'm re-assessing my relationship with dribbble, read.cv, layer.to. I like contributing to the design community but the anxiety and weirdness of it feels like it's just another shade of social media... 
           </p>
           <h2 class="text-color-primary large-margin-top">Sketches</h2>
           <p class="medium-margin-top text-color-secondary">
