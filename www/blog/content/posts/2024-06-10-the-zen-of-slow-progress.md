@@ -1,0 +1,11 @@
+# The zen of slow progress
+
+I'm lagging behind in many ways, taking too much time doing things the long, stupid way. I don't read much. I don't ask for help. I'm generally slow or reluctant to embrace new technology, usually out of disinterest or cost. As I said before, I’m not a technologist. I’m not a monk either. I'm happy being behind the technological curve.
+
+New technology gets all the spotlight. In all fairness, the new stuff today may be tomorrow's standard. The democratization process needs early adopters. I’m thankful for them. Good on the ones who benefited from it. Progress goes with optimism. My beef here is the marketing of it all. The image of progress feeding the opportunity to get a slice of an ever-growing pie is simply wrong. The current liberal capitalist model statistically benefits only a minority, the ones already eating.
+
+I'm okay not being in that group. Being a laggard is a good life. Doubling down on what works feels more rewarding to me. The type of appreciation I find in a good pair of socks beats any new app I install on my phone. Starlink is neat but the feeling I get when I send a letter to my mom is still better (however long it takes to get to her). Coding basic php unassisted in the AI era will sound backward. Generally, my sweet spot is staying about 6 years behind.
+
+On top of that, I add the Zen suggestion for a slower pace in our physical motion to build awareness. It states that when you move slower, you tend to appreciate more. Even the stuff that you may not like. Slow is not instinctive for me. I'm constantly playing catch-up, hustling like a determined primate using a stone to crack open tough nuts. I need to force the slowdown. I intentionally make my life harder to stimulate an adaptive response to moderate friction (aka - [hormesis](https://pubmed.ncbi.nlm.nih.gov/18162444/)). It's far from being properly "zen", but it is what has kept me in touch with this principle. That's my confused way to give of Slowness a chance to teach me what I need to learn.
+
+Getting lost in this type of internal rhetoric is common for me. I’m confused, rereading my notes, searching for a sign of maturity, progress, humor, anything… so many words. Is that the examined life? Does it matter? Doesn't the fool who persists in his folly will become wise?
