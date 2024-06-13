@@ -2,6 +2,16 @@
   "projects":[
     {
       "year":"2024",
+      "name":"App&Flow",
+      "category":"Web, Brand",
+      "type":"Freelance",
+      "image":"https://slrncl.com/assets/img/projects/slrncl-appandflow2024.png",
+      "description":"Logo and brand refresh + full site redesign for the MTL app dev agency - App&Flow. A follow up collaboration where I was tasked to elevate the brand look and feel to compete with other agencies.",
+      "link":"https://appandflow.com/",
+      "linklabel":"Live site"
+    },
+    {
+      "year":"2024",
       "name":"Daytona",
       "category":"Web, Brand, Product",
       "type":"Freelance",
