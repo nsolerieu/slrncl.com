@@ -41,11 +41,13 @@ The Vanilla web is my web-design-centric checklist aiming at addressing current 
 - **Make it personal:** Data, UX insights, trends, bureaucracy, fatigue, reviews... the process is grueling. So much stuff out there has no soul. Users can feel that. Good tools have an extra something.
 
 
-Caveat: predicting the future is a fool's game. 
-Reframing problems is key to progress.
-If Brad Frost can get away with it, maybe I can too.
 
-So much work.
-So little progress.
-That's how it has always been.
-And will ever be
+Caveat: predicting the future is a fool's game.<br>
+Reframing problems is key to progress.<br>
+If Brad Frost can get away with it, maybe I can too.<br>
+
+
+So much work.<br>
+So little progress.<br>
+That's how it has always been.<br>
+And will ever be.
