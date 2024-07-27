@@ -30,6 +30,10 @@ Journaling. Fun for a month but faded. I'm not that kind of person. No interest 
 
 Grammarly
 
+Insoles: I didn’t notice anything aside of mild extra discomfort
+
+Driving: I don’t like it as an object or driving it. I only enabled us as a family to get by in America
+
 Trying different kind of footwear. It looks like I reached a point in life where the cost of trying new things is significantly greater than the potential of finding better than current favorites.
 
 Side projects. It’s either a project or not, there’s no side thing. Side projects create the ambiguity that lead to creative agony.
@@ -65,6 +69,8 @@ Organizing notes. Choas seems invevitable and productive. Only scale can and sho
 Strava
 
 Group rides. Perhaps I'm too socially anxious or not interested in talking gear. I just want to be out.
+
+Remote work: fully async works. in-person works. Remote is the mix that gets the worst of both world. High fidelity noise, maximum ambiguity, anxiety inducing.
 
 Video games. Sold my "gaming" computer in 2017 and never looked back.
 

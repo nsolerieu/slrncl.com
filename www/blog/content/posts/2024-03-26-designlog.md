@@ -1,4 +1,4 @@
-# Designlog
+# DesignLog
 
 ## State of Things
 
@@ -84,16 +84,16 @@ One timeline view. One detail view.
 
 Each project gets a standardized markdown file:
 - Title
-- Ship date
+- Publication date
+- Type: Case study, shipped, long form
 - Contributors @names
-- A note from the project lead about, goals, challenges, highlights, layout, story, visuals and other assets. Think of it as a case study intro or summary.
+- Content: goals, challenges, highlights, layout, story, visuals and other assets.
 - Optional annotated visual highlights
 - Component used tagged # (to refer to design system docs)
 
-The (markdown) format allows to cover both shipped items but also longer form content such as design principles, team processes and others topic that require depth. The default should be simple and can flex up. Treating the designLog as a standalone entity with its own front end gives it dimension and incentivizes good maintenance. It doesn’t need to be fancy, a simple PHP script reading a folder, hosted on GitHub pages will do it. Here is a template **[link TBD]**
+The (markdown) format allows to cover both shipped items but also longer form content such as design principles, team processes and others topic that require depth. The default should be simple and can flex up. Treating the designLog as a standalone entity with its own front end gives it dimension and incentivizes good maintenance. It doesn’t need to be fancy, a simple PHP script reading a folder, hosted on GitHub pages will do it.
 
 It is not:
-- A full case study
 - A metrics report
 - Another Google doc or Dropbox folder
 - A shiny portfolio
