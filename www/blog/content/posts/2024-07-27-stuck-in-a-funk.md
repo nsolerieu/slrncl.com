@@ -12,7 +12,7 @@ Like a few "bloggers", I have been foolishly trying to better myself by writing.
 
 Sanity is rarely achieved by not being a fool. One shouldn't amputate its part of madness and fear, but rather seek more of the good stuff. I'm such a fool that this logic is hard to follow, yet I've come to terms with it, theoretically.
 
-I've been in a funk for a couple of months that I can't seem to shake off. For a variety of reasons I’m not going to indulge in listing. All self-inflicted. It's not a bad life, the bottom of the smile curve is real. 
+I've been in a funk for a couple of months that I can't seem to shake off. For a variety of reasons I’m not going to indulge in listing. All self-inflicted. It's not a bad life, the bottom of the [smile curve](https://www.brookings.edu/articles/this-happiness-age-chart-will-leave-you-with-a-smile-literally/) is real. 
 
 I often just want to vent. That ends up in a long-winded rant about whatever irked me, tied to whatever is the latest philosophical concept that peaked my curiosity (almost always as a contrast). My current list includes: my Config 24 conference cringe, Mindful tech, Design systems, Brown mulch, Linkedin Cringe, WFH + Kids, Stress designing... Having an outlet for it provides at best some comedic relief, but certainly limited value when considering the noise. 
 
