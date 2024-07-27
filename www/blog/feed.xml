@@ -7,6 +7,13 @@
    <atom:link href="https://slrncl.com/blog/feed.xml" rel="self" type="application/rss+xml" />
 
    <item>
+     <title>Notes.txt</title>
+     <link>https://slrncl.com/blog/2024-07-10-notes-txt</link>
+     <guid>https://slrncl.com/blog/2024-07-10-notes-txt</guid>
+     <pubDate>Wed, 10 Jul 2024 00:00:00 PST</pubDate>
+   </item>
+
+   <item>
      <title>Peanut butter</title>
      <link>https://slrncl.com/blog/2024-07-09-peanut-butter</link>
      <guid>https://slrncl.com/blog/2024-07-09-peanut-butter</guid>
@@ -59,7 +66,7 @@
      <title>Empathy</title>
      <link>https://slrncl.com/blog/2024-06-06-empathy</link>
      <guid>https://slrncl.com/blog/2024-06-06-empathy</guid>
-     <pubDate>THu, 6 Jun 2024 00:00:00 PST</pubDate>
+     <pubDate>Thu, 6 Jun 2024 00:00:00 PST</pubDate>
    </item>
 
    <item>
