@@ -22,7 +22,7 @@
 
           <div class="item-value-row">
             <div class="item-value-row__item">Mail</div>
-            <div class="item-value-row__value"><a href="mailto:hello@slrncl.com">hello@slrncl.com</a></div>
+            <div class="item-value-row__value"><a href="mailto:nico@slrncl.com">nico@slrncl.com</a></div>
           </div>
           <div class="item-value-row">
             <div class="item-value-row__item">Read.cv</div>
