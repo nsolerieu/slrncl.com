@@ -331,6 +331,7 @@ blockquote {
     font-family: var(--font-mono);
     padding: 0 10%;
     text-align: center;
+    letter-spacing: -0.03em;
 }
 pre {
   margin: 2vh 0;
@@ -426,8 +427,8 @@ pre {
   left: 50%;
   z-index: 5;
   transform: translate(-50%, -50%);
-  max-width: 620px;
-  max-height: 620px;
+  max-width: 520px;
+  max-height: 520px;
   height: auto;
   width: auto;
 }
