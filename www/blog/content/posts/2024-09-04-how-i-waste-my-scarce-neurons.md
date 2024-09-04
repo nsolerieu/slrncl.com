@@ -1,0 +1,30 @@
+# How I waste my scarce neurons
+
+Having a child rendered the absurdity of some of my behaviors and how much I waste time. I expect regret or cathartic shame rereading this. If I do, the blog-therapy will have worked. Allow me to unfold a set of acceptably vulnerable thought patterns my noggin spews on a regular basis. To be clear, I have a few more I keep out to avoid a TMI fiasco.
+
+## Google maps
+Pull up the phone, open Gmaps, and enter a place I dreamed of, read about, heard from. Then scroll through the photos and, god only knows why, look for grocery stores... like if I was legitimately going to move there. Novosibirsk? Really? Wait they have groceries stored indexed on google Maps! 
+
+## Invoke the law of the universe
+Whenever making a decision, or examining a behavior I consider the opposite. What started as an intelligent process grounded in the search for perspective is now a ridiculous game. If we plan to go to the beach,  the baby will likely nap all afternoon. If I execute the perfect wind-down routine, I shall not get the perfect sleep I deserve. If I buy that ergonomic thing, it certainly won’t fit me. I go to a store to get one thing, it must not be available. If I cook the perfect egg, somehow, I won't be able to appreciate them. If we pay for a toy we think kiddo will like, he will hate it (but if it's a street find, of course he'll love it). Anecdotally I think this pairs surprisingly well with my contrarianism.
+
+## Bikes. Bikes. Bikes
+I escaped all typical obsessions: car, video games, sports, drinks, fashion, shoes, travel... instead I developed a fascination for bikes. Not too sporty, with just enough gear, and a connection to nature – my little indie niche: bikepacking. I checked bikepacking.com every day for years, a major distraction feeding many "someday" types of ideas. I did 5 total overnight trips in 5 years. Good times, undoubtedly not mapping to the hundreds of hours spent thinking about it. Will I ever not turn my head when I hear a free hub? Can I pretend to not be into bikes when the subject inevitably crops up? How much brain space is a resonable allocation?
+
+## Refusing paper
+As a web designer, I engage in a relentless pursuit of "inspo" as we call it in the industry, the creative juice, the spark that may be triggered by the millions of pixels zipping in front of my face. How productive is this? It's highly debatable. My most inspired moments (not flow) are not when checking the stuff online. It's often when I'm out of the house. Getting away from the screen I seem to give my inner creative bozo a sort of assignment. With enough leg room, air-time, and lack of tech stimulation, something happens. When it does, then it's then another struggle to hold "mental notes". I should get in the habit of using a sketchbook. My wife keeps repeating it but it just doesn't register. Paper is lovely.
+
+## What-if’s
+What if we were child-free? What if I was single? What if I quit my job? What if we moved to Europe? What if I had a debilitating accident? What if I bought some bitcoin? What if I booked a trip to Japan in 5 years? What if I meditate an hour a day? What if I quit cycling for good? What if I never gain weight? What if I stay angry like this my whole life? 
+
+All of these stem from a typical « if it was up to me » egocentrism that never makes much sense when examined. The individual is always part of an environment, thus its constraints, and not truly free like Americans culturally like to believe. I am almost always mildly unhappy or ambivalent, about everything. The weather and my boy's mood are quintessential examples of that.
+
+## Stress designing
+The time in between meetings, weekends without plans and other moments that a properly adjusted individual would use to rest, I spent making things. A lot of my enthusiasm for my job (and ego), is fueled by those ideas that I felt the need to push. Personal projects have been glorified by now-famous designers who turned their side projects into successful businesses. I don’t even want to work for myself. I’m my own worst enemy as this post should have illustrated by now. Freelancing occasionally has also been scratching the same itch and caused the same kind of wound. Fighting impostor syndrome by doing always more. I use the expression stress designing, but realistically I fall into the category of those digital hustlers. Indie maker, content creator, multidisciplinary designer, whatever the term, it is a form of hustle. Maybe I’m sinking my own ship here and I’m denying my golden creative capital. Maybe I’m navigating an ocean of bullshit decently…
+
+## Kettlebell moves
+A relic from my Joe Rogan days still resides in my garage: a 36lbs kettlebell. I swing it occasionally. It’s too heavy for anything overhead yet so much fun to throw around. More than once I missed shoulder luxation or almost dropping the thing on my feet. The sight of the mean-looking chunk of metal tickles my muscle cravings while I realistically should spend more time in the kitchen snacking if I even want to think of getting bigger. Beyond this, letting go of the idea of getting bigger might be the gateway to actually layering some meat on the bones (and feeling less like a stressed monkey). Also, remote life has increased the time I spend staring at fitness equipment and reduced my exposure to normal people.
+
+## Bug out fantasies
+Countless times I found myself staring at a trailer and dreaming of an into-the-wild kind of life. Bugging out seems like an unfortunate flaw of mine, a deeply anchored fantasy. I have rationalized it out of my system with bikepacking and countless long discussions with my wife. The feelings I got sleeping out in the (not so) wild should make this clear: I’m not a hermit, just an awkward dude with weird acetic preferences. The sight of vagabonds always triggers me. These words are yet another attempt at shaming this out of me. Romanticizing an escape from the civilized world is a cliché: Just grow a beard and some vegetables.
+
