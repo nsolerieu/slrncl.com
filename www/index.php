@@ -8,8 +8,7 @@
       <div class="row">
         <div class="col-100">
           <h1>
-            Nicolas Solerieu<br>
-            Web & Brand designer
+            Nicolas Solerieu
           </h1>
         </div>
       </div>
