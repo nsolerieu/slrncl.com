@@ -51,7 +51,7 @@
           </div>
         </div>
         
-        <div class="menu-panel box large secondary-bg no-border">
+        <div class="menu-panel box large primary-bg">
           <div class="nav-columns">
             <div class="column">
               <h2 class="no-margin">Information</h2>

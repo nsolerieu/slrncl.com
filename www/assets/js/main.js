@@ -5,12 +5,14 @@ $(window).on('load', function(){
 $(document).on('click', '.open-menu-button', function () {
   $(this).hide();
   $('.close-menu-button').show();
+  $('.page').toggleClass('menu-open');
   $('.menu-panel').toggleClass('open');
 });
 
 $(document).on('click', '.close-menu-button', function () {
   $(this).hide();
   $('.open-menu-button').show();
+  $('.page').toggleClass('menu-open');
   $('.menu-panel').toggleClass('open');
 });
 

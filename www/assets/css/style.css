@@ -3,6 +3,8 @@
 -------------------------------------------------------------- */
 header {
   margin-top: 8vh;
+  z-index: 3;
+  position: relative;
 }
 .header-path {
   display: flex;
@@ -37,13 +39,32 @@ header {
   left: 0;
   width: 100%;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s cubic-bezier(.58,.01,.09,1) 0.1s;
   visibility: hidden;
 }
 .menu-panel.open {
   opacity: 1;
   visibility: visible;
 }
+.page::before {
+  content: "";
+  position: fixed;
+  background-color: var(--bg-secondary) 50%;
+  backdrop-filter: blur(20px);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+.page.menu-open::before {
+  opacity: 1;
+  visibility: visible
+}
+
 
 /* --------------------------------------------------------------
 /* =Footer
