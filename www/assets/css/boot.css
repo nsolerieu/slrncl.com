@@ -340,6 +340,13 @@ video {
   line-height: 100%;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+.captialize:first-letter {
+  text-transform: uppercase;
+}
+
 .text-small {
   font-size: var(--font-size-small);
 }

@@ -33,6 +33,7 @@ header {
 .menu-panel {
   position: absolute;
   top: 48px;
+  z-index: 3;
   left: 0;
   width: 100%;
   opacity: 0;
@@ -156,11 +157,15 @@ header {
 }
 
 /* --------------------------------------------------------------
-/* =Homepage
+/* = Homepage
 -------------------------------------------------------------- */
 .hero {
-  padding: 28vh 0;
+  padding: 8vh 0 12vh 0;
 }
+
+/* --------------------------------------------------------------
+/* = Video
+-------------------------------------------------------------- */
 .video-container {
   position: relative;
 }
@@ -271,6 +276,20 @@ h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
+.poster-feed .poster:nth-child(even) {
+  padding-top: 8vh;
+}
+.poster {
+  width: 50%;
+  padding: var(--gutter);
+}
+.poster-frame {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-small);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
 
 /* --------------------------------------------------------------
 /* =Blog
@@ -374,9 +393,20 @@ pre {
   color: var(--text-secondary);
 }
 
+/* --------------------------------------------------------------
+/* = Gallery
+-------------------------------------------------------------- */
+.artwork {
+  width: 50%;
+  padding: var(--gutter);
+}
+.artwork img {
+  display: block;
+  width: 100%;
+}
 
 /* --------------------------------------------------------------
-/* =Moments
+/* = Moments
 -------------------------------------------------------------- */
 .gallery-container {
   padding: 0 20px;

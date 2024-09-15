@@ -291,7 +291,7 @@ $(document).on('click', '.zoomlightbox-container', function () {
 
 // MOMENTS
 
-if (document.body.classList.contains('page-moments')) {
+if (document.body.classList.contains('page-moments') || document.body.classList.contains('page-gallery')) {
 
   $(".lazy").Lazy({ 
     scrollDirection: 'vertical',
