@@ -297,12 +297,10 @@ h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.poster-feed .poster:nth-child(even) {
-  padding-top: 8vh;
-}
 .poster {
   width: 50%;
   padding: var(--gutter);
+  margin-bottom: 2vh;
 }
 .poster-frame {
   display: block;

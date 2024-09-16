@@ -9,7 +9,7 @@
         <div class="col-100">
           <h1>Visual archive</h1>
           <p class="medium-margin-top text-small text-color-secondary max-width-400">
-            My replacement for Dribbble. A place to post occasional creative explorations.
+            My replacement for Dribbble. A place to post occasional creative explorations of all sorts.
           </p>
         </div>
       </div>
@@ -34,7 +34,7 @@
           $cleandate = str_replace('-', '.', $date);
 
           echo '<figure class="poster">
-                  <img data-src="https://slrncl.com/gallery/'.$image.'" alt="'.$cleantitle.' by Nicolas Solerieu" class="lazy zoomlightbox-trigger poster__frame">
+                  <img data-src="https://slrncl.com/gallery/'.$image.'" alt="'.$cleantitle.' by Nicolas Solerieu" class="lazy zoomlightbox-trigger poster-frame">
                   <div class="small-margin-top">
                     <h2 class="text-small no-margin captialize">'.$cleantitle.'</h2>
                     <p class="text-small text-color-secondary">'.$cleandate.'<p>
