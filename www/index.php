@@ -8,12 +8,11 @@
       <div class="row">
         <div class="col-100">
           <div>
-            <img src="gallery/images/2024-09-15-heads-down.png" class="poster-frame">
+            <img src="gallery/images/2024-09-18-bento.png" class="poster-frame">
             <div class="max-width-400 medium-margin-top">
               <h1 class="no-margin">Nicolas Solerieu</h1>
-              <p class="no-margin-top text-small text-color-secondary">Heads down - 15.09.2024</p>
-              <p class="small-margin-top text-small text-color-secondary">(Digital sketch) Two people with their head in their phones. It captured my mood as I decided to move away from Dribbble, the social platform I engaged the most over the last 10 years. Instead I will have my own gallery (WIP) and the latest artwork as my homepage hero piece.</p>
-              <p class="small-margin-top text-small">Gallery (WIP)</p>
+              <p class="no-margin-top text-small text-color-secondary medium-margin-bottom">Bento - 18.09.2024</p>
+              <a href="/gallery" class="text-small">→ Gallery</a>
             </div>
           </div>
         </div>

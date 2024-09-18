@@ -8,9 +8,6 @@
       <div class="row">
         <div class="col-100">
           <h1>Visual archive</h1>
-          <p class="medium-margin-top text-small text-color-secondary max-width-400">
-            My replacement for Dribbble. A place to post occasional creative explorations of all sorts.
-          </p>
         </div>
       </div>
     </div>
