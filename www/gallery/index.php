@@ -33,8 +33,8 @@
           echo '<figure class="poster">
                   <img data-src="https://slrncl.com/gallery/'.$image.'" alt="'.$cleantitle.' by Nicolas Solerieu" class="lazy zoomlightbox-trigger poster-frame">
                   <div class="small-margin-top">
-                    <p class="text-small no-margin uppercase text-color-secondary">'.$cleantitle.'</p>
-                    <p class="text-small text-color-secondary">'.$cleandate.'<p>
+                    <p class="text-small no-margin uppercase text-color-secondary line-height-100">'.$cleantitle.'</p>
+                    <p class="text-small text-color-secondary line-height-100y">'.$cleandate.'<p>
                   </div>
                 </figure>';
           }
