@@ -2,7 +2,7 @@
 /* =Header
 -------------------------------------------------------------- */
 header {
-  margin-top: 8vh;
+  padding-top: 8vh;
   z-index: 3;
   position: relative;
 }
@@ -46,7 +46,7 @@ header {
   opacity: 1;
   visibility: visible;
 }
-.page::before {
+.overlay {
   content: "";
   position: fixed;
   background-color: var(--bg-secondary) 50%;
@@ -60,7 +60,7 @@ header {
   opacity: 0;
   visibility: hidden;
 }
-.page.menu-open::before {
+.overlay.visible {
   opacity: 1;
   visibility: visible
 }

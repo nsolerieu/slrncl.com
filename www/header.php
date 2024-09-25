@@ -34,6 +34,8 @@
 <!-- BODY -->
 <body id="body" class="page page-<?php echo $page; ?>">
 
+<div class="overlay"></div>
+
 <header>
   <div class="container">
     <div class="row">

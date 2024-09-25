@@ -5,14 +5,21 @@ $(window).on('load', function(){
 $(document).on('click', '.open-menu-button', function () {
   $(this).hide();
   $('.close-menu-button').show();
-  $('.page').toggleClass('menu-open');
+  $('.overlay').toggleClass('visible');
   $('.menu-panel').toggleClass('open');
 });
 
 $(document).on('click', '.close-menu-button', function () {
   $(this).hide();
   $('.open-menu-button').show();
-  $('.page').toggleClass('menu-open');
+  $('.overlay').toggleClass('visible');
+  $('.menu-panel').toggleClass('open');
+});
+
+$(document).on('click', '.overlay.visible', function () {
+  $('.close-menu-button').hide();
+  $('.open-menu-button').show();
+  $(this).toggleClass('visible');
   $('.menu-panel').toggleClass('open');
 });
 
