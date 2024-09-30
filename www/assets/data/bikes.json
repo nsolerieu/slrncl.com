@@ -1,6 +1,15 @@
 {
   "bikes":[
     {
+      "years":"2024–",
+      "status":"Active",
+      "mileage":"(not-counting)",
+      "surname":"Third life crisis",
+      "model":"Specialized Roubaix SL4 Sport (2017)",
+      "notes":"A serendipitous purchase from a neighbor. Very fast, very fun. Perhaps what I needed but I had the wisdom to ground that bird before I did anything dumb. I got a few good local 1-3h rides to get a taste of what carbon feels like. For now it will be my zone 2 garage workout machine. Quite luxurious.",
+      "image":"https://slrncl.com/assets/img/bikes/specialized-roubaix-sl4-sport-2017.jpg"
+    },
+    {
       "years":"2021–",
       "status":"Active",
       "mileage":"10,000+",
@@ -12,7 +21,7 @@
     {
       "years":"2021–2024",
       "status":"Sold",
-      "mileage":"~2500",
+      "mileage":"~ 2500",
       "surname":"Dad bike",
       "model":"Giant Talon 1",
       "notes":"I switched back to MTB craving for lower gear and a more upright posture. Original square taper cranks were super creaky but aside of that, I can't complan for a $900 bike. I upgrade the crank and made a few ergonomic adjustements. The quick release seatpost is great, I got in the habit of changing the height. I appreciate the modesty in SLO where everyone rides some big brand carbon full-suspension machine. I've done more groceries and sanity check rides than actual trails with it so far.",
