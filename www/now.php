@@ -26,7 +26,7 @@
           </p>
           <h2 class="large-margin-top">Planning</h2>
           <p class="small-margin-top text-color-secondary">
-            I'm increasingly convinced I won't last much longer in big tech. I've only ever been a web designer, I like it and can't seriously think of anything else I would do. Especially when paying a mortgage in California. I don't have and don't want a great big plan but I'll be engaging in something I don't usually don't: planning. I'm unsure what it means yet but I must have a greater sense of purpose than "keep going" when I get back to work next year.
+            I'm increasingly convinced I won't last much longer in big tech. I've only ever been a web designer, I like it and can't seriously think of anything else I would do. Especially when paying a mortgage in California. I don't have and don't want a great big plan but I'll be engaging in something I don't usually do: planning. I'm unsure what it means yet but I must have a greater sense of purpose than "keep going" when I get back to work next year.
           </p>
           <h2 class="large-margin-top">Self therapy</h2>
           <p class="small-margin-top text-color-secondary">
@@ -40,7 +40,6 @@
           <p class="small-margin-top text-color-secondary">
             I'm (still) all over the place feeding the feeds, even in my low-social media ecosystem. Low, not no... dribbble, read.cv, layers.to, behance still tickles me, on top of all the dozen ideas that pop up every day. So instead of posting our there, I'll try to create a personal outlet in the form of a gallery/folder as I did for my photography with the <a href="https://slrncl.com/moments/">/moments</a> page.
           </p>
-          <img src="assets/img/drawing-slrncl.jpg" class="fluid-img medium-margin-top" alt="portrait of a tall, lanky man sitting cross legged from the back">
         </div>
       </div>
     </div>
