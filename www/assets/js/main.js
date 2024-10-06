@@ -300,7 +300,7 @@ $(document).on('click', '.zoomlightbox-container', function () {
 
 // MOMENTS
 
-if (document.body.classList.contains('page-moments') || document.body.classList.contains('page-gallery')) {
+if (document.body.classList.contains('page-moments') || document.body.classList.contains('page-sketchbook')) {
 
   $(".lazy").Lazy({ 
     scrollDirection: 'vertical',

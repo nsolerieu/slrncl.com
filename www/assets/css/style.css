@@ -290,22 +290,35 @@ h2, h3, h4, h5, h6 {
 /* --------------------------------------------------------------
 /* =Gallery
 -------------------------------------------------------------- */
-.poster {
+.sketchbook-feed {
+  padding: 0 var(--gutter);
+}
+.sketchbook-page {
+  position: relative;
   width: 50%;
-  padding: var(--gutter);
-  margin-bottom: 2vh;
-}
-.poster-frame {
-  display: block;
-  width: 100%;
-  height: auto;
+  margin-bottom: 10vh;
   border-radius: var(--radius-small);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px;
 }
-.page-gallery .zoomlightbox-container {
+.homepage-cover {
+  border-radius: var(--radius-small);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px;
+}
+.sketchbook-page:hover .sketchbook-page__date {
+  opacity: 1;
+}
+.sketchbook-page__date {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 8px;
+  color: var(--text-secondary);
+  opacity: 0;
+}
+.page-sketchbook .zoomlightbox-container {
   background: var(--bg-secondary);
 }
-.page-gallery .zoomlightbox-image {
+.page-sketchbook .zoomlightbox-image {
   max-width: 80%;
   max-height: 80%;
   border-radius: var(--radius-small);
