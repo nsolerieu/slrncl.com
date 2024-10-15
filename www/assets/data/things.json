@@ -1,6 +1,36 @@
 {
   "things":[
     {
+      "slug":"ikea-stool",
+      "name":"KYRRE stool",
+      "origin":"Ikea",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/ikea-kyrre-stool.jpg",
+      "link":"https://www.ikea.com/us/en/p/kyrre-stool-birch-60416925/",
+      "linklabel":"Get it",
+      "note":"It embodies IKEA at its best: versatile, durable, and cheap. It goes everywhere and can be used for many purposes. I use it as a plant stand, stair step, door stopper, mini table, laptop stand... We have 7 floating around the house. If it was up to me we would only have this stool. Chairs are so over engineered and never fit my odd physiology. This is perfect."
+    },
+    {
+      "slug":"electric-fan",
+      "name":"Electric fan",
+      "origin":"Vornado",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/vornado-electric-fan.jpg",
+      "link":"https://www.vornado.com/shop/circulators-fans/medium/673t-tilting-panel-whole-room-air-circulator",
+      "linklabel":"Get it",
+      "note":"It's one of the most useful piece of fitness and sleep gear I bought. I like the small-ish format of this one, it's easy to move and adjust around the house. Everyone in California seems to depend on these to sleep or anything else that requires to be static. Nowadays they have remotes and power indicator which I don't like. My baby lost the remote after using it as a toy and I tapped the screen. With the current state of climate affairs, anyone under the 50 degree latitude need (at least) one. It gets dusty and hard to clean but it's worth it. Ideally it should only have 2 speeds, quiet breeze or blow dryer."
+    },
+    {
+      "slug":"multitool",
+      "name":"Multitool",
+      "origin":"Gerber",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/gerber-multitool.jpg",
+      "link":"https://www.rei.com/c/multi-tools",
+      "linklabel":"Get a decent one from REI",
+      "note":"We used this as our only tool for years. I still mostly use this instead of our fully stacked tool box. Of the many tools I used only the plyer, 2 screw drivers and the small blade. I never carry it – too heavy. I t make me feel like a man when I get to use it."
+    },
+    {
       "slug":"cycling-mitts",
       "name":"Cycling mitts",
       "origin":"Thousands",
