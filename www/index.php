@@ -7,14 +7,8 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <div>
-            <img src="sketchbook/images/2024-09-15.png" class="fluid-img homepage-cover">
-            <div class="max-width-400 medium-margin-top">
-              <h1 class="no-margin">Nicolas Solerieu</h1>
-              <p class="no-margin-top text-small text-color-secondary medium-margin-bottom">Sept 15th, 2024</p>
-              <a href="/sketchbook" class="text-small">→ Sketchbook</a>
-            </div>
-          </div>
+          <p class="no-margin text-small text-color-secondary">The website of</p>
+          <h1 class="no-margin">Nicolas Solerieu</h1>
         </div>
       </div>
     </div>
