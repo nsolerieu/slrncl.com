@@ -293,6 +293,9 @@ h2, h3, h4, h5, h6 {
 /* --------------------------------------------------------------
 /* =Gallery
 -------------------------------------------------------------- */
+.page-sketchbook {
+  background: var(--bg-secondary);
+}
 .sketchbook-feed {
   padding: 0 var(--gutter);
 }
@@ -307,16 +310,13 @@ h2, h3, h4, h5, h6 {
   border-radius: var(--radius-small);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px;
 }
-.sketchbook-page:hover .sketchbook-page__date {
-  opacity: 1;
-}
 .sketchbook-page__date {
   position: absolute;
-  bottom: 20px;
+  bottom: -40px;
   left: 20px;
   font-size: 8px;
   color: var(--text-secondary);
-  opacity: 0;
+  opacity: 1;
 }
 .page-sketchbook .zoomlightbox-container {
   background: var(--bg-secondary);

@@ -177,7 +177,7 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: var(--radius-regular);
+  border-radius: var(--radius-small);
   overflow: hidden;
 }
 figure {
