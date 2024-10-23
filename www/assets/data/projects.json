@@ -2,6 +2,16 @@
   "projects":[
     {
       "year":"2024",
+      "name":"Eisen",
+      "category":"Web, Brand",
+      "type":"Freelance",
+      "image":"https://slrncl.com/assets/img/projects/slrncl-eisen2024.png",
+      "description":"Eisen is the first escheatment automation solution that proactively manages offboarding. I refreshed the visual identity and website as the company was re-inventing itself. Only the primitives of the previous identity were preserved. I developed a humble, light, and spacious new branding kit, ready to for scale and iterations.",
+      "link":"https://www.behance.net/gallery/208334351/Eisen-2024",
+      "linklabel":"Case study"
+    },
+    {
+      "year":"2024",
       "name":"App&Flow",
       "category":"Web, Brand",
       "type":"Freelance",
