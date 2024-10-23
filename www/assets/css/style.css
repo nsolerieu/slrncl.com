@@ -313,9 +313,14 @@ h2, h3, h4, h5, h6 {
 .sketchbook-page__date {
   position: absolute;
   bottom: -40px;
-  left: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
   font-size: 8px;
   color: var(--text-secondary);
+  opacity: 0;
+}
+.sketchbook-page:hover .sketchbook-page__date {
   opacity: 1;
 }
 .page-sketchbook .zoomlightbox-container {
