@@ -1,4 +1,4 @@
-# Noteworthy notes - November 2024
+# Noteworthy notes - October 2024
 
 Introducing a new format. I’ll keep it loose to form a monthly stream-of-consciousness vibe. I objectively spend too much time thinking if something is worth a blog post. Hopefully, this format will allow silly observations to coexist alongside other comments without turning into senseless mush.
 
