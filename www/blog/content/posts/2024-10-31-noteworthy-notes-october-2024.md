@@ -32,7 +32,7 @@ The indie web is a fun bunch. It’s also quite big by now. It has its own tools
 ---
 Moisturizing even using the most basic product is much better than doing nothing. Putting in a lot more effort and resources only yields and very small improvement. The same applies to drinking water, eating vegetables, brushing teeth...  I need to make a list of all these types of things.
 
-—-
+---
 Creativity being sustenance would explain a lot of my awful feelings. It unfortunately doesn’t offer a solution. Creation as purpose stands somehow in contrast to the “let it go” zen philosophy I've been trying to adopt - although Zen includes and encourages artistic expression. To make or to make with moderation aren't that far.
 
 ---
@@ -46,7 +46,7 @@ The first month postpartum got me remembering that scene from Mr and Mrs Smith w
 ---
 The temperature dropped 20+ degrees Fahrenheit in the span of a day. I'n new to the area so it might be normal. It felt wild.
 
-—-
+---
 I tried to politely chicken out of anything Halloween-related by saying that my 2-year-old was too young g as he doesn’t talk, understand, or tolerate much. Someone said verbatim: “Nah you just got to push the fun on them”. How American is this?
 
 ---
