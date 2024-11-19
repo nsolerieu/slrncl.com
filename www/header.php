@@ -56,7 +56,6 @@
         <div class="menu-panel box large primary-bg">
           <div class="nav-columns">
             <div class="column">
-              <h2 class="no-margin">Information</h2>
               <ul>
                 <li><a href="<?php echo BASE_URL; ?>/about">About</a></li>
                 <li><a href="<?php echo BASE_URL; ?>/work">Work</a></li>
@@ -66,9 +65,9 @@
               </ul>
             </div>
             <div class="column">
-              <h2 class="no-margin">Browse</h2>
               <ul>
                 <li><a href="<?php echo BASE_URL; ?>/blog/">Blog</a></li>
+                <li><a href="<?php echo BASE_URL; ?>/sketchbook/">Sketchbook</a></li>
                 <li><a href="<?php echo BASE_URL; ?>/moments/">Moments</a></li>
                 <li><a href="<?php echo BASE_URL; ?>/notes">Notes</a></li>
                 <li><a href="<?php echo BASE_URL; ?>/things">Things</a></li>

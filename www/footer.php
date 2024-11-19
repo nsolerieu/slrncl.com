@@ -1,11 +1,10 @@
 <footer class="large-padding-top large-padding-bottom">
   <div class="container">
-    <div class="row">
+    <div class="row full-row-border-top">
       <div class="col-100">
     
         <div class="nav-columns large-margin-bottom">
-          <div class="column">
-            <h2>Information</h2>
+          <div class="column large-margin-top">
             <ul>
               <li><a href="<?php echo BASE_URL; ?>/about">About</a></li>
               <li><a href="<?php echo BASE_URL; ?>/work">Work</a></li>
@@ -14,10 +13,10 @@
               <li><a href="<?php echo BASE_URL; ?>/colophon">Colophon</a></li>
             </ul>
           </div>
-          <div class="column">
-            <h2>Browse</h2>
+          <div class="column large-margin-top">
             <ul>
               <li><a href="<?php echo BASE_URL; ?>/blog/">Blog</a></li>
+              <li><a href="<?php echo BASE_URL; ?>/sketchbook">Sketchbook</a></li>
               <li><a href="<?php echo BASE_URL; ?>/moments/">Moments</a></li>
               <li><a href="<?php echo BASE_URL; ?>/notes">Notes</a></li>
               <li><a href="<?php echo BASE_URL; ?>/things">Things</a></li>
