@@ -364,7 +364,7 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 .the-content ul li strong {
-  color: var(--text-primary);;
+  color: var(--text-primary);
 }
 .the-content ul li:before {
   display: inline-block;
@@ -388,14 +388,23 @@ h2, h3, h4, h5, h6 {
   border-right: 0;
   margin: 5vh 0;
 }
+code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  color: var(--text-primary);
+  background-color: var(--border);
+  border-radius: var(--radius-small);
+}
 blockquote {
-    margin: 4vh 0;
-    display: block;
-    font-style: italic;
-    font-family: var(--font-mono);
-    padding: 0 10%;
-    text-align: center;
-    letter-spacing: -0.03em;
+  margin: 4vh 0;
+  display: block;
+  font-style: italic;
+  font-family: var(--font-mono);
+  padding: 0 10%;
+  text-align: center;
+  letter-spacing: -0.03em;
 }
 pre {
   margin: 2vh 0;
