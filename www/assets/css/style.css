@@ -92,8 +92,15 @@ header {
 .nav-columns ul li a {
   color: var(--text-secondary);
 }
+.footer-bottom {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--text-secondary);
+}
 .avatar {
-  display: block;
+  display: inline-block;
+  margin-right: 20px;
   width: 26px;
   height: 26px;
   border-radius: 100%;
@@ -388,7 +395,7 @@ h2, h3, h4, h5, h6 {
   border-right: 0;
   margin: 5vh 0;
 }
-code {
+p code {
   padding: .2em .4em;
   margin: 0;
   font-size: 85%;
@@ -409,6 +416,7 @@ blockquote {
 pre {
   margin: 2vh 0;
   padding: 24px;
+  font-size: var(--font-size-small);
   background-color: var(--bg-secondary);
   font-family: monospace;
   white-space: pre;
