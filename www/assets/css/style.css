@@ -49,8 +49,8 @@ header {
 .overlay {
   content: "";
   position: fixed;
-  background-color: var(--bg-secondary) 50%;
-  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
   top: 0;
   left: 0;
   height: 100%;

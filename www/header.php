@@ -45,7 +45,13 @@
           <div class="header-path">
             <a href="<?php echo BASE_URL; ?>" class="text-color-secondary">slrncl.com</a>
             <span class="text-color-secondary">/</span>
-            <span><?php echo $page; ?></span>
+
+            <?php if ( $is_post ) { ?> 
+              <a href="<?php echo BASE_URL; ?>/blog/">blog</a> <span class="text-color-secondary">/</span> ...
+            <?php } else { ?>  
+              <span><?php echo $page; ?></span>
+            <?php } ?>
+
           </div>
           <div class="header-menu-bt">
             <div class="open-menu-button button small secondary">Menu</div>
@@ -53,7 +59,7 @@
           </div>
         </div>
         
-        <div class="menu-panel box large primary-bg">
+        <div class="menu-panel box large no-border primary-bg">
           <div class="nav-columns">
             <div class="column">
               <ul>
