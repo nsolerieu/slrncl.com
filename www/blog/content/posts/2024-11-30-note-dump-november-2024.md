@@ -63,9 +63,6 @@ Kid meltdown aside, the most frustrating part of being a parent so far is the lo
 Double strollers are teasing us. Every owner around us has something bad to say against theirs. There are roughly 3 kinds: stacked, side-by-side, or wagon-style. The stacked is hard to maneuver and doesn’t age well. Older kids tend to use it as a play structure and don’t stay in as the upper seat is a bit of a dungeon. The side-by-side only fits in very large trunks while not supporting bassinet for very small kids. Wagons seem fun for the kids but are very bulky with odd ergonomics due to the pulling/pushing system.
 
 ---
-Life is incredibly messy not because of negligence, laziness, malice, or stupidity, but by essence. Yet another truth parenthood brings into sharp relief.
-
----
 For 2 bumps of similar intensity (and responsibility), based on resulting scratches, I’m significantly more affected by the one I witnessed. This observation can be stretched to apply to media making us witness all the worst in this world.
 
 --- 
@@ -127,7 +124,4 @@ I rarely drive our car so I need to readjust the seat, and mirrors every time. I
 I thought it was impatience, but pouring cold water into hot tea to be able to drink it properly now is a sign of respect for tea and my responsibilities as I may only get a few minutes to enjoy it.
 
 ---
-Few things are universally loved. Some come close. Infants and beaches seem to be good examples of these. I'm not fond of infants or beaches - My contrarianism is THAT strong.
-
----
-Sunglasses are a social lubricant, which may be responsible for some of California's outgoing coastal culture.
+Few things are universally loved. Some come close. Infants and beaches seem to be good examples of these. I'm not fond of either - so either my contrarianism is THAT strong, or I'm THAT weird.
