@@ -2,24 +2,15 @@ $(window).on('load', function(){
   $('body').toggleClass( 'loading-done' );
 });
 
-$(document).on('click', '.open-menu-button', function () {
-  $(this).hide();
-  $('.close-menu-button').show();
-  $('.overlay').toggleClass('visible');
-  $('.menu-panel').toggleClass('open');
-});
-
-$(document).on('click', '.close-menu-button', function () {
-  $(this).hide();
-  $('.open-menu-button').show();
+$(document).on('click', '.menu-button', function () {
+  $(this).toggleClass('open');
   $('.overlay').toggleClass('visible');
   $('.menu-panel').toggleClass('open');
 });
 
 $(document).on('click', '.overlay.visible', function () {
-  $('.close-menu-button').hide();
-  $('.open-menu-button').show();
-  $(this).toggleClass('visible');
+  $('.menu-button').removeClass('open');
+  $(this).removeClass('visible');
   $('.menu-panel').toggleClass('open');
 });
 

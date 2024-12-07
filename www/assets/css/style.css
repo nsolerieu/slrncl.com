@@ -42,6 +42,19 @@ header {
   transition: opacity 0.3s cubic-bezier(.58,.01,.09,1) 0.1s;
   visibility: hidden;
 }
+.menu-button svg line {
+  stroke: var(--text-primary);
+  stroke-width: 1;
+}
+.menu-button svg {
+  transition: transform 0.3s cubic-bezier(.58,.01,.09,1) 0s;
+  cursor: pointer;
+  display: block;
+}
+.menu-button.open svg {
+  transform-origin: center;
+  transform: rotate(45deg);
+}
 .menu-panel.open {
   opacity: 1;
   visibility: visible;
@@ -49,7 +62,8 @@ header {
 .overlay {
   content: "";
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.15);
+
+  background-color: rgba(var(--bg-secondary), 0.8);;
   backdrop-filter: blur(10px);
   top: 0;
   left: 0;

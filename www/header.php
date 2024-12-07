@@ -53,13 +53,15 @@
             <?php } ?>
 
           </div>
-          <div class="header-menu-bt">
-            <div class="open-menu-button button small secondary">Menu</div>
-            <div class="close-menu-button button small secondary" style="display: none;">Close</div>
+          <div class="menu-button">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+              <line x1="0" y1="8" x2="16" y2="8" />
+              <line x1="8" y1="0" x2="8" y2="16" />
+            </svg>
           </div>
         </div>
         
-        <div class="menu-panel box large no-border primary-bg">
+        <div class="menu-panel box large primary-bg">
           <div class="nav-columns">
             <div class="column">
               <ul>
