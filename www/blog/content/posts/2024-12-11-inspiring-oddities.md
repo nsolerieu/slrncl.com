@@ -1,0 +1,11 @@
+# Inspiring oddities
+
+I obsessively walk and run a one-mile radius. That means I can be spotted on the same streets more than twice a day, with and without a stroller. With my kiddo, we explore front yards, pick fruit trees, and occasionally embark on dodgy micro-adventures (like trying out heavy-duty equipment on construction sites). That all led to connecting with locals. Most of the time connections happen on their turf as we are intruding, non-aggressively. It’s a quiet neighborhood where most folks are out during the day (with the exception of a few retirees). Pre school drop-off dog walk and post-dinner strolls are the busiest times. That makes us part of the weirdos roaming around during the day. It is one of the wonders of remote work, to get to see the world when everyone is at work. We are not the only ones roaming around. There are 2 locals of particular interest.
+
+## Mrs
+Marla Singer meets Anne Lamott. She talks to birds, bows to the sunset and brings fruit to the homeless. She trots around early morning in a silk PJ top and wears the same light cotton pants all year round. We encounter her at least once a day. She smiles but never talks. Her skin has the same texture as those 80s National Geographic portraits. A texture that sings the beauty of a life well lived. Her front yard is the most overgrown of her street and features a wheelbarrow in which an olive tree is growing, untouched. Everything about her feels slightly beyond quirky, but not crazy.
+
+## Mr
+Pancho villa meets Billy the kid. Although we roam around the same perimeter, he does so at a much faster pace. Based on his tan, he must never stop for very long. He is always wearing a bright sportswear brand hoodie. His frame and apparel give him a teenager’s appearance - especially from a distance. I saw him running after the garbage truck and frantically pulling trash cans back to their respective houses. Yelling “thank you” at himself, at every good deed. I once met a lady who introduced herself as his legal guardian as he was asking some birds to go away from his favorite tree. She asked me if he ever stopped me and asked me something weird out of the blue. He did. He once asked me what was my favorite color.
+
+I love these 2. I feel more inspired by them than any other neighbors. I now bow to the sunset and I say thank you to myself.
