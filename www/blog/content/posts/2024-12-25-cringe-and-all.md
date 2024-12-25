@@ -1,0 +1,17 @@
+# Cringe and All
+
+Writing this year has been about lamentation, contemplation and consolation (similar to Ann Lamott, “Help, Thanks, Wow” book, which I appreciated). The last part is the therapeutic bit that kept me going. My prose and life experiences have nothing grand, which regularly makes me want to terminate this blog. My wife recently repeatedly mentioned that I’ve been writing “more seriously” which doesn’t feel right. I’ve written more than ever. Initially it’s the making of the blog itself that powered the enthusiasm. Then reading more made me want to “participate”. Now that’s it’s been a year, I’m torn.
+
+It stings when I read something relatable and very well worded. Like a good stretch, it’s a good sting. A hormetic pain, sharp enough to remind me that we are all sharing the same experience while our lives have wildly different shapes.
+
+The thoughts and images that one holds onto are telling. Writing has been the excavation of these. A tedious and satisfying process - like digging a hole. Re-reading a draft still feels gross like listening to a recording of my own voice. When a draft takes too long it degenerates. Too many topics, weak threading, cryptic jokes… always reflecting the moment. It’s describing the unique details, often soon after the happening that creates the texture I love.
+
+Like right now. Typing these words over my 8 weeks old loaded on my chest, in one of supposedly ergonomic carrier, hunched, in the rain. One hand typing on my iPhone 13 mini (so uncomfortable), the other holding the umbrella. Losing my pants, as always. Semi wet. Wandering around avoiding puddles. I’m out of the house, in the margins of life, loving it.
+
+Today I understand better the worthiness of writing about seemingly mundane things or topics that have been extensively developed. The transience of all things makes any thought, new and potentially of value to someone. I’ve stoically forced this upon my narrow mind, post after post, trying to work on my cringe endurance. There’s going to be some (more) cringe in your life, my wife assured me over breakfast. It’s a different version of me that (re)started this blog. One that hoping to exorcise it out.
+
+Cringe aside, it’s the toll on my capacity to be present that is the killer. I gave most of my scarce quiet time to writing instead of facing the cloud of thoughts. However witty or phony I think my stories are, I’m just trying to beat the mind at its game. I know I won’t. Just like with my 2 kids. I won’t win the game, whatever I think the game is. Hat tip to those who make writing  work. I read a few really good parents memoir, and I know journaling is working for quite a few folks. Every time I question the value of the process, petty like a teen begging to be an adult. The milestones are clearer but further. The fast pace of my twenties is over. The transition is cringe to the 20 year bits left in me.
+
+It’s that time again. Time to get bored in parks. To soak in the early morning quiet time. And let the moments in between be white space. Reducing output is a type of discipline I’ve never practiced for very long (Although I’m convinced of its virtues). Once again, I feel a bit more enlightened, sharper than the doofus yesterday but definitely not as attuned as the dude tomorrow.
+
+That’s the untold secret of the holiday season right?
