@@ -42,6 +42,24 @@ header {
   transition: opacity 0.3s cubic-bezier(.58,.01,.09,1) 0.1s;
   visibility: hidden;
 }
+.menu-panel a {
+  display: block;
+  position: relative;
+  border-bottom: 1px solid var(--border);
+  padding: calc(var(--spacer-small) / 2) 0;
+}
+.menu-panel a:hover::after {
+  content: "→";
+  position: absolute;
+  right: 0;
+}
+.menu-panel a:first-of-type {
+  padding-top: 0;
+}
+.menu-panel a:last-of-type {
+  padding-bottom: 0;
+  border: 0;
+}
 .menu-button svg line {
   stroke: var(--text-primary);
   stroke-width: 1;
