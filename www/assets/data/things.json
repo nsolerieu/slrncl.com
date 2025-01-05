@@ -1,6 +1,16 @@
 {
   "things":[
     {
+      "slug":"grip-coated-gloves",
+      "name":"Grip coated gloves",
+      "origin":"Home Depot",
+      "category":"product",
+      "image":"https://slrncl.com/assets/img/things/grip-coated-gloves.jpg",
+      "link":"",
+      "linklabel":"Get one from your local hardware store",
+      "note":"I own many pairs of gloves for various purposes. These are the cheapest and most used of my arsenal. They last surprisingly long and provide a great feel/protection ratio. I always have a pair on me. I use them for obvious tasks but also for exercising. I've seen a few dudes at the park using them who converted me. There are few things as satisfying as doing a few pushups in the middle of the street or park without worrying. The look on people's faces is the confirmation you need to keep a pair in your fanny pack."
+    },
+    {
       "slug":"ikea-stool",
       "name":"KYRRE stool",
       "origin":"Ikea",
