@@ -29,6 +29,10 @@ Generally, 1 to 4 columns will cover all layouts. Limiting the number of columns
 
 The grid itself is here only to define columns. You may not use it to avoid too much visual noise during design.
 
+## Mobile 
+
+On mobile (all screens under 800px wide) all columns under 50% width collapse into a stack of 100% width. By following a rudimentary set of columns (like the above), one can skip the struggle of the in-between desktop and mobile breakpoints (aka - tablets). This aggressive approach paired with responsive spacing and type scales, yields a strong layout base that will flex across all resolutions. Keeping up with screen size is not a viable strategy, hardware evolves quickly (and wildly). It's tempting, and sometime necessary, to make exception to this rule. In my experience, keeping to such a strict strategy allowed to scale layout and creative while covering 90% of the editorial web design needs.
+
 ## Spacing
 Gutters are the spaces between columns. They create an even horizontal alignment between the elements in a row, promoting consistent spacing throughout the layout. Nested elements can have their own padding or be aligned to the grid
 
