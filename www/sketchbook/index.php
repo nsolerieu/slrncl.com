@@ -9,7 +9,7 @@
         <div class="col-100">
           <h1>Sketchbook</h1>
           <p class="medium-margin-top text-small text-color-secondary max-width-400">
-            No particular theme or purpose other than archival without relying on social media. Mostly done on ipad/procreate. Mostly tracing crappy picture  of stuff I found intriguing – as a meditative exercise, not much of a creative one.
+            No particular theme or purpose other than archival without relying on social media. Mostly done on ipad+procreate. Mostly tracing crappy pictures of stuff I found intriguing – as a meditative exercise.
           </p>
         </div>
       </div>
@@ -18,7 +18,7 @@
 
   <section id="gallery" >
     <div class="large-container">
-      <div class="row sketchbook-feed">
+      <div class="sketchbook-feed">
         <?php
         
         $dir_name = "images/";

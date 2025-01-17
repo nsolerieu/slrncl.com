@@ -339,7 +339,10 @@ h2, h3, h4, h5, h6 {
   background: var(--bg-secondary);
 }
 .sketchbook-feed {
-  padding: 0 var(--gutter);
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: var(--spacer-large);
+  column-gap: 0;
 }
 .sketchbook-page {
   position: relative;
