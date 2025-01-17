@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          <h1 class="no-margin"><i class="text-color-secondary">The internet corner of</i><br>Nicolas Solerieu, web designer</h1>
+          <h1 class="no-margin">Nicolas Solerieu</h1>
         </div>
       </div>
     </div>
