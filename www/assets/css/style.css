@@ -45,7 +45,6 @@ header {
 .menu-panel a {
   display: block;
   position: relative;
-  border-bottom: 1px solid var(--border);
   padding: calc(var(--spacer-small) / 2) 0;
 }
 .menu-panel a:hover::after {
@@ -62,7 +61,7 @@ header {
 }
 .menu-button svg line {
   stroke: var(--text-primary);
-  stroke-width: 1;
+  stroke-width: 1.25;
 }
 .menu-button svg {
   transition: transform 0.3s cubic-bezier(.58,.01,.09,1) 0s;
