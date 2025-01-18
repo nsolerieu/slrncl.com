@@ -141,6 +141,9 @@ body {
 }
 
 @media screen and (max-width: 821px) {
+  .row {
+    display: block;
+  }
   .col-50, .col-25, .col-33, .col-75 {
     width: 100%;
     max-width: 100%;
