@@ -340,8 +340,6 @@ h2, h3, h4, h5, h6 {
 .sketchbook-feed {
   display: flex;
   flex-wrap: wrap;
-  row-gap: var(--spacer-large);
-  column-gap: 0;
 }
 .sketchbook-page {
   position: relative;
