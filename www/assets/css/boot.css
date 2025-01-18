@@ -63,12 +63,12 @@ body {
 /* = Layout
 -------------------------------------------------------------- */
 .container {
-  width: 100%;
+  width: 90%;
   max-width: 600px;
   margin: 0 auto;
 }
 .large-container {
-  width: 100%;
+  width: 90%;
   max-width: 840px;
   margin: 0 auto;
 }
@@ -141,9 +141,6 @@ body {
 }
 
 @media screen and (max-width: 821px) {
-  .large-container, .container {
-    padding: 0 var(--gutter);
-  }
   .col-50, .col-25, .col-33, .col-75 {
     width: 100%;
     max-width: 100%;

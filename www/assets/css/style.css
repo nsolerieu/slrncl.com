@@ -493,7 +493,8 @@ pre {
 /* = Moments
 -------------------------------------------------------------- */
 .gallery-container {
-  padding: 0 20px;
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -583,9 +584,6 @@ pre {
   }
   .thing-card__img {
     margin-bottom: 20px;
-  }
-  .gallery-container {
-    padding: 0 30px;
   }
   .diapo {
     width: calc(50% - 10px);
