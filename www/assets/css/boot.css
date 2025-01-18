@@ -63,12 +63,12 @@ body {
 /* = Layout
 -------------------------------------------------------------- */
 .container {
-  width: 90%;
+  width: 86%;
   max-width: 600px;
   margin: 0 auto;
 }
 .large-container {
-  width: 90%;
+  width: 86%;
   max-width: 840px;
   margin: 0 auto;
 }
