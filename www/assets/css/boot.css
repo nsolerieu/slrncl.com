@@ -116,23 +116,20 @@ body {
   padding-right: 0;
 }
 
-@media screen and (max-width: 1248px) {
-  .col-25, .col-33, .col-75 {
-    width: 100%;
-    max-width: 100%;
-  }
-  .right-padded-col {
-    padding-right: var(--gutter);
-  }
+.right-padded-col {
+  padding-right: 80px;
 }
 
-@media screen and (max-width: 821px) {
-  .col-50 {
+@media screen and (max-width: 840px) {
+  .col-50, .col-25, .col-33, .col-75{
     width: 100%;
     max-width: 100%;
   }
   .large-container, .container {
     padding: 0 var(--gutter);
+  }
+  .right-padded-col {
+    padding-right: var(--gutter);
   }
 }
 
@@ -208,9 +205,6 @@ body {
 /* --------------------------------------------------------------
 /* = Layout utilities
 -------------------------------------------------------------- */
-.right-padded-col {
-  padding-right: 80px;
-}
 .auto-margins {
   margin: auto;
 }
@@ -328,6 +322,11 @@ video {
 .button.primary:hover {
   opacity: .8;
 }
+.button.brand {
+  border: 1px solid var(--brand-primary);
+  background: var(--text-primary);
+  color: var(--text-primary);
+}
 .button.secondary {
   border: 1px solid var(--border);
   background: transparent;
@@ -373,14 +372,14 @@ video {
   background: var(--text-primary);
   color: var(--bg-primary);
 }
-.label.secondary {
+.label.secondary.border {
   border: 1px solid var(--border);
 }
 .label.primary.filled {
   background: var(--border);
   color: var(--text-primary);
 }
-.label.brand {
+.label.brand.border {
   border: 1px solid var(--brand-primary);
   color: var(--brand-primary);
 }
