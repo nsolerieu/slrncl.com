@@ -61,7 +61,7 @@
           </div>
         </div>
         
-        <div class="menu-panel box large primary-bg">
+        <div class="menu-panel box large primary-bg radius">
             <a href="<?php echo BASE_URL; ?>/about">About</a>
             <a href="<?php echo BASE_URL; ?>/work">Work</a>
             <a href="<?php echo BASE_URL; ?>/blog/">Blog</a>
