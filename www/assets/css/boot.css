@@ -301,13 +301,13 @@ video {
 /* --------------------------------------------------------------
 /* = Background
 -------------------------------------------------------------- */
-.primary-bg {
+.bg-primary {
   background-color: var(--bg-primary);
 }
-.secondary-bg {
+.bg-secondary {
   background-color: var(--bg-secondary);
 }
-.brand-bg {
+.bg-brand {
   background-color: var(--brand-primary);
 }
 

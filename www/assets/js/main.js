@@ -219,7 +219,7 @@ $(document).ready(function() {
       $.each( data.notes, function( i, note ) {
 
         $('.notes-feed').append(
-          '<div class="one-note box large radius secondary-bg no-border medium-margin-bottom">' +
+          '<div class="one-note box large radius bg-secondary no-border medium-margin-bottom">' +
             '<p class="text-small text-color-secondary large-margin-bottom line-height-100">' + data.notes[i].date + '</p>' +
             '<p class="text-large text-color-primary small-margin-bottom">' + data.notes[i].quote + '</p>' +
             '<p class="text-small text-color-secondary large-margin-bottom line-height-100">&mdash; ' + data.notes[i].author + '</p>' +
