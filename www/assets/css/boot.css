@@ -11,7 +11,7 @@
   --bg-secondary: hsl(0,0%,98%);
   --border: hsl(0,0%,94%);
   --border-darker: hsl(0,0%,92%);
-  --brand-primary: hsl(149,69%,70%);
+  --brand-primary: hsl(131,81%,37%);
 
   --font-size-small: 12px;
   --font-size-regular: 14px;
@@ -36,7 +36,7 @@
     --bg-secondary: hsl(0,0%,10%);
     --border: hsl(0,0%,16%);
     --border-darker: hsl(0,0%,20%);
-    --brand-primary: hsl(149,69%,100%);
+    --brand-primary: hsl(131,81%,48%);
   }
 }
 
@@ -121,9 +121,13 @@ body {
 }
 
 @media screen and (max-width: 840px) {
-  .col-50, .col-25, .col-33, .col-75{
+  .col-50, .col-25, .col-33, .col-75 {
     width: 100%;
     max-width: 100%;
+  }
+  .col-50.dont-collapse, .col-25.collapse-to-50,  .col-75.collapse-to-50 {
+    width: 50%;
+    max-width: 50%;
   }
   .large-container, .container {
     padding: 0 var(--gutter);
@@ -169,17 +173,18 @@ body {
   content: "";
   background: var(--border);
   height: 1px;
-  width: 100%;
+  width: calc(100% - calc(var(--gutter)*2));
   top: 0;
-  left: 0;
+  left: var(--gutter);
   position: absolute;
 }
 .full-col-border-bottom::after {
   content: "";
+  background: var(--border);
   height: 1px;
-  width: 100%;
+  width: calc(100% - calc(var(--gutter)*2));
   bottom: 0;
-  left: 0;
+  left: var(--gutter);
   position: absolute;
 }
 
@@ -324,8 +329,8 @@ video {
 }
 .button.brand {
   border: 1px solid var(--brand-primary);
-  background: var(--text-primary);
-  color: var(--text-primary);
+  background: var(--brand-primary);
+  color: var(--bg-primary);
 }
 .button.secondary {
   border: 1px solid var(--border);
@@ -368,25 +373,26 @@ video {
 .label.primary.border {
   border: 1px solid var(--text-primary);
 }
-.label.primary.filled {
-  background: var(--text-primary);
-  color: var(--bg-primary);
-}
 .label.secondary.border {
   border: 1px solid var(--border);
-}
-.label.primary.filled {
-  background: var(--border);
-  color: var(--text-primary);
 }
 .label.brand.border {
   border: 1px solid var(--brand-primary);
   color: var(--brand-primary);
 }
+.label.primary.filled {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+}
+.label.secondary.filled {
+  background: var(--text-primary);
+  color: var(--bg-secondary);
+}
 .label.brand.filled {
   background: var(--brand-primary);
   color: var(--bg-primary);
 }
+
 
 /* --------------------------------------------------------------
 /* = Background
