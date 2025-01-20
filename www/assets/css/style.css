@@ -100,34 +100,30 @@ header {
 /* --------------------------------------------------------------
 /* =Footer
 -------------------------------------------------------------- */
-.nav-columns {
-  display: flex;
-}
-.nav-columns .column {
-  width: 50%;
-}
-.nav-columns ul {
+footer ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.nav-columns ul li {
+footer ul li {
   margin: 16px 0;
 }
-.nav-columns ul li:first-of-type {
+footer ul li:first-of-type {
   margin-top: 0;
 }
-.nav-columns ul li:last-of-type {
+footer ul li:last-of-type {
   margin-bottom: 0;
 }
-.nav-columns ul li a {
+footer ul li a {
   color: var(--text-secondary);
+}
+footer ul li a:hover {
+  text-decoration: underline;
 }
 .footer-bottom {
   display: flex;
   gap: 8px;
   align-items: center;
-  color: var(--text-secondary);
 }
 .avatar {
   display: inline-block;
